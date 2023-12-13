@@ -42,7 +42,10 @@ namespace Dados
         #endregion
 
         #region Outros Métodos
+<<<<<<< HEAD
 
+=======
+>>>>>>> Criação das classes da camada de Dados
         /// <summary>
         /// Adiciona uma nova despesa à lista.
         /// </summary>

@@ -41,6 +41,12 @@ namespace Dados
         #region Propriedades
         #endregion
 
+<<<<<<< HEAD
+=======
+        #region Overrides
+        #endregion
+
+>>>>>>> Criação das classes da camada de Dados
         #region Outros Métodos
 
         /// <summary>
@@ -73,6 +79,12 @@ namespace Dados
 
         #endregion
 
+<<<<<<< HEAD
+=======
+        #region Destrutor
+        #endregion
+
+>>>>>>> Criação das classes da camada de Dados
         #endregion
     }
 }
