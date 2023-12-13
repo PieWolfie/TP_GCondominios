@@ -1,25 +1,4 @@
-﻿/*
- * 
- * Classe "Gestor" - Objeto de Negócio
- * Fábio Fernandes - a22996@alunos.ipca.pt
- * Pedro Rocha - a23009@alunos.ipca.pt
- * LESI - POO
- * 
- */
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace ObjetosNegocio
-{
-    /// <summary>
-    /// Classe que representa um Gestor no contexto do sistema.
-    /// </summary>
-    public class Gestor
-    {
-        #region Atributos
+﻿        #region Atributos
 
         /// <summary>
         /// Obtém ou define o identificador do condomínio selecionado pelo gestor.
@@ -178,5 +157,3 @@ namespace ObjetosNegocio
         #endregion
 
         #endregion
-    }
-}
