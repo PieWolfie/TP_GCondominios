@@ -8,8 +8,8 @@ O objetivo deste projeto é criar um sistema de gestão de condomínios usando o
 
 ## Membros do Grupo
 
-- **Pedro Rocha (a23009)**
 - **Fábio Fernandes (a22996)**
+- **Pedro Rocha (a23009)**
 
 ## Professor Orientador
 
