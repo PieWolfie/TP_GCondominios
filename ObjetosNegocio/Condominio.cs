@@ -9,6 +9,7 @@
 
 using System;
 using System.Collections.Generic;
+using Excecoes;
 
 namespace ObjetosNegocio
 {
@@ -72,6 +73,48 @@ namespace ObjetosNegocio
         /// <param name="documentos">A lista de documentos associados ao condomínio.</param>
         public Condominio(string nome, string endereco, List<string> despesas, List<string> imoveis, List<string> proprietarios, List<string> reunioes, List<string> documentos)
         {
+            // Validar nome do condomínio
+            if (string.IsNullOrWhiteSpace(nome))
+            {
+                throw new CondominioException.NomeCondominioNuloOuVazioException();
+            }
+
+            // Validar endereço do condomínio
+            if (string.IsNullOrWhiteSpace(endereco))
+            {
+                throw new CondominioException.EnderecoCondominioNuloOuVazioException();
+            }
+
+            // Validar despesas
+            if (despesas == null || despesas.Count == 0)
+            {
+                throw new CondominioException.DespesasCondominioVaziasException();
+            }
+
+            // Validar imóveis
+            if (imoveis == null || imoveis.Count == 0)
+            {
+                throw new CondominioException.ImoveisCondominioVaziosException();
+            }
+
+            // Validar proprietários
+            if (proprietarios == null || proprietarios.Count == 0)
+            {
+                throw new CondominioException.ProprietariosCondominioVaziosException();
+            }
+
+            // Validar reuniões
+            if (reunioes == null || reunioes.Count == 0)
+            {
+                throw new CondominioException.ReunioesCondominioVaziasException();
+            }
+
+            // Validar documentos
+            if (documentos == null || documentos.Count == 0)
+            {
+                throw new CondominioException.DocumentosCondominioVaziosException();
+            }
+
             Nome = nome;
             Endereco = endereco;
             Despesas = despesas;
@@ -79,25 +122,14 @@ namespace ObjetosNegocio
             Proprietarios = proprietarios;
             Reunioes = reunioes;
             Documentos = documentos;
-
-            // A linha abaixo parece criar uma instância do próprio Condominio dentro do construtor,
-            // o que pode não ser necessário e até causar uma chamada recursiva.
-            // Se essa linha não for necessária, ela pode ser removida.
-            Condominio meuCondominio = new Condominio("Nome do Condomínio", "Endereço do Condomínio", despesas, imoveis, proprietarios, reunioes, documentos);
         }
 
         #endregion
 
         #region Propriedades
-
-        // Propriedades não especificadas no código atual, pode adicionar se necessário.
-
         #endregion
 
         #region Overrides
-
-        // Métodos de overrides não especificados no código atual.
-
         #endregion
 
         #region Outros Métodos

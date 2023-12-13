@@ -42,11 +42,17 @@ namespace Dados
         #endregion
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         #region Overrides
         #endregion
 
 >>>>>>> Criação das classes da camada de Dados
+=======
+        #region Overrides
+        #endregion
+
+>>>>>>> Classe exceções terminada
         #region Outros Métodos
 
         /// <summary>
@@ -80,11 +86,17 @@ namespace Dados
         #endregion
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         #region Destrutor
         #endregion
 
 >>>>>>> Criação das classes da camada de Dados
+=======
+        #region Destrutor
+        #endregion
+
+>>>>>>> Classe exceções terminada
         #endregion
     }
 }

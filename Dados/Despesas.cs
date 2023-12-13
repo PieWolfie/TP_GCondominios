@@ -43,9 +43,13 @@ namespace Dados
 
         #region Outros Métodos
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> Criação das classes da camada de Dados
+=======
+        
+>>>>>>> Classe exceções terminada
         /// <summary>
         /// Adiciona uma nova despesa à lista.
         /// </summary>

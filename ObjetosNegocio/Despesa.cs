@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excecoes;
 
 namespace ObjetosNegocio
 {
@@ -63,6 +64,26 @@ namespace ObjetosNegocio
         /// <param name="imovel">O imóvel associado à despesa.</param>
         public Despesa(string tipo, decimal valor, DateTime dataVencimento, bool estadoPagamento, string imovel)
         {
+            if (string.IsNullOrWhiteSpace(tipo))
+            {
+                throw new DespesaException.TipoDespesaNuloOuVazioException();
+            }
+
+            if (string.IsNullOrWhiteSpace(imovel))
+            {
+                throw new DespesaException.ImovelDespesaNuloOuVazioException();
+            }
+
+            if (valor <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(valor), "O valor da despesa deve ser maior que zero.");
+            }
+
+            if (dataVencimento < DateTime.Today)
+            {
+                throw new ArgumentException("A data de vencimento da despesa não pode ser no passado.");
+            }
+
             Tipo = tipo;
             Valor = valor;
             DataVencimento = dataVencimento;
