@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * 
+ * Classe "Imovel" - Objeto de Negócio
+ * Fábio Fernandes - a22996@alunos.ipca.pt
+ * Pedro Rocha - a23009@alunos.ipca.pt
+ * LESI - POO
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,7 +30,7 @@ namespace ObjetosNegocio
         /// <summary>
         /// Obtém ou define o proprietário do imóvel.
         /// </summary>
-        public string Proprietario { get; set; }
+        public List<Proprietario> Proprietarios { get; set; }
 
         /// <summary>
         /// Obtém ou define a lista de despesas associadas ao imóvel.
@@ -35,29 +44,39 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Construtor
+        #region Métodos
+
+        #region Construtores
 
         /// <summary>
         /// Inicializa uma nova instância da classe Imovel com os parâmetros especificados.
         /// </summary>
         /// <param name="idImovel">O identificador único do imóvel.</param>
         /// <param name="proprietario">O proprietário do imóvel.</param>
-        public Imovel(int idImovel, string proprietario)
+        public Imovel(int idImovel, List<Proprietario> proprietarios)
         {
             IdImovel = idImovel;
-            Proprietario = proprietario;
+            Proprietarios = proprietarios;  // Ajuste o nome da propriedade conforme necessário
             Despesas = new List<Despesa>();
             Quotas = new List<decimal>();
         }
 
+
         #endregion
 
-        #region Métodos
+        #region Propriedades
+        #endregion
+
+        #region Overrides
+        #endregion
+
+        #region Outros Métodos
 
         /// <summary>
         /// Adiciona uma despesa à lista de despesas associadas ao imóvel.
         /// </summary>
         /// <param name="despesa">A despesa a ser adicionada.</param>
+
         public void AdicionarDespesa(Despesa despesa)
         {
             Despesas.Add(despesa);
@@ -96,8 +115,11 @@ namespace ObjetosNegocio
 
             return saldoQuotas - saldoDespesas;
         }
+        #endregion
+
+        #region Destrutor
+        #endregion
 
         #endregion
     }
 }
-

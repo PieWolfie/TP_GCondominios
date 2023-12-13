@@ -1,30 +1,67 @@
-﻿using System;
+﻿/*
+ * 
+ * Classe "Proprietario" - Objeto de Negócio
+ * Fábio Fernandes - a22996@alunos.ipca.pt
+ * Pedro Rocha - a23009@alunos.ipca.pt
+ * LESI - POO
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ObjetosNegocio
 {
-    internal class Proprietario
+    /// <summary>
+    /// Representa um proprietário no contexto do sistema.
+    /// </summary>
+    public class Proprietario
     {
-        #region Attributes
+        #region Atributos
+
+        /// <summary>
+        /// Obtém ou define o nome do proprietário.
+        /// </summary>
         public string Nome { get; set; }
+
+        /// <summary>
+        /// Obtém ou define o contato do proprietário.
+        /// </summary>
         public string Contato { get; set; }
+
+        /// <summary>
+        /// Obtém ou define o imóvel associado ao proprietário.
+        /// </summary>
         public string Imovel { get; set; }
+
+        /// <summary>
+        /// Obtém ou define o NIF (Número de Identificação Fiscal) do proprietário.
+        /// </summary>
         public string Nif { get; set; }
+
+        /// <summary>
+        /// Obtém a lista de histórico de pagamentos do proprietário.
+        /// </summary>
         public List<string> HistoricoPagamentos { get; private set; }
+
+        /// <summary>
+        /// Obtém a lista de presenças em reuniões do proprietário.
+        /// </summary>
         public List<string> PresencasReunioes { get; private set; }
 
         #endregion
 
-        #region Methods
+        #region Métodos
 
-        #region Constructors
+        #region Construtores
 
         /// <summary>
-        /// Construtor predefinido.
+        /// Construtor predefinido para a classe Proprietario.
         /// </summary>
+        /// <param name="nome">O nome do proprietário.</param>
+        /// <param name="contato">O contato do proprietário.</param>
+        /// <param name="imovel">O imóvel associado ao proprietário.</param>
+        /// <param name="nif">O NIF do proprietário.</param>
         public Proprietario(string nome, string contato, string imovel, string nif)
         {
             Nome = nome;
@@ -37,43 +74,47 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Properties
+        #region Propriedades
         #endregion
 
         #region Overrides
         #endregion
 
-        #region OtherMethods
+        #region Outros Métodos
 
+        /// <summary>
+        /// Realiza o pagamento e registra no histórico de pagamentos.
+        /// </summary>
+        /// <param name="valor">O valor do pagamento.</param>
+        /// <summary>
+        /// Realiza o pagamento do proprietário com o valor especificado.
+        /// </summary>
+        /// <param name="valor">O valor a ser pago.</param>
         public void RealizarPagamento(decimal valor)
         {
-            string mensagem = $"Pagamento de {valor:C} realizado com sucesso em {DateTime.Now}.";
-            HistoricoPagamentos.Add(mensagem);
-            //Console.WriteLine(mensagem);
+            HistoricoPagamentos.Add($"Pagamento de {valor:C} realizado em {DateTime.Now}.");
         }
 
-        public void VisualizarHistorico()
+        /// <summary>
+        /// Visualiza o histórico de pagamentos do proprietário.
+        /// </summary>
+        public List<string> VisualizarHistorico()
         {
-            //Console.WriteLine($"\n--- Histórico de pagamentos de {Nome} ---");
-            foreach (string pagamento in HistoricoPagamentos)
-            {
-                //Console.WriteLine(pagamento);
-            }
+            return HistoricoPagamentos;
         }
 
-        public void PresenciarReuniao()
+        /// <summary>
+        /// Registra a presença do proprietário em uma reunião.
+        /// </summary>
+        public string PresenciarReuniao()
         {
-            string mensagem = $"Presença na reunião realizada em {DateTime.Now}.";
+            string mensagem = $"Presença na reunião em {DateTime.Now}.";
             PresencasReunioes.Add(mensagem);
-            //Console.WriteLine(mensagem);
+            return mensagem;
         }
         #endregion
 
         #region Destrutor
-        ~Proprietario()
-        {
-            
-        }
         #endregion
 
         #endregion

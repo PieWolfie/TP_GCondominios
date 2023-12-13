@@ -1,8 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+ * 
+ * Classe "Documento" - Objeto de Negócio
+ * Fábio Fernandes - a22996@alunos.ipca.pt
+ * Pedro Rocha - a23009@alunos.ipca.pt
+ * LESI - POO
+ * 
+ */
+
+using System;
 
 namespace ObjetosNegocio
 {
@@ -35,7 +40,9 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Construtor
+        #region Métodos
+
+        #region Construtores
 
         /// <summary>
         /// Inicializa uma nova instância da classe Documento com os parâmetros especificados.
@@ -54,7 +61,13 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Métodos
+        #region Propriedades
+        #endregion
+
+        #region Overrides
+        #endregion
+
+        #region Outros Métodos
 
         /// <summary>
         /// Adiciona ou atualiza o documento com o conteúdo fornecido.
@@ -90,8 +103,11 @@ namespace ObjetosNegocio
             Conteudo = string.Empty;
             Nome = string.Empty;
         }
+        #endregion
+
+        #region Destrutor
+        #endregion
 
         #endregion
     }
 }
-

@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * 
+ * Classe "Despesa" - Objeto de Negócio
+ * Fábio Fernandes - a22996@alunos.ipca.pt
+ * Pedro Rocha - a23009@alunos.ipca.pt
+ * LESI - POO
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,7 +49,9 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Construtor
+        #region Métodos
+
+        #region Construtores
 
         /// <summary>
         /// Inicializa uma nova instância da classe Despesa com os parâmetros especificados.
@@ -61,7 +72,13 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Métodos
+        #region Propriedades
+        #endregion
+
+        #region Overrides
+        #endregion
+
+        #region Outros Métodos
 
         /// <summary>
         /// Atualiza o estado de pagamento da despesa.
@@ -82,6 +99,10 @@ namespace ObjetosNegocio
         }
 
         #endregion
+
+        #region Destrutor
+        #endregion
+
+        #endregion
     }
 }
-
