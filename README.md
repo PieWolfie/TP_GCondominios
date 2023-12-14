@@ -1,4 +1,4 @@
-# TP_GCondominios - Sistema de Gestão de Condomínios em C# (POO)
+# Sistema de Gestão de Condomínios em C# (POO)
 
 Bem-vindo ao repositório do projeto de Programação Orientada a Objetos (POO), sendo este um sistema de Gestão de Condomínios.
 
