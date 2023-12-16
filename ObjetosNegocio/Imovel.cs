@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excecoes;
 
 namespace ObjetosNegocio
 {
@@ -52,13 +53,31 @@ namespace ObjetosNegocio
         /// Inicializa uma nova instância da classe Imovel com os parâmetros especificados.
         /// </summary>
         /// <param name="idImovel">O identificador único do imóvel.</param>
-        /// <param name="proprietario">O proprietário do imóvel.</param>
+        /// <param name="proprietarios">A lista de proprietários do imóvel.</param>
         public Imovel(int idImovel, List<Proprietario> proprietarios)
         {
             IdImovel = idImovel;
-            Proprietarios = proprietarios;  // Ajuste o nome da propriedade conforme necessário
+
+            // Verifica se a lista de proprietários é nula ou está vazia
+            if (proprietarios == null || proprietarios.Count == 0)
+            {
+                // Se a lista de proprietários é nula ou vazia, lança uma exceção específica
+                throw new ImovelException.ProprietariosImovelVaziosException();
+            }
+
+            // Inicializa as listas de despesas e quotas
             Despesas = new List<Despesa>();
             Quotas = new List<decimal>();
+
+            // Verifica se a lista de despesas está vazia
+            if (Despesas.Count == 0)
+            {
+                // Se a lista de despesas está vazia, lança uma exceção específica
+                throw new ImovelException.DespesasImovelVaziasException();
+            }
+
+            // Define a lista de proprietários
+            Proprietarios = proprietarios;
         }
 
 

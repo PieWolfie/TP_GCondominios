@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Excecoes
-{
-    internal class Excecoes
-    {
-    }
-}
-=======
 ﻿/*
  * 
  * Classe "Excecoes" - Excecoes
@@ -21,7 +7,11 @@ namespace Excecoes
  * 
  */
 
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Excecoes
 {
@@ -136,6 +126,14 @@ namespace Excecoes
             }
         }
 
+        public class HoraReuniaoInvalidaException : ReuniaoException
+        {
+            public HoraReuniaoInvalidaException() : base("A hora da reunião é inválida.")
+            {
+
+            }
+        }
+
         public class LocalReuniaoNuloOuVazioException : ReuniaoException
         {
             public LocalReuniaoNuloOuVazioException() : base("O local da reunião não pode ser nulo ou vazio.")
@@ -175,6 +173,22 @@ namespace Excecoes
 
             }
         }
+
+        public class ImovelProprietarioNuloOuVazioException : ProprietarioException
+        {
+            public ImovelProprietarioNuloOuVazioException() : base("O imóvel associado ao proprietário não pode ser nulo ou vazio.")
+            {
+
+            }
+        }
+
+        public class NifProprietarioNuloOuVazioException : ProprietarioException
+        {
+            public NifProprietarioNuloOuVazioException() : base("O NIF do proprietário não pode ser nulo ou vazio.")
+            {
+
+            }
+        }
     }
 
     public class DespesaException : Exception
@@ -195,6 +209,22 @@ namespace Excecoes
         public class ImovelDespesaNuloOuVazioException : DespesaException
         {
             public ImovelDespesaNuloOuVazioException() : base("O imóvel associado à despesa não pode ser nulo ou vazio.")
+            {
+
+            }
+        }
+
+        public class ValorDespesaInvalidoException : DespesaException
+        {
+            public ValorDespesaInvalidoException() : base("O valor da despesa deve ser maior que zero.")
+            {
+
+            }
+        }
+
+        public class DataVencimentoDespesaPassadaException : DespesaException
+        {
+            public DataVencimentoDespesaPassadaException() : base("A data de vencimento da despesa não pode ser no passado.")
             {
 
             }
@@ -225,4 +255,3 @@ namespace Excecoes
         }
     }
 }
->>>>>>> Classe exceções terminada

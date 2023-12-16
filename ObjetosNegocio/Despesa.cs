@@ -76,12 +76,12 @@ namespace ObjetosNegocio
 
             if (valor <= 0)
             {
-                throw new ArgumentOutOfRangeException(nameof(valor), "O valor da despesa deve ser maior que zero.");
+                throw new DespesaException.ValorDespesaInvalidoException();
             }
 
             if (dataVencimento < DateTime.Today)
             {
-                throw new ArgumentException("A data de vencimento da despesa não pode ser no passado.");
+                throw new DespesaException.DataVencimentoDespesaPassadaException();
             }
 
             Tipo = tipo;

@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excecoes;
 
 namespace ObjetosNegocio
 {
@@ -61,6 +62,21 @@ namespace ObjetosNegocio
         /// <param name="local">O local da reunião.</param>
         public Reuniao(DateTime data, TimeSpan hora, string local)
         {
+            if (data < DateTime.Now)
+            {
+                throw new ReuniaoException.DataReuniaoInvalidaException();
+            }
+
+            if (hora < TimeSpan.Zero || hora >= TimeSpan.FromDays(1)) // Verifica se a hora é válida
+            {
+                throw new ReuniaoException.HoraReuniaoInvalidaException();
+            }
+
+            if (string.IsNullOrWhiteSpace(local))
+            {
+                throw new ReuniaoException.LocalReuniaoNuloOuVazioException();
+            }
+
             Data = data;
             Hora = hora;
             Local = local;
@@ -86,6 +102,21 @@ namespace ObjetosNegocio
         /// <param name="local">O local da reunião.</param>
         public void AgendarReuniao(DateTime data, TimeSpan hora, string local)
         {
+            if (data < DateTime.Now)
+            {
+                throw new ReuniaoException.DataReuniaoInvalidaException();
+            }
+
+            if (hora < TimeSpan.Zero || hora >= TimeSpan.FromDays(1)) // Verifica se a hora é válida
+            {
+                throw new ReuniaoException.HoraReuniaoInvalidaException();
+            }
+
+            if (string.IsNullOrWhiteSpace(local))
+            {
+                throw new ReuniaoException.LocalReuniaoNuloOuVazioException();
+            }
+
             Data = data;
             Hora = hora;
             Local = local;
@@ -97,6 +128,11 @@ namespace ObjetosNegocio
         /// <param name="interveniente">O interveniente a ser adicionado.</param>
         public void AdicionarInterveniente(string interveniente)
         {
+            if (string.IsNullOrWhiteSpace(interveniente))
+            {
+                throw new ReuniaoException.IntervenientesReuniaoVaziosException();
+            }
+
             Intervenientes.Add(interveniente);
         }
 

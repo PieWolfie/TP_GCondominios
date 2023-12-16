@@ -8,6 +8,7 @@
  */
 
 using System;
+using Excecoes;
 
 namespace ObjetosNegocio
 {
@@ -53,6 +54,21 @@ namespace ObjetosNegocio
         /// <param name="nome">O nome do documento.</param>
         public Documento(string tipo, DateTime dataCriacao, string conteudo, string nome)
         {
+            if (string.IsNullOrWhiteSpace(tipo))
+            {
+                throw new DocumentoException.TipoDocumentoNuloOuVazioException();
+            }
+
+            if (string.IsNullOrWhiteSpace(nome))
+            {
+                throw new DocumentoException.NomeDocumentoNuloOuVazioException();
+            }
+
+            if (string.IsNullOrWhiteSpace(conteudo))
+            {
+                throw new DocumentoException.ConteudoDocumentoNuloOuVazioException();
+            }
+
             Tipo = tipo;
             DataCriacao = dataCriacao;
             Conteudo = conteudo;
@@ -75,6 +91,11 @@ namespace ObjetosNegocio
         /// <param name="conteudo">O novo conteúdo do documento.</param>
         public void AtualizarConteudo(string conteudo)
         {
+            if (string.IsNullOrWhiteSpace(conteudo))
+            {
+                throw new DocumentoException.ConteudoDocumentoNuloOuVazioException();
+            }
+
             Conteudo = conteudo;
         }
 
@@ -87,6 +108,21 @@ namespace ObjetosNegocio
         /// <param name="nome">O nome do documento.</param>
         public void AdicionarDocumento(string tipo, DateTime dataCriacao, string conteudo, string nome)
         {
+            if (string.IsNullOrWhiteSpace(tipo))
+            {
+                throw new DocumentoException.TipoDocumentoNuloOuVazioException();
+            }
+
+            if (string.IsNullOrWhiteSpace(nome))
+            {
+                throw new DocumentoException.NomeDocumentoNuloOuVazioException();
+            }
+
+            if (string.IsNullOrWhiteSpace(conteudo))
+            {
+                throw new DocumentoException.ConteudoDocumentoNuloOuVazioException();
+            }
+
             Tipo = tipo;
             DataCriacao = dataCriacao;
             Conteudo = conteudo;

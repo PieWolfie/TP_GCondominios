@@ -9,6 +9,7 @@
 
 using System;
 using System.Collections.Generic;
+using Excecoes;
 
 namespace ObjetosNegocio
 {
@@ -64,6 +65,26 @@ namespace ObjetosNegocio
         /// <param name="nif">O NIF do proprietário.</param>
         public Proprietario(string nome, string contato, string imovel, string nif)
         {
+            if (string.IsNullOrWhiteSpace(nome))
+            {
+                throw new ProprietarioException.NomeProprietarioNuloOuVazioException();
+            }
+
+            if (string.IsNullOrWhiteSpace(contato))
+            {
+                throw new ProprietarioException.ContatoProprietarioNuloOuVazioException();
+            }
+
+            if (string.IsNullOrWhiteSpace(imovel))
+            {
+                throw new ProprietarioException.ImovelProprietarioNuloOuVazioException();
+            }
+
+            if (string.IsNullOrWhiteSpace(nif))
+            {
+                throw new ProprietarioException.NifProprietarioNuloOuVazioException();
+            }
+
             Nome = nome;
             Contato = contato;
             Imovel = imovel;

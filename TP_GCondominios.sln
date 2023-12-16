@@ -10,11 +10,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dados", "Dados\Dados.csproj", "{1B273ED2-A328-4453-9C3E-6F3D264BE66E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegrasNegocio", "RegrasNegocio\RegrasNegocio.csproj", "{37E2A93E-1C8C-4F2D-8FEE-B618EAECF6AB}"
-<<<<<<< HEAD
-=======
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excecoes", "Excecoes\Excecoes.csproj", "{5CD273FE-FCE3-473A-BDF6-07A1DB98E275}"
->>>>>>> Criação das classes da camada de Dados
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{869363BD-7281-43F3-B6C9-FF1446C91A02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +41,10 @@ Global
 		{5CD273FE-FCE3-473A-BDF6-07A1DB98E275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CD273FE-FCE3-473A-BDF6-07A1DB98E275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CD273FE-FCE3-473A-BDF6-07A1DB98E275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869363BD-7281-43F3-B6C9-FF1446C91A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869363BD-7281-43F3-B6C9-FF1446C91A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869363BD-7281-43F3-B6C9-FF1446C91A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869363BD-7281-43F3-B6C9-FF1446C91A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
