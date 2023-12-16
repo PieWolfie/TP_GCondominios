@@ -16,6 +16,7 @@ using Excecoes;
 
 namespace ObjetosNegocio
 {
+    [Serializable]
     /// <summary>
     /// Representa uma reunião no contexto do sistema.
     /// </summary>
@@ -38,6 +39,7 @@ namespace ObjetosNegocio
         /// </summary>
         public string Local { get; set; }
 
+        [NonSerialized]
         /// <summary>
         /// Obtém ou define a lista de intervenientes na reunião.
         /// </summary>
