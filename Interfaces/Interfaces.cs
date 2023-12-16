@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * 
+ * Interfaces
+ * Fábio Fernandes - a22996@alunos.ipca.pt
+ * Pedro Rocha - a23009@alunos.ipca.pt
+ * LESI - POO
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
