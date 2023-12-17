@@ -9,51 +9,40 @@
 
 using System;
 using System.Collections.Generic;
-using Excecoes;
+using System. Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace ObjetosNegocio
 {
+
+    [Serializable()]
     /// <summary>
     /// Representa um condomínio no contexto do sistema.
     /// </summary>
-    public class Condominio
+    public class Condominio : ISerializable
     {
         #region Atributos
 
-        /// <summary>
-        /// Obtém ou define o nome do condomínio.
-        /// </summary>
-        public string Nome { get; set; }
+        // Nome do condomínio
+        private string nome;
 
-        /// <summary>
-        /// Obtém ou define o endereço do condomínio.
-        /// </summary>
-        public string Endereco { get; set; }
+        // Endereço do condomínio
+        private string endereco;
 
-        /// <summary>
-        /// Obtém ou define a lista de despesas associadas ao condomínio.
-        /// </summary>
-        public List<string> Despesas { get; set; }
+        // Lista de despesas associadas ao condomínio
+        private List<string> despesas;
 
-        /// <summary>
-        /// Obtém ou define a lista de imóveis associados ao condomínio.
-        /// </summary>
-        public List<string> Imoveis { get; set; }
+        // Lista de imóveis associados ao condomínio
+        private List<string> imoveis;
 
-        /// <summary>
-        /// Obtém ou define a lista de proprietários associados ao condomínio.
-        /// </summary>
-        public List<string> Proprietarios { get; set; }
+        // Lista de proprietários associados ao condomínio
+        private List<string> proprietarios;
 
-        /// <summary>
-        /// Obtém ou define a lista de reuniões agendadas no condomínio.
-        /// </summary>
-        public List<string> Reunioes { get; set; }
+        // Lista de reuniões agendadas no condomínio
+        private List<string> reunioes;
 
-        /// <summary>
-        /// Obtém ou define a lista de documentos associados ao condomínio.
-        /// </summary>
-        public List<string> Documentos { get; set; }
+        // Lista de documentos associados ao condomínio
+        private List<string> documentos;
 
         #endregion
 
@@ -73,48 +62,6 @@ namespace ObjetosNegocio
         /// <param name="documentos">A lista de documentos associados ao condomínio.</param>
         public Condominio(string nome, string endereco, List<string> despesas, List<string> imoveis, List<string> proprietarios, List<string> reunioes, List<string> documentos)
         {
-            // Validar nome do condomínio
-            if (string.IsNullOrWhiteSpace(nome))
-            {
-                throw new CondominioException.NomeCondominioNuloOuVazioException();
-            }
-
-            // Validar endereço do condomínio
-            if (string.IsNullOrWhiteSpace(endereco))
-            {
-                throw new CondominioException.EnderecoCondominioNuloOuVazioException();
-            }
-
-            // Validar despesas
-            if (despesas == null || despesas.Count == 0)
-            {
-                throw new CondominioException.DespesasCondominioVaziasException();
-            }
-
-            // Validar imóveis
-            if (imoveis == null || imoveis.Count == 0)
-            {
-                throw new CondominioException.ImoveisCondominioVaziosException();
-            }
-
-            // Validar proprietários
-            if (proprietarios == null || proprietarios.Count == 0)
-            {
-                throw new CondominioException.ProprietariosCondominioVaziosException();
-            }
-
-            // Validar reuniões
-            if (reunioes == null || reunioes.Count == 0)
-            {
-                throw new CondominioException.ReunioesCondominioVaziasException();
-            }
-
-            // Validar documentos
-            if (documentos == null || documentos.Count == 0)
-            {
-                throw new CondominioException.DocumentosCondominioVaziosException();
-            }
-
             Nome = nome;
             Endereco = endereco;
             Despesas = despesas;
@@ -127,6 +74,70 @@ namespace ObjetosNegocio
         #endregion
 
         #region Propriedades
+
+        /// <summary>
+        /// Obtém ou define o nome do condomínio.
+        /// </summary>
+        public string Nome
+        {
+            get { return nome; }
+            set { nome = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define o endereço do condomínio.
+        /// </summary>
+        public string Endereco
+        {
+            get { return endereco; }
+            set { endereco = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de despesas associadas ao condomínio.
+        /// </summary>
+        public List<string> Despesas
+        {
+            get { return despesas; }
+            set { despesas = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de imóveis associados ao condomínio.
+        /// </summary>
+        public List<string> Imoveis
+        {
+            get { return imoveis; }
+            set { imoveis = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de proprietários associados ao condomínio.
+        /// </summary>
+        public List<string> Proprietarios
+        {
+            get { return proprietarios; }
+            set { proprietarios = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de reuniões agendadas no condomínio.
+        /// </summary>
+        public List<string> Reunioes
+        {
+            get { return reunioes; }
+            set { reunioes = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de documentos associados ao condomínio.
+        /// </summary>
+        public List<string> Documentos
+        {
+            get { return documentos; }
+            set { documentos = value; }
+        }
+
         #endregion
 
         #region Overrides
@@ -173,10 +184,32 @@ namespace ObjetosNegocio
         /// <summary>
         /// Adiciona um novo documento à lista de documentos associados ao condomínio.
         /// </summary>
-        /// <param name="documento">O documento a ser adicion
+        /// <param name="documento">O documento a ser adicionado.</param>
         public void AdicionarDocumento(string documento)
         {
             Documentos.Add(documento);
+        }
+
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("Nome", Nome);
+            info.AddValue("Endereco", Endereco);
+            info.AddValue("Despesas", Despesas);
+            info.AddValue("Imoveis", Imoveis);
+            info.AddValue("Proprietarios", Proprietarios);
+            info.AddValue("Reunioes", Reunioes);
+            info.AddValue("Documentos", Documentos);
+        }
+
+        public Condominio(SerializationInfo info, StreamingContext context)
+        {
+            Nome = (string)info.GetValue("Nome", typeof(string));
+            Endereco = (string)info.GetValue("Endereco", typeof(string));
+            Despesas = (List<string>)info.GetValue("Despesas", typeof(List<string>));
+            Imoveis = (List<string>)info.GetValue("Imoveis", typeof(List<string>));
+            Proprietarios = (List<string>)info.GetValue("Proprietarios", typeof(List<string>));
+            Reunioes = (List<string>)info.GetValue("Reunioes", typeof(List<string>));
+            Documentos = (List<string>)info.GetValue("Documentos", typeof(List<string>));
         }
 
         #endregion

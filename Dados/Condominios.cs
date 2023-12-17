@@ -10,6 +10,8 @@
 using System;
 using System.Collections.Generic;
 using ObjetosNegocio;
+using Excecoes;
+using RegrasNegocio;
 
 namespace Dados
 {
@@ -20,7 +22,7 @@ namespace Dados
     {
         #region Atributos
 
-        private List<ObjetosNegocio.Condominio> listaCondominios;
+        private List<Condominio> listaCondominios;
 
         #endregion
 
@@ -33,7 +35,7 @@ namespace Dados
         /// </summary>
         public Condominios()
         {
-            listaCondominios = new List<ObjetosNegocio.Condominio>();
+            listaCondominios = new List<Condominio>();
         }
 
         #endregion
@@ -55,8 +57,9 @@ namespace Dados
         /// Adiciona um novo condomínio à lista.
         /// </summary>
         /// <param name="condominio">O condomínio a ser adicionado.</param>
-        public void AdicionarCondominio(ObjetosNegocio.Condominio condominio)
+        public void AdicionarCondominio(Condominio condominio)
         {
+            CondominioRegras.ValidarCondominio(condominio);
             listaCondominios.Add(condominio);
         }
 
@@ -64,7 +67,7 @@ namespace Dados
         /// Obtém a lista de todos os condomínios.
         /// </summary>
         /// <returns>A lista de condomínios.</returns>
-        public List<ObjetosNegocio.Condominio> ObterCondominios()
+        public List<Condominio> ObterCondominios()
         {
             return listaCondominios;
         }
@@ -74,18 +77,13 @@ namespace Dados
         /// </summary>
         /// <param name="nome">O nome do condomínio.</param>
         /// <returns>O condomínio correspondente ou null se não encontrado.</returns>
-        public ObjetosNegocio.Condominio? ObterCondominioPorNome(string nome)
+        public Condominio? ObterCondominioPorNome(string nome)
         {
             return listaCondominios.Find(condominio => condominio.Nome == nome);
         }
 
         #endregion
 
-        #region Destrutor
-
-        #endregion
-
         #endregion
     }
 }
-

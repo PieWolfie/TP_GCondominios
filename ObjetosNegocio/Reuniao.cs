@@ -9,50 +9,33 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Excecoes;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+
 
 namespace ObjetosNegocio
 {
-    [Serializable]
-    /// <summary>
-    /// Representa uma reunião no contexto do sistema.
-    /// </summary>
-    public class Reuniao
+    [Serializable()]
+    public class Reuniao : ISerializable
     {
         #region Atributos
 
-        /// <summary>
-        /// Obtém ou define a data da reunião.
-        /// </summary>
-        public DateTime Data { get; set; }
+        // Data da reunião
+        private DateTime data;
 
-        /// <summary>
-        /// Obtém ou define a hora da reunião.
-        /// </summary>
-        public TimeSpan Hora { get; set; }
+        // Hora da reunião
+        private TimeSpan hora;
 
-        /// <summary>
-        /// Obtém ou define o local da reunião.
-        /// </summary>
-        public string Local { get; set; }
+        // Local da reunião
+        private string local;
 
-        [NonSerialized]
-        /// <summary>
-        /// Obtém ou define a lista de intervenientes na reunião.
-        /// </summary>
-        public List<string> Intervenientes { get; set; }
+        // Lista de intervenientes na reunião
+        private List<string> intervenientes;
 
-        /// <summary>
-        /// Obtém ou define a ata da reunião.
-        /// </summary>
-        public string Ata { get; set; }
+        // Ata da reunião
+        private string ata;
 
         #endregion
-
-        #region Métodos
 
         #region Construtores
 
@@ -64,21 +47,6 @@ namespace ObjetosNegocio
         /// <param name="local">O local da reunião.</param>
         public Reuniao(DateTime data, TimeSpan hora, string local)
         {
-            if (data < DateTime.Now)
-            {
-                throw new ReuniaoException.DataReuniaoInvalidaException();
-            }
-
-            if (hora < TimeSpan.Zero || hora >= TimeSpan.FromDays(1)) // Verifica se a hora é válida
-            {
-                throw new ReuniaoException.HoraReuniaoInvalidaException();
-            }
-
-            if (string.IsNullOrWhiteSpace(local))
-            {
-                throw new ReuniaoException.LocalReuniaoNuloOuVazioException();
-            }
-
             Data = data;
             Hora = hora;
             Local = local;
@@ -89,12 +57,55 @@ namespace ObjetosNegocio
         #endregion
 
         #region Propriedades
+
+        /// <summary>
+        /// Obtém ou define a data da reunião.
+        /// </summary>
+        public DateTime Data
+        {
+            get { return data; }
+            set { data = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a hora da reunião.
+        /// </summary>
+        public TimeSpan Hora
+        {
+            get { return hora; }
+            set { hora = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define o local da reunião.
+        /// </summary>
+        public string Local
+        {
+            get { return local; }
+            set { local = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de intervenientes na reunião.
+        /// </summary>
+        public List<string> Intervenientes
+        {
+            get { return intervenientes; }
+            set { intervenientes = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a ata da reunião.
+        /// </summary>
+        public string Ata
+        {
+            get { return ata; }
+            set { ata = value; }
+        }
+
         #endregion
 
-        #region Overrides
-        #endregion
-
-        #region Outros Métodos
+        #region Métodos
 
         /// <summary>
         /// Agenda a reunião com a data, hora e local especificados.
@@ -104,21 +115,6 @@ namespace ObjetosNegocio
         /// <param name="local">O local da reunião.</param>
         public void AgendarReuniao(DateTime data, TimeSpan hora, string local)
         {
-            if (data < DateTime.Now)
-            {
-                throw new ReuniaoException.DataReuniaoInvalidaException();
-            }
-
-            if (hora < TimeSpan.Zero || hora >= TimeSpan.FromDays(1)) // Verifica se a hora é válida
-            {
-                throw new ReuniaoException.HoraReuniaoInvalidaException();
-            }
-
-            if (string.IsNullOrWhiteSpace(local))
-            {
-                throw new ReuniaoException.LocalReuniaoNuloOuVazioException();
-            }
-
             Data = data;
             Hora = hora;
             Local = local;
@@ -130,11 +126,6 @@ namespace ObjetosNegocio
         /// <param name="interveniente">O interveniente a ser adicionado.</param>
         public void AdicionarInterveniente(string interveniente)
         {
-            if (string.IsNullOrWhiteSpace(interveniente))
-            {
-                throw new ReuniaoException.IntervenientesReuniaoVaziosException();
-            }
-
             Intervenientes.Add(interveniente);
         }
 
@@ -149,8 +140,27 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Destrutor
-        #endregion
+        #region ISerializable
+
+        // Adicione este método para suportar serialização
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("Data", Data);
+            info.AddValue("Hora", Hora);
+            info.AddValue("Local", Local);
+            info.AddValue("Intervenientes", Intervenientes);
+            info.AddValue("Ata", Ata);
+        }
+
+        // Adicione este construtor para suportar desserialização
+        public Reuniao(SerializationInfo info, StreamingContext context)
+        {
+            Data = (DateTime)info.GetValue("Data", typeof(DateTime));
+            Hora = (TimeSpan)info.GetValue("Hora", typeof(TimeSpan));
+            Local = (string)info.GetValue("Local", typeof(string));
+            Intervenientes = (List<string>)info.GetValue("Intervenientes", typeof(List<string>));
+            Ata = (string)info.GetValue("Ata", typeof(string));
+        }
 
         #endregion
     }

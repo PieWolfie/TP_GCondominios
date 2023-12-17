@@ -10,6 +10,8 @@
 using System;
 using System.Collections.Generic;
 using ObjetosNegocio;
+using Excecoes;
+using RegrasNegocio;
 
 namespace Dados
 {
@@ -20,7 +22,7 @@ namespace Dados
     {
         #region Atributos
 
-        private List<ObjetosNegocio.Documento> listaDocumentos;
+        private List<Documento> listaDocumentos;
 
         #endregion
 
@@ -33,7 +35,7 @@ namespace Dados
         /// </summary>
         public Documentos()
         {
-            listaDocumentos = new List<ObjetosNegocio.Documento>();
+            listaDocumentos = new List<Documento>();
         }
 
         #endregion
@@ -47,8 +49,9 @@ namespace Dados
         /// Adiciona um novo documento à lista.
         /// </summary>
         /// <param name="documento">O documento a ser adicionado.</param>
-        public void AdicionarDocumento(ObjetosNegocio.Documento documento)
+        public void AdicionarDocumento(Documento documento)
         {
+            DocumentoRegras.ValidarDocumento(documento);
             listaDocumentos.Add(documento);
         }
 
@@ -56,7 +59,7 @@ namespace Dados
         /// Obtém a lista de todos os documentos.
         /// </summary>
         /// <returns>A lista de documentos.</returns>
-        public List<ObjetosNegocio.Documento> ObterDocumentos()
+        public List<Documento> ObterDocumentos()
         {
             return listaDocumentos;
         }
@@ -67,7 +70,7 @@ namespace Dados
         /// <param name="tipo">O tipo do documento.</param>
         /// <param name="nome">O nome do documento.</param>
         /// <returns>O documento correspondente ou null se não encontrado.</returns>
-        public ObjetosNegocio.Documento? ObterDocumentoPorTipoENome(string tipo, string nome)
+        public Documento? ObterDocumentoPorTipoENome(string tipo, string nome)
         {
             return listaDocumentos.Find(documento => documento.Tipo == tipo && documento.Nome == nome);
         }
@@ -77,4 +80,3 @@ namespace Dados
         #endregion
     }
 }
-

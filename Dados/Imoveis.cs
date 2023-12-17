@@ -10,6 +10,8 @@
 using System;
 using System.Collections.Generic;
 using ObjetosNegocio;
+using Excecoes;
+using RegrasNegocio;
 
 namespace Dados
 {
@@ -20,7 +22,7 @@ namespace Dados
     {
         #region Atributos
 
-        private List<ObjetosNegocio.Imovel> listaImoveis;
+        private List<Imovel> listaImoveis;
 
         #endregion
 
@@ -33,7 +35,7 @@ namespace Dados
         /// </summary>
         public Imoveis()
         {
-            listaImoveis = new List<ObjetosNegocio.Imovel>();
+            listaImoveis = new List<Imovel>();
         }
 
         #endregion
@@ -47,8 +49,9 @@ namespace Dados
         /// Adiciona um novo imóvel à lista.
         /// </summary>
         /// <param name="imovel">O imóvel a ser adicionado.</param>
-        public void AdicionarImovel(ObjetosNegocio.Imovel imovel)
+        public void AdicionarImovel(Imovel imovel)
         {
+            ImovelRegras.ValidarImovel(imovel);
             listaImoveis.Add(imovel);
         }
 
@@ -56,7 +59,7 @@ namespace Dados
         /// Obtém a lista de todos os imóveis.
         /// </summary>
         /// <returns>A lista de imóveis.</returns>
-        public List<ObjetosNegocio.Imovel> ObterImoveis()
+        public List<Imovel> ObterImoveis()
         {
             return listaImoveis;
         }
@@ -66,7 +69,7 @@ namespace Dados
         /// </summary>
         /// <param name="idImovel">O identificador único do imóvel.</param>
         /// <returns>O imóvel correspondente ou null se não encontrado.</returns>
-        public ObjetosNegocio.Imovel? ObterImovelPorId(int idImovel)
+        public Imovel? ObterImovelPorId(int idImovel)
         {
             return listaImoveis.Find(imovel => imovel.IdImovel == idImovel);
         }
@@ -76,4 +79,3 @@ namespace Dados
         #endregion
     }
 }
-

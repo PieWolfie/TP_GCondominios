@@ -13,6 +13,9 @@
     <Reference Include="ObjetosNegocio">
       <HintPath>..\ObjetosNegocio\bin\Debug\net8.0\ObjetosNegocio.dll</HintPath>
     </Reference>
+    <Reference Include="RegrasNegocio">
+      <HintPath>..\RegrasNegocio\bin\Debug\net8.0\RegrasNegocio.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

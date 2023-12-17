@@ -9,6 +9,9 @@
 
 using System;
 using System.Collections.Generic;
+using ObjetosNegocio;
+using Excecoes;
+using RegrasNegocio;
 
 namespace Dados
 {
@@ -19,7 +22,7 @@ namespace Dados
     {
         #region Atributos
 
-        private List<ObjetosNegocio.Reuniao> reunioes;
+        private List<Reuniao> listaReunioes;
 
         #endregion
 
@@ -32,7 +35,7 @@ namespace Dados
         /// </summary>
         public Reunioes()
         {
-            reunioes = new List<ObjetosNegocio.Reuniao>();
+            listaReunioes = new List<Reuniao>();
         }
 
         #endregion
@@ -46,18 +49,19 @@ namespace Dados
         /// Adiciona uma nova reunião à lista.
         /// </summary>
         /// <param name="reuniao">A reunião a ser adicionada.</param>
-        public void AdicionarReuniao(ObjetosNegocio.Reuniao reuniao)
+        public void AdicionarReuniao(Reuniao reuniao)
         {
-            reunioes.Add(reuniao);
+            ReuniaoRegras.ValidarReuniao(reuniao);
+            listaReunioes.Add(reuniao);
         }
 
         /// <summary>
         /// Obtém a lista de todas as reuniões.
         /// </summary>
         /// <returns>A lista de reuniões.</returns>
-        public List<ObjetosNegocio.Reuniao> ObterReunioes()
+        public List<Reuniao> ObterReunioes()
         {
-            return reunioes;
+            return listaReunioes;
         }
 
         /// <summary>
@@ -66,9 +70,9 @@ namespace Dados
         /// <param name="data">A data da reunião.</param>
         /// <param name="hora">A hora da reunião.</param>
         /// <returns>A reunião correspondente ou null se não encontrada.</returns>
-        public ObjetosNegocio.Reuniao? ObterReuniao(DateTime data, TimeSpan hora)
+        public Reuniao? ObterReuniao(DateTime data, TimeSpan hora)
         {
-            return reunioes.Find(r => r.Data == data && r.Hora == hora);
+            return listaReunioes.Find(r => r.Data == data && r.Hora == hora);
         }
 
         #endregion
@@ -76,5 +80,3 @@ namespace Dados
         #endregion
     }
 }
-
-

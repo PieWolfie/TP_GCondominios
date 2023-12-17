@@ -13,6 +13,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ObjetosNegocio;
+using Excecoes;
+using RegrasNegocio;
 
 namespace Dados
 {
@@ -52,6 +54,7 @@ namespace Dados
         /// <param name="proprietario">O proprietário a ser adicionado.</param>
         public void AdicionarProprietario(Proprietario proprietario)
         {
+            ProprietarioRegras.ValidarProprietario(proprietario);
             listaProprietarios.Add(proprietario);
         }
 

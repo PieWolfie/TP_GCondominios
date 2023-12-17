@@ -9,50 +9,36 @@
 
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using Excecoes;
 
 namespace ObjetosNegocio
 {
-    /// <summary>
-    /// Representa um proprietário no contexto do sistema.
-    /// </summary>
-    public class Proprietario
+    [Serializable()]
+    public class Proprietario : ISerializable
     {
         #region Atributos
 
-        /// <summary>
-        /// Obtém ou define o nome do proprietário.
-        /// </summary>
-        public string Nome { get; set; }
+        // Nome do proprietário
+        private string nome;
 
-        /// <summary>
-        /// Obtém ou define o contato do proprietário.
-        /// </summary>
-        public string Contato { get; set; }
+        // Contato do proprietário
+        private string contato;
 
-        /// <summary>
-        /// Obtém ou define o imóvel associado ao proprietário.
-        /// </summary>
-        public string Imovel { get; set; }
+        // Imóvel associado ao proprietário
+        private string imovel;
 
-        /// <summary>
-        /// Obtém ou define o NIF (Número de Identificação Fiscal) do proprietário.
-        /// </summary>
-        public string Nif { get; set; }
+        // NIF (Número de Identificação Fiscal) do proprietário
+        private string nif;
 
-        /// <summary>
-        /// Obtém a lista de histórico de pagamentos do proprietário.
-        /// </summary>
-        public List<string> HistoricoPagamentos { get; private set; }
+        // Lista de histórico de pagamentos do proprietário
+        private List<string> historicoPagamentos;
 
-        /// <summary>
-        /// Obtém a lista de presenças em reuniões do proprietário.
-        /// </summary>
-        public List<string> PresencasReunioes { get; private set; }
+        // Lista de presenças em reuniões do proprietário
+        private List<string> presencasReunioes;
 
         #endregion
-
-        #region Métodos
 
         #region Construtores
 
@@ -65,26 +51,6 @@ namespace ObjetosNegocio
         /// <param name="nif">O NIF do proprietário.</param>
         public Proprietario(string nome, string contato, string imovel, string nif)
         {
-            if (string.IsNullOrWhiteSpace(nome))
-            {
-                throw new ProprietarioException.NomeProprietarioNuloOuVazioException();
-            }
-
-            if (string.IsNullOrWhiteSpace(contato))
-            {
-                throw new ProprietarioException.ContatoProprietarioNuloOuVazioException();
-            }
-
-            if (string.IsNullOrWhiteSpace(imovel))
-            {
-                throw new ProprietarioException.ImovelProprietarioNuloOuVazioException();
-            }
-
-            if (string.IsNullOrWhiteSpace(nif))
-            {
-                throw new ProprietarioException.NifProprietarioNuloOuVazioException();
-            }
-
             Nome = nome;
             Contato = contato;
             Imovel = imovel;
@@ -96,17 +62,65 @@ namespace ObjetosNegocio
         #endregion
 
         #region Propriedades
-        #endregion
-
-        #region Overrides
-        #endregion
-
-        #region Outros Métodos
 
         /// <summary>
-        /// Realiza o pagamento e registra no histórico de pagamentos.
+        /// Obtém ou define o nome do proprietário.
         /// </summary>
-        /// <param name="valor">O valor do pagamento.</param>
+        public string Nome
+        {
+            get { return nome; }
+            set { nome = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define o contato do proprietário.
+        /// </summary>
+        public string Contato
+        {
+            get { return contato; }
+            set { contato = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define o imóvel associado ao proprietário.
+        /// </summary>
+        public string Imovel
+        {
+            get { return imovel; }
+            set { imovel = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define o NIF (Número de Identificação Fiscal) do proprietário.
+        /// </summary>
+        public string Nif
+        {
+            get { return nif; }
+            set { nif = value; }
+        }
+
+        /// <summary>
+        /// Obtém a lista de histórico de pagamentos do proprietário.
+        /// </summary>
+        public List<string> HistoricoPagamentos
+        {
+            get { return historicoPagamentos; }
+            private set { historicoPagamentos = value; }
+        }
+
+        /// <summary>
+        /// Obtém a lista de presenças em reuniões do proprietário.
+        /// </summary>
+        public List<string> PresencasReunioes
+        {
+            get { return presencasReunioes; }
+            private set { presencasReunioes = value; }
+        }
+
+        #endregion
+
+        #region Métodos
+
         /// <summary>
         /// Realiza o pagamento do proprietário com o valor especificado.
         /// </summary>
@@ -133,10 +147,32 @@ namespace ObjetosNegocio
             PresencasReunioes.Add(mensagem);
             return mensagem;
         }
+
         #endregion
 
-        #region Destrutor
-        #endregion
+        #region ISerializable
+
+        // Adicione este método para suportar serialização
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("Nome", Nome);
+            info.AddValue("Contato", Contato);
+            info.AddValue("Imovel", Imovel);
+            info.AddValue("Nif", Nif);
+            info.AddValue("HistoricoPagamentos", HistoricoPagamentos);
+            info.AddValue("PresencasReunioes", PresencasReunioes);
+        }
+
+        // Adicione este construtor para suportar desserialização
+        public Proprietario(SerializationInfo info, StreamingContext context)
+        {
+            Nome = (string)info.GetValue("Nome", typeof(string));
+            Contato = (string)info.GetValue("Contato", typeof(string));
+            Imovel = (string)info.GetValue("Imovel", typeof(string));
+            Nif = (string)info.GetValue("Nif", typeof(string));
+            HistoricoPagamentos = (List<string>)info.GetValue("HistoricoPagamentos", typeof(List<string>));
+            PresencasReunioes = (List<string>)info.GetValue("PresencasReunioes", typeof(List<string>));
+        }
 
         #endregion
     }

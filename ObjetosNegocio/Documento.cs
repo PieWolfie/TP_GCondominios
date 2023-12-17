@@ -8,36 +8,28 @@
  */
 
 using System;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using Excecoes;
 
 namespace ObjetosNegocio
 {
-    /// <summary>
-    /// Representa um documento no contexto do sistema.
-    /// </summary>
-    public class Documento
+    [Serializable()]
+    public class Documento : ISerializable
     {
         #region Atributos
 
-        /// <summary>
-        /// Obtém ou define o tipo do documento.
-        /// </summary>
-        public string Tipo { get; set; }
+        // Tipo do documento
+        private string tipo;
 
-        /// <summary>
-        /// Obtém ou define a data de criação do documento.
-        /// </summary>
-        public DateTime DataCriacao { get; set; }
+        // Data de criação do documento
+        private DateTime dataCriacao;
 
-        /// <summary>
-        /// Obtém ou define o conteúdo do documento.
-        /// </summary>
-        public string Conteudo { get; set; }
+        // Conteúdo do documento
+        private string conteudo;
 
-        /// <summary>
-        /// Obtém ou define o nome do documento.
-        /// </summary>
-        public string Nome { get; set; }
+        // Nome do documento
+        private string nome;
 
         #endregion
 
@@ -54,21 +46,6 @@ namespace ObjetosNegocio
         /// <param name="nome">O nome do documento.</param>
         public Documento(string tipo, DateTime dataCriacao, string conteudo, string nome)
         {
-            if (string.IsNullOrWhiteSpace(tipo))
-            {
-                throw new DocumentoException.TipoDocumentoNuloOuVazioException();
-            }
-
-            if (string.IsNullOrWhiteSpace(nome))
-            {
-                throw new DocumentoException.NomeDocumentoNuloOuVazioException();
-            }
-
-            if (string.IsNullOrWhiteSpace(conteudo))
-            {
-                throw new DocumentoException.ConteudoDocumentoNuloOuVazioException();
-            }
-
             Tipo = tipo;
             DataCriacao = dataCriacao;
             Conteudo = conteudo;
@@ -78,6 +55,43 @@ namespace ObjetosNegocio
         #endregion
 
         #region Propriedades
+
+        /// <summary>
+        /// Obtém ou define o tipo do documento.
+        /// </summary>
+        public string Tipo
+        {
+            get { return tipo; }
+            set { tipo = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a data de criação do documento.
+        /// </summary>
+        public DateTime DataCriacao
+        {
+            get { return dataCriacao; }
+            set { dataCriacao = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define o conteúdo do documento.
+        /// </summary>
+        public string Conteudo
+        {
+            get { return conteudo; }
+            set { conteudo = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define o nome do documento.
+        /// </summary>
+        public string Nome
+        {
+            get { return nome; }
+            set { nome = value; }
+        }
+
         #endregion
 
         #region Overrides
@@ -91,11 +105,6 @@ namespace ObjetosNegocio
         /// <param name="conteudo">O novo conteúdo do documento.</param>
         public void AtualizarConteudo(string conteudo)
         {
-            if (string.IsNullOrWhiteSpace(conteudo))
-            {
-                throw new DocumentoException.ConteudoDocumentoNuloOuVazioException();
-            }
-
             Conteudo = conteudo;
         }
 
@@ -108,21 +117,6 @@ namespace ObjetosNegocio
         /// <param name="nome">O nome do documento.</param>
         public void AdicionarDocumento(string tipo, DateTime dataCriacao, string conteudo, string nome)
         {
-            if (string.IsNullOrWhiteSpace(tipo))
-            {
-                throw new DocumentoException.TipoDocumentoNuloOuVazioException();
-            }
-
-            if (string.IsNullOrWhiteSpace(nome))
-            {
-                throw new DocumentoException.NomeDocumentoNuloOuVazioException();
-            }
-
-            if (string.IsNullOrWhiteSpace(conteudo))
-            {
-                throw new DocumentoException.ConteudoDocumentoNuloOuVazioException();
-            }
-
             Tipo = tipo;
             DataCriacao = dataCriacao;
             Conteudo = conteudo;
@@ -139,11 +133,35 @@ namespace ObjetosNegocio
             Conteudo = string.Empty;
             Nome = string.Empty;
         }
+
         #endregion
 
         #region Destrutor
         #endregion
 
+        #region ISerializable
+
+        // Adicione este método para suportar serialização
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("Tipo", Tipo);
+            info.AddValue("DataCriacao", DataCriacao);
+            info.AddValue("Conteudo", Conteudo);
+            info.AddValue("Nome", Nome);
+        }
+
+        // Adicione este construtor para suportar desserialização
+        public Documento(SerializationInfo info, StreamingContext context)
+        {
+            Tipo = (string)info.GetValue("Tipo", typeof(string));
+            DataCriacao = (DateTime)info.GetValue("DataCriacao", typeof(DateTime));
+            Conteudo = (string)info.GetValue("Conteudo", typeof(string));
+            Nome = (string)info.GetValue("Nome", typeof(string));
+        }
+
+        #endregion
+
         #endregion
     }
 }
+

@@ -17,8 +17,6 @@ namespace Interfaces
 {
     public interface IProprietario
     {
-        #region Propriedades
-
         /// <summary>
         /// Obtém ou define o nome do proprietário.
         /// </summary>
@@ -27,30 +25,21 @@ namespace Interfaces
         /// <summary>
         /// Obtém ou define o número de telefone do proprietário.
         /// </summary>
-        string Telefone { get; set; }
+        string Contato { get; set; }
 
         /// <summary>
-        /// Obtém ou define o endereço de email do proprietário.
+        /// Obtém ou define o identificador único do imóvel do proprietário.
         /// </summary>
-        string Email { get; set; }
-
-        /// <summary>
-        /// Obtém ou define o endereço do proprietário.
-        /// </summary>
-        string Endereco { get; set; }
+        string Imovel { get; set; }
 
         /// <summary>
         /// Obtém ou define o número de identificação fiscal do proprietário.
         /// </summary>
-        string NIF { get; set; }
-
-        #endregion
+        string Nif { get; set; }
     }
 
     public interface IDespesa
     {
-        #region Propriedades
-
         /// <summary>
         /// Obtém ou define o tipo da despesa.
         /// </summary>
@@ -74,13 +63,10 @@ namespace Interfaces
         /// Obtém ou define o imóvel associado à despesa.
         ///  </summary>
         string Imovel { get; set; }
-        #endregion
     }
 
     public interface IImovel
     {
-        #region Propriedades
-
         /// <summary>
         /// Obtém ou define o identificador único do imóvel.
         /// </summary>
@@ -101,29 +87,52 @@ namespace Interfaces
         /// </summary>
         List<decimal> Quotas { get; set; }
 
-        #endregion
+        /// <summary>
+        /// Obtém ou define o endereço associado ao imóvel.
+        /// </summary>
+        string Endereco { get; set; }
     }
 
     public interface ICondominio
     {
-        #region Propriedades
-
         /// <summary>
         /// Obtém ou define o nome do condomínio.
-        ///  </summary>
+        /// </summary>
         string Nome { get; set; }
+
+        /// <summary>
+        /// Obtém ou define o endereço do condomínio.
+        /// </summary>
+        string Endereco { get; set; }
+
+        /// <summary>
+        /// Obtém ou define a lista de despesas associadas ao condomínio.
+        /// </summary>
+        List<IDespesa> Despesas { get; set; }
 
         /// <summary>
         /// Obtém ou define a lista de imóveis associados ao condomínio.
         /// </summary>
         List<IImovel> Imoveis { get; set; }
-        #endregion
+
+        /// <summary>
+        /// Obtém ou define a lista de proprietários associados ao condomínio.
+        /// </summary>
+        List<IProprietario> Proprietarios { get; set; }
+
+        /// <summary>
+        /// Obtém ou define a lista de reuniões agendadas no condomínio.
+        /// </summary>
+        List<IReuniao> Reunioes { get; set; }
+
+        /// <summary>
+        /// Obtém ou define a lista de documentos associados ao condomínio.
+        /// </summary>
+        List<IDocumento> Documentos { get; set; }
     }
 
     public interface IDocumento
     {
-        #region Propriedades
-
         /// <summary>
         /// Obtém ou define o nome do documento.
         /// </summary>
@@ -137,28 +146,29 @@ namespace Interfaces
         /// <summary>
         /// Obtém ou define o conteúdo do documento.
         /// </summary>
-        byte[] Conteudo { get; set; }
-
-        /// <summary>
-        /// Obtém ou define o imóvel associado ao documento.
-        /// </summary>
-        string Imovel { get; set; }
-        #endregion
+        string Conteudo { get; set; }
     }
 
     public interface IReuniao
     {
-        #region Propriedades
-
         /// <summary>
         /// Obtém ou define a data da reunião.
         /// </summary>
         DateTime Data { get; set; }
 
         /// <summary>
-        /// Obtém ou define a lista de documentos associados à reunião.
+        /// Obtém ou define a hora da reunião.
         /// </summary>
-        List<IDocumento> Documentos { get; set; }
-        #endregion
+        TimeSpan Hora { get; set; }
+
+        /// <summary>
+        /// Obtém ou define o local da reunião.
+        /// </summary>
+        string Local { get; set; }
+
+        /// <summary>
+        /// Obtém ou define a lista de intervenientes na reunião.
+        /// </summary>
+        List<string> Intervenientes { get; set; }
     }
 }

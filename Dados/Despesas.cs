@@ -10,6 +10,8 @@
 using System;
 using System.Collections.Generic;
 using ObjetosNegocio;
+using Excecoes;
+using RegrasNegocio;
 
 namespace Dados
 {
@@ -20,7 +22,7 @@ namespace Dados
     {
         #region Atributos
 
-        private List<ObjetosNegocio.Despesa> listaDespesas;
+        private List<Despesa> listaDespesas;
 
         #endregion
 
@@ -33,7 +35,7 @@ namespace Dados
         /// </summary>
         public Despesas()
         {
-            listaDespesas = new List<ObjetosNegocio.Despesa>();
+            listaDespesas = new List<Despesa>();
         }
 
         #endregion
@@ -47,8 +49,9 @@ namespace Dados
         /// Adiciona uma nova despesa à lista.
         /// </summary>
         /// <param name="despesa">A despesa a ser adicionada.</param>
-        public void AdicionarDespesa(ObjetosNegocio.Despesa despesa)
+        public void AdicionarDespesa(Despesa despesa)
         {
+            DespesaRegras.ValidarDespesa(despesa);
             listaDespesas.Add(despesa);
         }
 
@@ -56,7 +59,7 @@ namespace Dados
         /// Obtém a lista de todas as despesas.
         /// </summary>
         /// <returns>A lista de despesas.</returns>
-        public List<ObjetosNegocio.Despesa> ObterDespesas()
+        public List<Despesa> ObterDespesas()
         {
             return listaDespesas;
         }
@@ -68,7 +71,7 @@ namespace Dados
         /// <param name="valor">O valor da despesa.</param>
         /// <param name="dataVencimento">A data de vencimento da despesa.</param>
         /// <returns>A despesa correspondente ou null se não encontrada.</returns>
-        public ObjetosNegocio.Despesa? ObterDespesaPorTipoValorEData(string tipo, decimal valor, DateTime dataVencimento)
+        public Despesa? ObterDespesaPorTipoValorEData(string tipo, decimal valor, DateTime dataVencimento)
         {
             return listaDespesas.Find(despesa => despesa.Tipo == tipo && despesa.Valor == valor && despesa.DataVencimento == dataVencimento);
         }

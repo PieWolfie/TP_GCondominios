@@ -9,39 +9,31 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using Excecoes;
 
 namespace ObjetosNegocio
 {
-    /// <summary>
-    /// Representa um imóvel no contexto do sistema.
-    /// </summary>
-    public class Imovel
+    [Serializable()]
+    public class Imovel : ISerializable
     {
         #region Atributos
 
-        /// <summary>
-        /// Obtém ou define o identificador único do imóvel.
-        /// </summary>
-        public int IdImovel { get; set; }
+        // Identificador único do imóvel
+        private int idImovel;
 
-        /// <summary>
-        /// Obtém ou define o proprietário do imóvel.
-        /// </summary>
-        public List<Proprietario> Proprietarios { get; set; }
+        // Lista de proprietários do imóvel
+        private List<Proprietario> proprietarios;
 
-        /// <summary>
-        /// Obtém ou define a lista de despesas associadas ao imóvel.
-        /// </summary>
-        public List<Despesa> Despesas { get; set; }
+        // Lista de despesas associadas ao imóvel
+        private List<Despesa> despesas;
 
-        /// <summary>
-        /// Obtém ou define a lista de quotas associadas ao imóvel.
-        /// </summary>
-        public List<decimal> Quotas { get; set; }
+        // Lista de quotas associadas ao imóvel
+        private List<decimal> quotas;
+
+        // Endereço do imóvel
+        private string endereco;
 
         #endregion
 
@@ -54,36 +46,71 @@ namespace ObjetosNegocio
         /// </summary>
         /// <param name="idImovel">O identificador único do imóvel.</param>
         /// <param name="proprietarios">A lista de proprietários do imóvel.</param>
-        public Imovel(int idImovel, List<Proprietario> proprietarios)
+        /// <param name="endereco">O endereço do imóvel.</param>
+        public Imovel(int idImovel, List<Proprietario> proprietarios, string endereco)
         {
             IdImovel = idImovel;
-
-            // Verifica se a lista de proprietários é nula ou está vazia
-            if (proprietarios == null || proprietarios.Count == 0)
-            {
-                // Se a lista de proprietários é nula ou vazia, lança uma exceção específica
-                throw new ImovelException.ProprietariosImovelVaziosException();
-            }
 
             // Inicializa as listas de despesas e quotas
             Despesas = new List<Despesa>();
             Quotas = new List<decimal>();
 
-            // Verifica se a lista de despesas está vazia
-            if (Despesas.Count == 0)
-            {
-                // Se a lista de despesas está vazia, lança uma exceção específica
-                throw new ImovelException.DespesasImovelVaziasException();
-            }
-
             // Define a lista de proprietários
             Proprietarios = proprietarios;
-        }
 
+            // Define o endereço do imóvel
+            Endereco = endereco;
+        }
 
         #endregion
 
         #region Propriedades
+
+        /// <summary>
+        /// Obtém ou define o identificador único do imóvel.
+        /// </summary>
+        public int IdImovel
+        {
+            get { return idImovel; }
+            set { idImovel = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de proprietários do imóvel.
+        /// </summary>
+        public List<Proprietario> Proprietarios
+        {
+            get { return proprietarios; }
+            set { proprietarios = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de despesas associadas ao imóvel.
+        /// </summary>
+        public List<Despesa> Despesas
+        {
+            get { return despesas; }
+            set { despesas = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define a lista de quotas associadas ao imóvel.
+        /// </summary>
+        public List<decimal> Quotas
+        {
+            get { return quotas; }
+            set { quotas = value; }
+        }
+
+        /// <summary>
+        /// Obtém ou define o endereço do imóvel.
+        /// </summary>
+        public string Endereco
+        {
+            get { return endereco; }
+            set { endereco = value; }
+        }
+
         #endregion
 
         #region Overrides
@@ -95,7 +122,6 @@ namespace ObjetosNegocio
         /// Adiciona uma despesa à lista de despesas associadas ao imóvel.
         /// </summary>
         /// <param name="despesa">A despesa a ser adicionada.</param>
-
         public void AdicionarDespesa(Despesa despesa)
         {
             Despesas.Add(despesa);
@@ -134,6 +160,31 @@ namespace ObjetosNegocio
 
             return saldoQuotas - saldoDespesas;
         }
+
+        #endregion
+
+        #region ISerializable
+
+        // Adicione este método para suportar serialização
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("IdImovel", IdImovel);
+            info.AddValue("Proprietarios", Proprietarios);
+            info.AddValue("Despesas", Despesas);
+            info.AddValue("Quotas", Quotas);
+            info.AddValue("Endereco", Endereco);
+        }
+
+        // Adicione este construtor para suportar desserialização
+        public Imovel (SerializationInfo info, StreamingContext context)
+        {
+            IdImovel = (int)info.GetValue("IdImovel", typeof(int));
+            Proprietarios = (List<Proprietario>)info.GetValue("Proprietarios", typeof(List<Proprietario>));
+            Despesas = (List<Despesa>)info.GetValue("Despesas", typeof(List<Despesa>));
+            Quotas = (List<decimal>)info.GetValue("Quotas", typeof(List<decimal>));
+            Endereco = (string)info.GetValue("Endereco", typeof(string));
+        }
+
         #endregion
 
         #region Destrutor
