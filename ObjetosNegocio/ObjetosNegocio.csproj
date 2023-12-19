@@ -10,6 +10,9 @@
     <Reference Include="Excecoes">
       <HintPath>..\Excecoes\bin\Debug\Excecoes.dll</HintPath>
     </Reference>
+    <Reference Include="Interfaces">
+      <HintPath>..\Interfaces\bin\Debug\net8.0\Interfaces.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
