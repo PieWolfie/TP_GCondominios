@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="8" column="17" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="8" bodyend="71"/>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="17" column="17" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="17" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="class_program_1a96eb55713f4d310a71bc40d57e53a26d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -44,14 +44,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="77" column="17" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="77" bodyend="111"/>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="86" column="17" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="86" bodyend="120"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="6" column="1" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="7" bodyend="112"/>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="15" column="1" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="16" bodyend="121"/>
     <listofallmembers>
       <member refid="class_program_1ad22b0f776312e09174fc36a1e4bade60" prot="private" virt="non-virtual"><scope>Program</scope><name>Main</name></member>
       <member refid="class_program_1a96eb55713f4d310a71bc40d57e53a26d" prot="private" virt="non-virtual"><scope>Program</scope><name>ValidarEExecutar</name></member>

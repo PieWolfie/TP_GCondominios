@@ -93,8 +93,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="71" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="72" bodyend="75"/>
-        <referencedby refid="class_dados_1_1_imoveis_1ad2533595df4f07fd1e22be40f76a4381" compoundref="_imoveis_8cs" startline="56" endline="71">Dados.Imoveis.AdicionarImovel</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1a7559fd24680ba72666f9e3d529a6c5d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>List&lt; <ref refid="class_objetos_negocio_1_1_proprietario" kindref="compound">Proprietario</ref> &gt;</type>
@@ -110,7 +108,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="80" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="81" bodyend="84"/>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>List&lt; <ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref> &gt;</type>
@@ -126,9 +123,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="89" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="90" bodyend="93"/>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1a43b0b98368c103b01400f54fc0a1c444" compoundref="_imovel_8cs" startline="124" endline="127">ObjetosNegocio.Imovel.AdicionarDespesa</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1acac4fdb9de60d4fede8bd8e589839437" compoundref="_imovel_8cs" startline="142" endline="161">ObjetosNegocio.Imovel.ObterSaldo</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>List&lt; decimal &gt;</type>
@@ -144,9 +138,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="98" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="99" bodyend="102"/>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1acac4fdb9de60d4fede8bd8e589839437" compoundref="_imovel_8cs" startline="142" endline="161">ObjetosNegocio.Imovel.ObterSaldo</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1a0c2dd2478001df89a5a6905de302c23c" compoundref="_imovel_8cs" startline="133" endline="136">ObjetosNegocio.Imovel.PagarQuota</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1a595dcf4672d8353fa4f2bfaa91fb7175" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -162,7 +153,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="107" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="108" bodyend="111"/>
-        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -218,11 +208,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="49" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="49" bodyend="62"/>
-        <references refid="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" compoundref="_imovel_8cs" startline="90" endline="93">ObjetosNegocio.Imovel.Despesas</references>
-        <references refid="class_objetos_negocio_1_1_imovel_1a595dcf4672d8353fa4f2bfaa91fb7175" compoundref="_imovel_8cs" startline="108" endline="111">ObjetosNegocio.Imovel.Endereco</references>
-        <references refid="class_objetos_negocio_1_1_imovel_1aac775bede62928998e5013895899bac2" compoundref="_imovel_8cs" startline="72" endline="75">ObjetosNegocio.Imovel.IdImovel</references>
-        <references refid="class_objetos_negocio_1_1_imovel_1a7559fd24680ba72666f9e3d529a6c5d9" compoundref="_imovel_8cs" startline="81" endline="84">ObjetosNegocio.Imovel.Proprietarios</references>
-        <references refid="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" compoundref="_imovel_8cs" startline="99" endline="102">ObjetosNegocio.Imovel.Quotas</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_imovel_1a43b0b98368c103b01400f54fc0a1c444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -252,7 +237,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="124" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="124" bodyend="127"/>
-        <references refid="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" compoundref="_imovel_8cs" startline="90" endline="93">ObjetosNegocio.Imovel.Despesas</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_imovel_1a0c2dd2478001df89a5a6905de302c23c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -282,7 +266,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="133" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="133" bodyend="136"/>
-        <references refid="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" compoundref="_imovel_8cs" startline="99" endline="102">ObjetosNegocio.Imovel.Quotas</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_imovel_1acac4fdb9de60d4fede8bd8e589839437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>decimal</type>
@@ -301,8 +284,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="142" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="142" bodyend="161"/>
-        <references refid="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" compoundref="_imovel_8cs" startline="90" endline="93">ObjetosNegocio.Imovel.Despesas</references>
-        <references refid="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" compoundref="_imovel_8cs" startline="99" endline="102">ObjetosNegocio.Imovel.Quotas</references>
       </memberdef>
     </sectiondef>
     <briefdescription>

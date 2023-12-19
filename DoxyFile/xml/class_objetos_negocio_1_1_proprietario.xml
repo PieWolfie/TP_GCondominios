@@ -109,7 +109,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="72" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="73" bodyend="76"/>
-        <referencedby refid="class_objetos_negocio_1_1_proprietario_1ae7d00117733491f5d2fde58c10c28a8b" compoundref="_proprietario_8cs" startline="55" endline="63">ObjetosNegocio.Proprietario.Proprietario</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_proprietario_1ae1c90f2465373f249b8d869be4b41328" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -125,7 +124,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="81" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="82" bodyend="85"/>
-        <referencedby refid="class_objetos_negocio_1_1_proprietario_1ae7d00117733491f5d2fde58c10c28a8b" compoundref="_proprietario_8cs" startline="55" endline="63">ObjetosNegocio.Proprietario.Proprietario</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_proprietario_1ac9544590fcef0a4525d63e7eb391207d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -156,8 +154,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="99" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="100" bodyend="103"/>
-        <referencedby refid="class_dados_1_1_proprietarios_1ad0566bd48dde931806cffbe4d1de66fa" compoundref="_proprietarios_8cs" startline="60" endline="74">Dados.Proprietarios.AdicionarProprietario</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_proprietario_1ae7d00117733491f5d2fde58c10c28a8b" compoundref="_proprietario_8cs" startline="55" endline="63">ObjetosNegocio.Proprietario.Proprietario</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_proprietario_1ad1d23c33603b9f669a32a4e3d2796646" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
         <type>List&lt; string &gt;</type>
@@ -173,9 +169,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="108" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="109" bodyend="112"/>
-        <referencedby refid="class_objetos_negocio_1_1_proprietario_1ae7d00117733491f5d2fde58c10c28a8b" compoundref="_proprietario_8cs" startline="55" endline="63">ObjetosNegocio.Proprietario.Proprietario</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_proprietario_1a6777a698dda37a0e0ed2f9b9cac23edc" compoundref="_proprietario_8cs" startline="134" endline="137">ObjetosNegocio.Proprietario.RealizarPagamento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_proprietario_1aa7b3795199735c239e444ce97a2172b9" compoundref="_proprietario_8cs" startline="142" endline="145">ObjetosNegocio.Proprietario.VisualizarHistorico</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_proprietario_1a190fc489825b2ef35edf2cdc4d89e700" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
         <type>List&lt; string &gt;</type>
@@ -191,8 +184,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="117" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="118" bodyend="121"/>
-        <referencedby refid="class_objetos_negocio_1_1_proprietario_1ae97a3f031b1e6b6392722b1b3f9c75f5" compoundref="_proprietario_8cs" startline="150" endline="155">ObjetosNegocio.Proprietario.PresenciarReuniao</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_proprietario_1ae7d00117733491f5d2fde58c10c28a8b" compoundref="_proprietario_8cs" startline="55" endline="63">ObjetosNegocio.Proprietario.Proprietario</referencedby>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -260,11 +251,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="55" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="55" bodyend="63"/>
-        <references refid="class_objetos_negocio_1_1_proprietario_1ae1c90f2465373f249b8d869be4b41328" compoundref="_proprietario_8cs" startline="82" endline="85">ObjetosNegocio.Proprietario.Contato</references>
-        <references refid="class_objetos_negocio_1_1_proprietario_1ad1d23c33603b9f669a32a4e3d2796646" compoundref="_proprietario_8cs" startline="109" endline="112">ObjetosNegocio.Proprietario.HistoricoPagamentos</references>
-        <references refid="class_objetos_negocio_1_1_proprietario_1ae1aa93291307993d89679afc0c7904d9" compoundref="_proprietario_8cs" startline="100" endline="103">ObjetosNegocio.Proprietario.Nif</references>
-        <references refid="class_objetos_negocio_1_1_proprietario_1a9cdd60cad5f7c6ad5713848d9e3de33c" compoundref="_proprietario_8cs" startline="73" endline="76">ObjetosNegocio.Proprietario.Nome</references>
-        <references refid="class_objetos_negocio_1_1_proprietario_1a190fc489825b2ef35edf2cdc4d89e700" compoundref="_proprietario_8cs" startline="118" endline="121">ObjetosNegocio.Proprietario.PresencasReunioes</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_proprietario_1a6777a698dda37a0e0ed2f9b9cac23edc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -294,7 +280,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="134" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="134" bodyend="137"/>
-        <references refid="class_objetos_negocio_1_1_proprietario_1ad1d23c33603b9f669a32a4e3d2796646" compoundref="_proprietario_8cs" startline="109" endline="112">ObjetosNegocio.Proprietario.HistoricoPagamentos</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_proprietario_1aa7b3795199735c239e444ce97a2172b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>List&lt; string &gt;</type>
@@ -310,7 +295,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="142" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="142" bodyend="145"/>
-        <references refid="class_objetos_negocio_1_1_proprietario_1ad1d23c33603b9f669a32a4e3d2796646" compoundref="_proprietario_8cs" startline="109" endline="112">ObjetosNegocio.Proprietario.HistoricoPagamentos</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_proprietario_1ae97a3f031b1e6b6392722b1b3f9c75f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
@@ -326,7 +310,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" line="150" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Proprietario.cs" bodystart="150" bodyend="155"/>
-        <references refid="class_objetos_negocio_1_1_proprietario_1a190fc489825b2ef35edf2cdc4d89e700" compoundref="_proprietario_8cs" startline="118" endline="121">ObjetosNegocio.Proprietario.PresencasReunioes</references>
       </memberdef>
     </sectiondef>
     <briefdescription>

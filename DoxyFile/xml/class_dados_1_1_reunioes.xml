@@ -84,8 +84,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Reunioes.cs" line="57" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Reunioes.cs" bodystart="57" bodyend="71"/>
-        <references refid="class_objetos_negocio_1_1_reuniao_1a17647a01f19c617c2bdcc9ad1b555b97" compoundref="_reuniao_8cs" startline="84" endline="87">ObjetosNegocio.Reuniao.Data</references>
-        <references refid="class_objetos_negocio_1_1_reuniao_1af3bb2f35e5fa159c3553d34160affe9b" compoundref="_reuniao_8cs" startline="93" endline="96">ObjetosNegocio.Reuniao.Hora</references>
       </memberdef>
       <memberdef kind="function" id="class_dados_1_1_reunioes_1a9277ad5f59485f637f6613def3c2e592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>List&lt; <ref refid="class_objetos_negocio_1_1_reuniao" kindref="compound">Reuniao</ref> &gt;</type>

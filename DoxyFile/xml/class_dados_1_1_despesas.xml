@@ -84,9 +84,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="56" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="56" bodyend="70"/>
-        <references refid="class_objetos_negocio_1_1_despesa_1aeff055c9b37d0daaf4b43510cca9a86e" compoundref="_despesa_8cs" startline="87" endline="90">ObjetosNegocio.Despesa.DataVencimento</references>
-        <references refid="class_objetos_negocio_1_1_despesa_1a260708ff1fcd7c48ef576bc86caf1ab8" compoundref="_despesa_8cs" startline="69" endline="72">ObjetosNegocio.Despesa.Tipo</references>
-        <references refid="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" compoundref="_despesa_8cs" startline="78" endline="81">ObjetosNegocio.Despesa.Valor</references>
       </memberdef>
       <memberdef kind="function" id="class_dados_1_1_despesas_1a691e5b3767ae1d7ca518ae708ddfeb52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>List&lt; <ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref> &gt;</type>

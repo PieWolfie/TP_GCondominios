@@ -1,4 +1,13 @@
-﻿using RegrasNegocio;
+﻿/*
+ * 
+ * Classe "Program" - Gestão de Condomínios
+ * Fábio Fernandes - a22996@alunos.ipca.pt
+ * Pedro Rocha - a23009@alunos.ipca.pt
+ * LESI - POO
+ * 
+ */
+
+using RegrasNegocio;
 using ObjetosNegocio;
 using Excecoes;
 using System;

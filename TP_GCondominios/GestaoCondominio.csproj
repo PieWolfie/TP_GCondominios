@@ -63,6 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Dados.cd" />
+    <None Include="Excecoes.cd" />
+    <None Include="Interfaces.cd" />
+    <None Include="ObjetosNegocio.cd" />
+    <None Include="RegrasNegocio.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

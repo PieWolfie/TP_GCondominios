@@ -91,8 +91,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="68" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="69" bodyend="72"/>
-        <referencedby refid="class_dados_1_1_despesas_1a6bf5fbc12ca843426917ce1fbde6744b" compoundref="_despesas_8cs" startline="56" endline="70">Dados.Despesas.AdicionarDespesa</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" compoundref="_despesa_8cs" startline="52" endline="59">ObjetosNegocio.Despesa.Despesa</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>decimal</type>
@@ -108,9 +106,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="77" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="78" bodyend="81"/>
-        <referencedby refid="class_dados_1_1_despesas_1a6bf5fbc12ca843426917ce1fbde6744b" compoundref="_despesas_8cs" startline="56" endline="70">Dados.Despesas.AdicionarDespesa</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" compoundref="_despesa_8cs" startline="52" endline="59">ObjetosNegocio.Despesa.Despesa</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_despesa_1ae0fa7c2b50ad1ad40dcd7d949b337978" compoundref="_despesa_8cs" startline="130" endline="133">ObjetosNegocio.Despesa.ObterValorTotal</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1aeff055c9b37d0daaf4b43510cca9a86e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>DateTime</type>
@@ -126,8 +121,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="86" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="87" bodyend="90"/>
-        <referencedby refid="class_dados_1_1_despesas_1a6bf5fbc12ca843426917ce1fbde6744b" compoundref="_despesas_8cs" startline="56" endline="70">Dados.Despesas.AdicionarDespesa</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" compoundref="_despesa_8cs" startline="52" endline="59">ObjetosNegocio.Despesa.Despesa</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1a2c6fd456891cc822a497d30c00b7c5ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>bool</type>
@@ -143,8 +136,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="95" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="96" bodyend="99"/>
-        <referencedby refid="class_objetos_negocio_1_1_despesa_1a284f112b4658460fe9ba09ae41092d48" compoundref="_despesa_8cs" startline="121" endline="124">ObjetosNegocio.Despesa.AtualizarEstadoPagamento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" compoundref="_despesa_8cs" startline="52" endline="59">ObjetosNegocio.Despesa.Despesa</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1a385fe18c951dc51fbba7f264ff52e62f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -239,10 +230,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="52" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="52" bodyend="59"/>
-        <references refid="class_objetos_negocio_1_1_despesa_1aeff055c9b37d0daaf4b43510cca9a86e" compoundref="_despesa_8cs" startline="87" endline="90">ObjetosNegocio.Despesa.DataVencimento</references>
-        <references refid="class_objetos_negocio_1_1_despesa_1a2c6fd456891cc822a497d30c00b7c5ac" compoundref="_despesa_8cs" startline="96" endline="99">ObjetosNegocio.Despesa.EstadoPagamento</references>
-        <references refid="class_objetos_negocio_1_1_despesa_1a260708ff1fcd7c48ef576bc86caf1ab8" compoundref="_despesa_8cs" startline="69" endline="72">ObjetosNegocio.Despesa.Tipo</references>
-        <references refid="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" compoundref="_despesa_8cs" startline="78" endline="81">ObjetosNegocio.Despesa.Valor</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_despesa_1a284f112b4658460fe9ba09ae41092d48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -272,7 +259,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="121" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="121" bodyend="124"/>
-        <references refid="class_objetos_negocio_1_1_despesa_1a2c6fd456891cc822a497d30c00b7c5ac" compoundref="_despesa_8cs" startline="96" endline="99">ObjetosNegocio.Despesa.EstadoPagamento</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_despesa_1ae0fa7c2b50ad1ad40dcd7d949b337978" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>decimal</type>
@@ -291,7 +277,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="130" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="130" bodyend="133"/>
-        <references refid="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" compoundref="_despesa_8cs" startline="78" endline="81">ObjetosNegocio.Despesa.Valor</references>
       </memberdef>
     </sectiondef>
     <briefdescription>

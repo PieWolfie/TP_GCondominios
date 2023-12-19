@@ -97,9 +97,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="83" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="84" bodyend="87"/>
-        <referencedby refid="class_dados_1_1_reunioes_1a9849bd2ed7ee5656ca4c4937da0b5085" compoundref="_reunioes_8cs" startline="57" endline="71">Dados.Reunioes.AdicionarReuniao</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" compoundref="_reuniao_8cs" startline="138" endline="143">ObjetosNegocio.Reuniao.AgendarReuniao</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_reuniao_1a7cb69b1f0fba1c24cf86da03506a9dae" compoundref="_reuniao_8cs" startline="69" endline="74">ObjetosNegocio.Reuniao.Reuniao</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1af3bb2f35e5fa159c3553d34160affe9b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>TimeSpan</type>
@@ -115,9 +112,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="92" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="93" bodyend="96"/>
-        <referencedby refid="class_dados_1_1_reunioes_1a9849bd2ed7ee5656ca4c4937da0b5085" compoundref="_reunioes_8cs" startline="57" endline="71">Dados.Reunioes.AdicionarReuniao</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" compoundref="_reuniao_8cs" startline="138" endline="143">ObjetosNegocio.Reuniao.AgendarReuniao</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_reuniao_1a7cb69b1f0fba1c24cf86da03506a9dae" compoundref="_reuniao_8cs" startline="69" endline="74">ObjetosNegocio.Reuniao.Reuniao</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1a482bde275d7e59b9df91adb286480107" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -133,8 +127,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="101" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="102" bodyend="105"/>
-        <referencedby refid="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" compoundref="_reuniao_8cs" startline="138" endline="143">ObjetosNegocio.Reuniao.AgendarReuniao</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_reuniao_1a7cb69b1f0fba1c24cf86da03506a9dae" compoundref="_reuniao_8cs" startline="69" endline="74">ObjetosNegocio.Reuniao.Reuniao</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1ac519306385cc4b79b72c8fc83125572b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>List&lt; string &gt;</type>
@@ -150,7 +142,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="110" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="111" bodyend="114"/>
-        <referencedby refid="class_objetos_negocio_1_1_reuniao_1a209a8a22924a6d7e27cc184998c32a61" compoundref="_reuniao_8cs" startline="149" endline="152">ObjetosNegocio.Reuniao.AdicionarInterveniente</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1adccf55363e116155c5815c53befaa6d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -166,7 +157,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="119" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="120" bodyend="123"/>
-        <referencedby refid="class_objetos_negocio_1_1_reuniao_1acd6ac65376816596bd5acb65c7fe26f9" compoundref="_reuniao_8cs" startline="158" endline="161">ObjetosNegocio.Reuniao.RegistarAta</referencedby>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -237,9 +227,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="69" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="69" bodyend="74"/>
-        <references refid="class_objetos_negocio_1_1_reuniao_1a17647a01f19c617c2bdcc9ad1b555b97" compoundref="_reuniao_8cs" startline="84" endline="87">ObjetosNegocio.Reuniao.Data</references>
-        <references refid="class_objetos_negocio_1_1_reuniao_1af3bb2f35e5fa159c3553d34160affe9b" compoundref="_reuniao_8cs" startline="93" endline="96">ObjetosNegocio.Reuniao.Hora</references>
-        <references refid="class_objetos_negocio_1_1_reuniao_1a482bde275d7e59b9df91adb286480107" compoundref="_reuniao_8cs" startline="102" endline="105">ObjetosNegocio.Reuniao.Local</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -293,9 +280,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="138" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="138" bodyend="143"/>
-        <references refid="class_objetos_negocio_1_1_reuniao_1a17647a01f19c617c2bdcc9ad1b555b97" compoundref="_reuniao_8cs" startline="84" endline="87">ObjetosNegocio.Reuniao.Data</references>
-        <references refid="class_objetos_negocio_1_1_reuniao_1af3bb2f35e5fa159c3553d34160affe9b" compoundref="_reuniao_8cs" startline="93" endline="96">ObjetosNegocio.Reuniao.Hora</references>
-        <references refid="class_objetos_negocio_1_1_reuniao_1a482bde275d7e59b9df91adb286480107" compoundref="_reuniao_8cs" startline="102" endline="105">ObjetosNegocio.Reuniao.Local</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_reuniao_1a209a8a22924a6d7e27cc184998c32a61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -325,7 +309,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="149" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="149" bodyend="152"/>
-        <references refid="class_objetos_negocio_1_1_reuniao_1ac519306385cc4b79b72c8fc83125572b" compoundref="_reuniao_8cs" startline="111" endline="114">ObjetosNegocio.Reuniao.Intervenientes</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_reuniao_1acd6ac65376816596bd5acb65c7fe26f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -355,7 +338,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="158" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="158" bodyend="161"/>
-        <references refid="class_objetos_negocio_1_1_reuniao_1adccf55363e116155c5815c53befaa6d8" compoundref="_reuniao_8cs" startline="120" endline="123">ObjetosNegocio.Reuniao.Ata</references>
       </memberdef>
     </sectiondef>
     <briefdescription>

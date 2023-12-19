@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxyfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="doxyfile.xsd" version="1.9.8" xml:lang="en-US">
   <option  id='DOXYFILE_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
-  <option  id='PROJECT_NAME' default='no' type='string'><value><![CDATA["Gestão Condomínios"]]></value></option>
+  <option  id='PROJECT_NAME' default='no' type='string'><value><![CDATA["Gestão de Condomínios"]]></value></option>
   <option  id='PROJECT_NUMBER' default='yes' type='string'><value><![CDATA[]]></value></option>
-  <option  id='PROJECT_BRIEF' default='no' type='string'><value><![CDATA["Programa de gestão de condomínios"]]></value></option>
+  <option  id='PROJECT_BRIEF' default='no' type='string'><value><![CDATA["Programa para gerir condomínios"]]></value></option>
   <option  id='PROJECT_LOGO' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='OUTPUT_DIRECTORY' default='no' type='string'><value><![CDATA[C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/DoxyFile]]></value></option>
   <option  id='CREATE_SUBDIRS' default='yes' type='bool'><value>NO</value></option>
@@ -126,7 +126,7 @@
   <option  id='INPUT_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='INPUT_FILE_ENCODING' default='yes' type='stringlist'>
   </option>
-  <option  id='FILE_PATTERNS' default='no' type='stringlist'>
+  <option  id='FILE_PATTERNS' default='yes' type='stringlist'>
     <value><![CDATA[*.c]]></value>
     <value><![CDATA[*.cc]]></value>
     <value><![CDATA[*.cxx]]></value>
@@ -177,7 +177,6 @@
     <value><![CDATA[*.ucf]]></value>
     <value><![CDATA[*.qsf]]></value>
     <value><![CDATA[*.ice]]></value>
-    <value><![CDATA[*.cs]]></value>
   </option>
   <option  id='RECURSIVE' default='no' type='bool'><value>YES</value></option>
   <option  id='EXCLUDE' default='yes' type='stringlist'>
@@ -358,7 +357,7 @@
   <option  id='DOT_COMMON_ATTR' default='no' type='string'><value><![CDATA["fontname=Helvetica,fontsize=12"]]></value></option>
   <option  id='DOT_EDGE_ATTR' default='yes' type='string'><value><![CDATA["labelfontname=Helvetica,labelfontsize=10"]]></value></option>
   <option  id='DOT_NODE_ATTR' default='yes' type='string'><value><![CDATA["shape=box,height=0.2,width=0.4"]]></value></option>
-  <option  id='DOT_FONTPATH' default='no' type='string'><value><![CDATA["C:/Program Files/Graphviz/bin"]]></value></option>
+  <option  id='DOT_FONTPATH' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='CLASS_GRAPH' default='yes' type='string'><value>YES</value></option>
   <option  id='COLLABORATION_GRAPH' default='yes' type='bool'><value>YES</value></option>
   <option  id='GROUP_GRAPHS' default='yes' type='bool'><value>YES</value></option>
@@ -369,8 +368,8 @@
   <option  id='TEMPLATE_RELATIONS' default='yes' type='bool'><value>NO</value></option>
   <option  id='INCLUDE_GRAPH' default='yes' type='bool'><value>YES</value></option>
   <option  id='INCLUDED_BY_GRAPH' default='yes' type='bool'><value>YES</value></option>
-  <option  id='CALL_GRAPH' default='no' type='bool'><value>YES</value></option>
-  <option  id='CALLER_GRAPH' default='no' type='bool'><value>YES</value></option>
+  <option  id='CALL_GRAPH' default='yes' type='bool'><value>NO</value></option>
+  <option  id='CALLER_GRAPH' default='yes' type='bool'><value>NO</value></option>
   <option  id='GRAPHICAL_HIERARCHY' default='yes' type='bool'><value>YES</value></option>
   <option  id='DIRECTORY_GRAPH' default='yes' type='bool'><value>YES</value></option>
   <option  id='DIR_GRAPH_MAX_DEPTH' default='yes' type='int'><value>1</value></option>
@@ -379,7 +378,7 @@
   <option  id='DOT_PATH' default='no' type='string'><value><![CDATA["C:/Program Files/Graphviz/bin"]]></value></option>
   <option  id='DOTFILE_DIRS' default='yes' type='stringlist'>
   </option>
-  <option  id='DIA_PATH' default='yes' type='string'><value><![CDATA[]]></value></option>
+  <option  id='DIA_PATH' default='no' type='string'><value><![CDATA["C:/Program Files/Graphviz/bin"]]></value></option>
   <option  id='DIAFILE_DIRS' default='yes' type='stringlist'>
   </option>
   <option  id='PLANTUML_JAR_PATH' default='yes' type='string'><value><![CDATA[]]></value></option>

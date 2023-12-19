@@ -78,9 +78,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="63" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="64" bodyend="67"/>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" compoundref="_documento_8cs" startline="110" endline="116">ObjetosNegocio.Documento.AdicionarDocumento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" compoundref="_documento_8cs" startline="48" endline="54">ObjetosNegocio.Documento.Documento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" compoundref="_documento_8cs" startline="121" endline="127">ObjetosNegocio.Documento.RemoverDocumento</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>DateTime</type>
@@ -96,9 +93,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="72" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="73" bodyend="76"/>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" compoundref="_documento_8cs" startline="110" endline="116">ObjetosNegocio.Documento.AdicionarDocumento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" compoundref="_documento_8cs" startline="48" endline="54">ObjetosNegocio.Documento.Documento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" compoundref="_documento_8cs" startline="121" endline="127">ObjetosNegocio.Documento.RemoverDocumento</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -114,10 +108,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="81" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="82" bodyend="85"/>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" compoundref="_documento_8cs" startline="110" endline="116">ObjetosNegocio.Documento.AdicionarDocumento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a073d0e865b99ea2b10133ddcaa7903fa" compoundref="_documento_8cs" startline="132" endline="135">ObjetosNegocio.Documento.AtualizarConteudo</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" compoundref="_documento_8cs" startline="48" endline="54">ObjetosNegocio.Documento.Documento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" compoundref="_documento_8cs" startline="121" endline="127">ObjetosNegocio.Documento.RemoverDocumento</referencedby>
       </memberdef>
       <memberdef kind="property" id="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>string</type>
@@ -133,10 +123,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="90" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="91" bodyend="94"/>
-        <referencedby refid="class_dados_1_1_documentos_1adec6adc6e7c017197c7ca0476349c9c0" compoundref="_documentos_8cs" startline="56" endline="70">Dados.Documentos.AdicionarDocumento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" compoundref="_documento_8cs" startline="110" endline="116">ObjetosNegocio.Documento.AdicionarDocumento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" compoundref="_documento_8cs" startline="48" endline="54">ObjetosNegocio.Documento.Documento</referencedby>
-        <referencedby refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" compoundref="_documento_8cs" startline="121" endline="127">ObjetosNegocio.Documento.RemoverDocumento</referencedby>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -204,10 +190,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="48" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="48" bodyend="54"/>
-        <references refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" compoundref="_documento_8cs" startline="82" endline="85">ObjetosNegocio.Documento.Conteudo</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" compoundref="_documento_8cs" startline="73" endline="76">ObjetosNegocio.Documento.DataCriacao</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" compoundref="_documento_8cs" startline="91" endline="94">ObjetosNegocio.Documento.Nome</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a8405540bd4088ef6e6fb2f350ee52706" compoundref="_documento_8cs" startline="64" endline="67">ObjetosNegocio.Documento.Tipo</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -273,10 +255,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="110" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="110" bodyend="116"/>
-        <references refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" compoundref="_documento_8cs" startline="82" endline="85">ObjetosNegocio.Documento.Conteudo</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" compoundref="_documento_8cs" startline="73" endline="76">ObjetosNegocio.Documento.DataCriacao</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" compoundref="_documento_8cs" startline="91" endline="94">ObjetosNegocio.Documento.Nome</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a8405540bd4088ef6e6fb2f350ee52706" compoundref="_documento_8cs" startline="64" endline="67">ObjetosNegocio.Documento.Tipo</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -292,10 +270,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="121" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="121" bodyend="127"/>
-        <references refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" compoundref="_documento_8cs" startline="82" endline="85">ObjetosNegocio.Documento.Conteudo</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" compoundref="_documento_8cs" startline="73" endline="76">ObjetosNegocio.Documento.DataCriacao</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" compoundref="_documento_8cs" startline="91" endline="94">ObjetosNegocio.Documento.Nome</references>
-        <references refid="class_objetos_negocio_1_1_documento_1a8405540bd4088ef6e6fb2f350ee52706" compoundref="_documento_8cs" startline="64" endline="67">ObjetosNegocio.Documento.Tipo</references>
       </memberdef>
       <memberdef kind="function" id="class_objetos_negocio_1_1_documento_1a073d0e865b99ea2b10133ddcaa7903fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -325,7 +299,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="132" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="132" bodyend="135"/>
-        <references refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" compoundref="_documento_8cs" startline="82" endline="85">ObjetosNegocio.Documento.Conteudo</references>
       </memberdef>
     </sectiondef>
     <briefdescription>
