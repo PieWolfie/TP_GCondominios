@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::DespesaException::ValorDespesaInvalidoException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_despesa_exception" prot="public" virt="non-virtual">Excecoes.DespesaException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception_1ab5e3c8fdaf4ac7d81ee90de2fb71cb2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.DespesaException.ValorDespesaInvalidoException.ValorDespesaInvalidoException</definition>
+        <argsstring>()</argsstring>
+        <name>ValorDespesaInvalidoException</name>
+        <qualifiedname>Excecoes.DespesaException.ValorDespesaInvalidoException.ValorDespesaInvalidoException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="432" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="432" bodyend="435"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando o valor da despesa é inválido (deve ser maior que zero). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DespesaException.ValorDespesaInvalidoException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DespesaException.ValorDespesaInvalidoException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="430" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="431" bodyend="436"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_despesa_exception_1ad5b96f468440b4d35f3f06d94fe64082" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException::ValorDespesaInvalidoException</scope><name>DespesaException</name></member>
+      <member refid="class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception_1ab5e3c8fdaf4ac7d81ee90de2fb71cb2d" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException::ValorDespesaInvalidoException</scope><name>ValorDespesaInvalidoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

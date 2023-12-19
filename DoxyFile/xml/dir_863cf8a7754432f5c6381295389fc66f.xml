@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_863cf8a7754432f5c6381295389fc66f" kind="dir">
+    <compoundname>C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados</compoundname>
+    <innerdir refid="dir_a16b36364c70249096e9fc48039ca881">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/obj</innerdir>
+    <innerfile refid="_condominios_8cs">Condominios.cs</innerfile>
+    <innerfile refid="_despesas_8cs">Despesas.cs</innerfile>
+    <innerfile refid="_documentos_8cs">Documentos.cs</innerfile>
+    <innerfile refid="_imoveis_8cs">Imoveis.cs</innerfile>
+    <innerfile refid="_proprietarios_8cs">Proprietarios.cs</innerfile>
+    <innerfile refid="_reunioes_8cs">Reunioes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/"/>
+  </compounddef>
+</doxygen>

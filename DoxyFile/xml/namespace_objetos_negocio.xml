@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_objetos_negocio" kind="namespace" language="C#">
+    <compoundname>ObjetosNegocio</compoundname>
+    <innerclass refid="class_objetos_negocio_1_1_condominio" prot="public">ObjetosNegocio::Condominio</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_despesa" prot="public">ObjetosNegocio::Despesa</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_documento" prot="public">ObjetosNegocio::Documento</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_imovel" prot="public">ObjetosNegocio::Imovel</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_proprietario" prot="public">ObjetosNegocio::Proprietario</innerclass>
+    <innerclass refid="class_objetos_negocio_1_1_reuniao" prot="public">ObjetosNegocio::Reuniao</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

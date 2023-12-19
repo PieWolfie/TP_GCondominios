@@ -1,0 +1,7 @@
+<map id="Excecoes.CondominioException.EnderecoCondominioNuloOuVazioException" name="Excecoes.CondominioException.EnderecoCondominioNuloOuVazioException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando o endereço do condomínio é nulo ou vazio." alt="" coords="5,159,340,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_condominio_exception.html" title="Exceção base para o domínio de Condomínio." alt="" coords="85,82,260,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="175,126,175,159,170,159,170,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="127,5,218,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="175,50,175,82,170,82,170,50"/>
+</map>

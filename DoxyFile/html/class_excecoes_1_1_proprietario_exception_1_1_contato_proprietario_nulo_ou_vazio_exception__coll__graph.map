@@ -1,0 +1,7 @@
+<map id="Excecoes.ProprietarioException.ContatoProprietarioNuloOuVazioException" name="Excecoes.ProprietarioException.ContatoProprietarioNuloOuVazioException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando o contato do proprietário é nulo ou vazio." alt="" coords="5,159,325,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_proprietario_exception.html" title="Exceção base para o domínio de Proprietário." alt="" coords="78,82,252,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,126,168,159,162,159,162,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="120,5,210,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,50,168,82,162,82,162,50"/>
+</map>

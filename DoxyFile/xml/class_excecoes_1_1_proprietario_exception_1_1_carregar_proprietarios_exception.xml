@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ProprietarioException::CarregarProprietariosException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_proprietario_exception" prot="public" virt="non-virtual">Excecoes.ProprietarioException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception_1ab2e94cc1b89d86c14f782718f7432cd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ProprietarioException.CarregarProprietariosException.CarregarProprietariosException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>CarregarProprietariosException</name>
+        <qualifiedname>Excecoes.ProprietarioException.CarregarProprietariosException.CarregarProprietariosException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="388" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="388" bodyend="391"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada ao ocorrer um erro durante o carregamento de proprietários. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ProprietarioException.CarregarProprietariosException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ProprietarioException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ProprietarioException.CarregarProprietariosException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ProprietarioException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="386" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="387" bodyend="392"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception_1ab2e94cc1b89d86c14f782718f7432cd8" prot="public" virt="non-virtual"><scope>Excecoes::ProprietarioException::CarregarProprietariosException</scope><name>CarregarProprietariosException</name></member>
+      <member refid="class_excecoes_1_1_proprietario_exception_1a0d8cdb7d5f0dd971daa29203b79f753e" prot="public" virt="non-virtual"><scope>Excecoes::ProprietarioException::CarregarProprietariosException</scope><name>ProprietarioException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="Excecoes.ImovelException.ProprietariosImovelVaziosException" name="Excecoes.ImovelException.ProprietariosImovelVaziosException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando a lista de proprietários associados ao imóvel está vazia." alt="" coords="5,159,279,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_imovel_exception.html" title="Exceção base para o domínio de Imóvel." alt="" coords="75,82,209,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,126,145,159,139,159,139,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="97,5,187,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="145,50,145,82,139,82,139,50"/>
+</map>

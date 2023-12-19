@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Sistema<sp/>de<sp/>Gestão<sp/>de<sp/>Condomínios<sp/>em<sp/>C#<sp/>(POO)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Bem-vindo<sp/>ao<sp/>repositório<sp/>do<sp/>projeto<sp/>de<sp/>Programação<sp/>Orientada<sp/>a<sp/>Objetos<sp/>(POO),<sp/>sendo<sp/>este<sp/>um<sp/>sistema<sp/>de<sp/>Gestão<sp/>de<sp/>Condomínios.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Descrição<sp/>do<sp/>Projeto</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">O<sp/>objetivo<sp/>deste<sp/>projeto<sp/>é<sp/>criar<sp/>um<sp/>sistema<sp/>de<sp/>gestão<sp/>de<sp/>condomínios<sp/>usando<sp/>os<sp/>princípios<sp/>da<sp/>Programação<sp/>Orientada<sp/>a<sp/>Objetos<sp/>em<sp/>Csharp<sp/>e<sp/>a<sp/>plataforma<sp/>.NET.<sp/>A<sp/>aplicação<sp/>permite<sp/>aos<sp/>utilizadores<sp/>realizar<sp/>várias<sp/>operações<sp/>relacionadas<sp/>à<sp/>administração<sp/>de<sp/>condomínios,<sp/>incluindo<sp/>proprietários,<sp/>despesas,<sp/>reuniões,<sp/>entre<sp/>outros.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Membros<sp/>do<sp/>Grupo</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>**Fábio<sp/>Fernandes<sp/>(a22996)**</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>**Pedro<sp/>Rocha<sp/>(a23009)**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>Professor<sp/>Orientador</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>**Luís<sp/>Fernandes**</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/README.md"/>
+  </compounddef>
+</doxygen>

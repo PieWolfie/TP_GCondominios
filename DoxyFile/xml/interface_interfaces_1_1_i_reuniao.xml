@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_interfaces_1_1_i_reuniao" kind="interface" language="C#" prot="public">
+    <compoundname>Interfaces::IReuniao</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="interface_interfaces_1_1_i_reuniao_1aedfd590ab9712eb2bbc96df7a887b003" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Interfaces.IReuniao.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>Interfaces.IReuniao.Data</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a data da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="157" column="18" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_reuniao_1a797e5061ec3c6ff16cf1f1058850e1dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TimeSpan</type>
+        <definition>TimeSpan Interfaces.IReuniao.Hora</definition>
+        <argsstring></argsstring>
+        <name>Hora</name>
+        <qualifiedname>Interfaces.IReuniao.Hora</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a hora da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="162" column="18" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_reuniao_1a04e37cfb2b7db245ddb30cc6eb300746" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IReuniao.Local</definition>
+        <argsstring></argsstring>
+        <name>Local</name>
+        <qualifiedname>Interfaces.IReuniao.Local</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o local da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="167" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_reuniao_1a6ee45b05d2e985934d3aaf584e562cfc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Interfaces.IReuniao.Intervenientes</definition>
+        <argsstring></argsstring>
+        <name>Intervenientes</name>
+        <qualifiedname>Interfaces.IReuniao.Intervenientes</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de intervenientes na reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="172" column="14" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="172" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="152" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="153" bodyend="173"/>
+    <listofallmembers>
+      <member refid="interface_interfaces_1_1_i_reuniao_1aedfd590ab9712eb2bbc96df7a887b003" prot="public" virt="non-virtual"><scope>Interfaces::IReuniao</scope><name>Data</name></member>
+      <member refid="interface_interfaces_1_1_i_reuniao_1a797e5061ec3c6ff16cf1f1058850e1dc" prot="public" virt="non-virtual"><scope>Interfaces::IReuniao</scope><name>Hora</name></member>
+      <member refid="interface_interfaces_1_1_i_reuniao_1a6ee45b05d2e985934d3aaf584e562cfc" prot="public" virt="non-virtual"><scope>Interfaces::IReuniao</scope><name>Intervenientes</name></member>
+      <member refid="interface_interfaces_1_1_i_reuniao_1a04e37cfb2b7db245ddb30cc6eb300746" prot="public" virt="non-virtual"><scope>Interfaces::IReuniao</scope><name>Local</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

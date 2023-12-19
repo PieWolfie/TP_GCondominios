@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_a3d567089aab30641c87d7df1bfe9dae" kind="dir">
+    <compoundname>C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios</compoundname>
+    <innerdir refid="dir_863cf8a7754432f5c6381295389fc66f">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados</innerdir>
+    <innerdir refid="dir_019bcb82956823f403a157affed6c543">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes</innerdir>
+    <innerdir refid="dir_3ef8005d54edd470561c245eb7ec0d10">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces</innerdir>
+    <innerdir refid="dir_884f7b534517c47d31917c3f558addc9">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio</innerdir>
+    <innerdir refid="dir_1e36dc6d1a649eae2964c75c7f8267d3">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio</innerdir>
+    <innerdir refid="dir_7f8f1cd73675e8dfa98d785253f6deb1">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_program" kind="class" language="C#" prot="public">
+    <compoundname>Program</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_program_1ad22b0f776312e09174fc36a1e4bade60" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>Program.Main</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="8" column="17" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="8" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_program_1a96eb55713f4d310a71bc40d57e53a26d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Program.ValidarEExecutar</definition>
+        <argsstring>(Action acao)</argsstring>
+        <name>ValidarEExecutar</name>
+        <qualifiedname>Program.ValidarEExecutar</qualifiedname>
+        <param>
+          <type>Action</type>
+          <declname>acao</declname>
+        </param>
+        <briefdescription>
+<para>Executa uma ação e trata exceções específicas de negócio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>acao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ação a ser executada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="77" column="17" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="77" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" line="6" column="1" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/TP_GCondominios/Program.cs" bodystart="7" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_program_1ad22b0f776312e09174fc36a1e4bade60" prot="private" virt="non-virtual"><scope>Program</scope><name>Main</name></member>
+      <member refid="class_program_1a96eb55713f4d310a71bc40d57e53a26d" prot="private" virt="non-virtual"><scope>Program</scope><name>ValidarEExecutar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

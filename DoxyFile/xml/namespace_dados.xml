@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_dados" kind="namespace" language="C#">
+    <compoundname>Dados</compoundname>
+    <innerclass refid="class_dados_1_1_condominios" prot="public">Dados::Condominios</innerclass>
+    <innerclass refid="class_dados_1_1_despesas" prot="public">Dados::Despesas</innerclass>
+    <innerclass refid="class_dados_1_1_documentos" prot="public">Dados::Documentos</innerclass>
+    <innerclass refid="class_dados_1_1_imoveis" prot="public">Dados::Imoveis</innerclass>
+    <innerclass refid="class_dados_1_1_proprietarios" prot="public">Dados::Proprietarios</innerclass>
+    <innerclass refid="class_dados_1_1_reunioes" prot="public">Dados::Reunioes</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="18" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="Excecoes.DocumentoException.TipoDocumentoNuloOuVazioException" name="Excecoes.DocumentoException.TipoDocumentoNuloOuVazioException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando o tipo do documento é nulo ou vazio." alt="" coords="5,159,298,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_documento_exception.html" title="Exceção base para o domínio de Documento." alt="" coords="66,82,237,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,126,154,159,149,159,149,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="106,5,197,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="154,50,154,82,149,82,149,50"/>
+</map>

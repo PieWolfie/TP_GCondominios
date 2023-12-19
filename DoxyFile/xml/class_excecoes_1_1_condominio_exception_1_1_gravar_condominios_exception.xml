@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_condominio_exception_1_1_gravar_condominios_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::CondominioException::GravarCondominiosException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_condominio_exception" prot="public" virt="non-virtual">Excecoes.CondominioException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_condominio_exception_1_1_gravar_condominios_exception_1a3546d658207ba29d31454de6987acf33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.CondominioException.GravarCondominiosException.GravarCondominiosException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>GravarCondominiosException</name>
+        <qualifiedname>Excecoes.CondominioException.GravarCondominiosException.GravarCondominiosException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="123" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="123" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada ao ocorrer um erro durante a gravação de condomínios. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.CondominioException.GravarCondominiosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_gravar_condominios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.CondominioException.GravarCondominiosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_gravar_condominios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="121" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="122" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_condominio_exception_1abe0794ac1e970320c7aac47cd1ef798a" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException::GravarCondominiosException</scope><name>CondominioException</name></member>
+      <member refid="class_excecoes_1_1_condominio_exception_1_1_gravar_condominios_exception_1a3546d658207ba29d31454de6987acf33" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException::GravarCondominiosException</scope><name>GravarCondominiosException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

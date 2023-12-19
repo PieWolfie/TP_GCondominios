@@ -1,0 +1,7 @@
+<map id="Excecoes.ImovelException.ImovelDuplicadoException" name="Excecoes.ImovelException.ImovelDuplicadoException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando um imóvel duplicado é adicionado à lista." alt="" coords="5,159,217,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_imovel_exception.html" title="Exceção base para o domínio de Imóvel." alt="" coords="44,82,178,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,126,114,159,108,159,108,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="66,5,156,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,50,114,82,108,82,108,50"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Excecoes.DespesaException.ValorDespesaInvalidoException" name="Excecoes.DespesaException.ValorDespesaInvalidoException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando o valor da despesa é inválido (deve ser maior que zero)." alt="" coords="5,159,249,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_despesa_exception.html" title="Exceção base para o domínio de Despesa." alt="" coords="50,82,204,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,126,130,159,124,159,124,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="82,5,172,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,50,130,82,124,82,124,50"/>
+</map>

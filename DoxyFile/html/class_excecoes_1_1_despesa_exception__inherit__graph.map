@@ -1,0 +1,19 @@
+<map id="Excecoes.DespesaException" name="Excecoes.DespesaException">
+<area shape="rect" id="Node000001" title="Exceção base para o domínio de Despesa." alt="" coords="144,226,371,255"/>
+<area shape="rect" id="Node000003" href="$class_excecoes_1_1_despesa_exception_1_1_carregar_despesas_exception.html" title="Exceção lançada ao ocorrer um erro durante o carregamento de despesas." alt="" coords="471,5,702,52"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,212,297,177,330,136,371,95,418,61,469,40,471,45,420,66,374,99,334,139,301,180,277,215"/>
+<area shape="rect" id="Node000004" href="$class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception.html" title="Exceção lançada quando a data de vencimento da despesa é no passado." alt="" coords="419,76,753,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="286,214,345,171,381,150,418,132,448,121,450,126,420,136,383,154,348,176,290,218"/>
+<area shape="rect" id="Node000005" href="$class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception.html" title="Exceção lançada quando uma despesa duplicada é adicionada à lista." alt="" coords="471,147,702,193"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="338,220,418,202,470,191,471,196,420,207,339,225"/>
+<area shape="rect" id="Node000006" href="$class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception.html" title="Exceção lançada ao ocorrer um erro durante a gravação de despesas." alt="" coords="471,217,702,264"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="386,238,470,238,470,243,386,243"/>
+<area shape="rect" id="Node000007" href="$class_excecoes_1_1_despesa_exception_1_1_imovel_despesa_nulo_ou_vazio_exception.html" title="Exceção lançada quando o imóvel associado à despesa é nulo ou vazio." alt="" coords="442,288,731,335"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="339,256,420,274,470,285,469,290,418,279,338,262"/>
+<area shape="rect" id="Node000008" href="$class_excecoes_1_1_despesa_exception_1_1_tipo_despesa_nulo_ou_vazio_exception.html" title="Exceção lançada quando o tipo da despesa é nulo ou vazio." alt="" coords="448,359,724,405"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="290,263,348,305,383,327,420,345,450,356,448,361,418,350,381,332,345,310,286,267"/>
+<area shape="rect" id="Node000009" href="$class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception.html" title="Exceção lançada quando o valor da despesa é inválido (deve ser maior que zero)." alt="" coords="465,429,708,476"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="277,266,301,301,334,342,374,382,420,416,465,434,463,439,418,420,371,386,330,346,297,305,273,269"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,96,255"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,238,143,238,143,243,111,243"/>
+</map>

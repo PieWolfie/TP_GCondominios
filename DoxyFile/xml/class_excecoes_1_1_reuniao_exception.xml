@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_reuniao_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ReuniaoException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_reuniao_exception_1_1_carregar_reunioes_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException.CarregarReunioesException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_reuniao_exception_1_1_data_reuniao_invalida_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException.DataReuniaoInvalidaException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_reuniao_exception_1_1_gravar_reunioes_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException.GravarReunioesException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_reuniao_exception_1_1_hora_reuniao_invalida_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException.HoraReuniaoInvalidaException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_reuniao_exception_1_1_intervenientes_reuniao_vazios_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException.IntervenientesReuniaoVaziosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_reuniao_exception_1_1_local_reuniao_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException.LocalReuniaoNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_reuniao_exception_1_1_reuniao_duplicada_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException.ReuniaoDuplicadaException</derivedcompoundref>
+    <innerclass refid="class_excecoes_1_1_reuniao_exception_1_1_carregar_reunioes_exception" prot="public">Excecoes::ReuniaoException::CarregarReunioesException</innerclass>
+    <innerclass refid="class_excecoes_1_1_reuniao_exception_1_1_data_reuniao_invalida_exception" prot="public">Excecoes::ReuniaoException::DataReuniaoInvalidaException</innerclass>
+    <innerclass refid="class_excecoes_1_1_reuniao_exception_1_1_gravar_reunioes_exception" prot="public">Excecoes::ReuniaoException::GravarReunioesException</innerclass>
+    <innerclass refid="class_excecoes_1_1_reuniao_exception_1_1_hora_reuniao_invalida_exception" prot="public">Excecoes::ReuniaoException::HoraReuniaoInvalidaException</innerclass>
+    <innerclass refid="class_excecoes_1_1_reuniao_exception_1_1_intervenientes_reuniao_vazios_exception" prot="public">Excecoes::ReuniaoException::IntervenientesReuniaoVaziosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_reuniao_exception_1_1_local_reuniao_nulo_ou_vazio_exception" prot="public">Excecoes::ReuniaoException::LocalReuniaoNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_reuniao_exception_1_1_reuniao_duplicada_exception" prot="public">Excecoes::ReuniaoException::ReuniaoDuplicadaException</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_reuniao_exception_1ad928e339cb58614d42d6f0ef97542b47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ReuniaoException.ReuniaoException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>ReuniaoException</name>
+        <qualifiedname>Excecoes.ReuniaoException.ReuniaoException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="224" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="224" bodyend="227"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção base para o domínio de Reunião. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ReuniaoException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Excecoes.ReuniaoException.CarregarReunioesException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_carregar_reunioes_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Excecoes.ReuniaoException.DataReuniaoInvalidaException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_data_reuniao_invalida_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Excecoes.ReuniaoException.GravarReunioesException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_gravar_reunioes_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Excecoes.ReuniaoException.HoraReuniaoInvalidaException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_hora_reuniao_invalida_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Excecoes.ReuniaoException.IntervenientesReuniaoVaziosException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_intervenientes_reuniao_vazios_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Excecoes.ReuniaoException.LocalReuniaoNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_local_reuniao_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Excecoes.ReuniaoException.ReuniaoDuplicadaException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_reuniao_duplicada_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ReuniaoException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="222" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="223" bodyend="305"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_reuniao_exception_1ad928e339cb58614d42d6f0ef97542b47" prot="public" virt="non-virtual"><scope>Excecoes::ReuniaoException</scope><name>ReuniaoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

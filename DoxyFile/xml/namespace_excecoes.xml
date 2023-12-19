@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_excecoes" kind="namespace" language="C#">
+    <compoundname>Excecoes</compoundname>
+    <innerclass refid="class_excecoes_1_1_condominio_exception" prot="public">Excecoes::CondominioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_despesa_exception" prot="public">Excecoes::DespesaException</innerclass>
+    <innerclass refid="class_excecoes_1_1_documento_exception" prot="public">Excecoes::DocumentoException</innerclass>
+    <innerclass refid="class_excecoes_1_1_imovel_exception" prot="public">Excecoes::ImovelException</innerclass>
+    <innerclass refid="class_excecoes_1_1_proprietario_exception" prot="public">Excecoes::ProprietarioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_reuniao_exception" prot="public">Excecoes::ReuniaoException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="18" column="1"/>
+  </compounddef>
+</doxygen>

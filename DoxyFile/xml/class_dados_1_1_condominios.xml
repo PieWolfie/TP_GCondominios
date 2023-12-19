@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_dados_1_1_condominios" kind="class" language="C#" prot="public">
+    <compoundname>Dados::Condominios</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dados_1_1_condominios_1a3103efde289af345be7bc7064a5a2b13" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_condominio" kindref="compound">Condominio</ref> &gt;</type>
+        <definition>List&lt;Condominio&gt; Dados.Condominios.listaCondominios</definition>
+        <argsstring></argsstring>
+        <name>listaCondominios</name>
+        <qualifiedname>Dados.Condominios.listaCondominios</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="28" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dados_1_1_condominios_1a9d542b05b56b9a14389b7f09ce1b1d49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dados.Condominios.Condominios</definition>
+        <argsstring>()</argsstring>
+        <name>Condominios</name>
+        <qualifiedname>Dados.Condominios.Condominios</qualifiedname>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe Condominios. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="39" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_condominios_1a86aed0ed38356293055f958e11a7c0e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dados.Condominios.AdicionarCondominio</definition>
+        <argsstring>(Condominio condominio, bool lancaExcecao=false)</argsstring>
+        <name>AdicionarCondominio</name>
+        <qualifiedname>Dados.Condominios.AdicionarCondominio</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_condominio" kindref="compound">Condominio</ref></type>
+          <declname>condominio</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>lancaExcecao</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Adiciona um novo condomínio à lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>condominio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O condomínio a ser adicionado.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lancaExcecao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica se uma exceção deve ser lançada em caso de duplicata.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>CondominioException.CondominioDuplicadoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada se um condomínio duplicado for detectado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="60" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" bodystart="60" bodyend="74"/>
+        <references refid="class_objetos_negocio_1_1_condominio_1a9ddb1dfebbc38ac57e3ba1d1809047d2" compoundref="_condominio_8cs" startline="89" endline="92">ObjetosNegocio.Condominio.Endereco</references>
+        <references refid="class_objetos_negocio_1_1_condominio_1a4f7c04331cbb42fa4bb17f4f5c8c1ace" compoundref="_condominio_8cs" startline="80" endline="83">ObjetosNegocio.Condominio.Nome</references>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_condominios_1acf50c656e5e62f794771fbd8bd2c7eae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_condominio" kindref="compound">Condominio</ref> &gt;</type>
+        <definition>List&lt; Condominio &gt; Dados.Condominios.ObterCondominios</definition>
+        <argsstring>()</argsstring>
+        <name>ObterCondominios</name>
+        <qualifiedname>Dados.Condominios.ObterCondominios</qualifiedname>
+        <briefdescription>
+<para>Obtém a lista de todos os condomínios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A lista de condomínios.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="80" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_condominios_1a5de40fac9d95f37ad2a5a0be7951a01e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_objetos_negocio_1_1_condominio" kindref="compound">Condominio</ref>?</type>
+        <definition>Condominio? Dados.Condominios.ObterCondominioPorNome</definition>
+        <argsstring>(string nome)</argsstring>
+        <name>ObterCondominioPorNome</name>
+        <qualifiedname>Dados.Condominios.ObterCondominioPorNome</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Obtém um condomínio com base no nome. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O nome do condomínio.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>O condomínio correspondente ou null se não encontrado.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="90" column="27" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_condominios_1abf925ff0a320e6bcaa31d508663594a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dados.Condominios.GravarCondominios</definition>
+        <argsstring>(string caminhoArquivo)</argsstring>
+        <name>GravarCondominios</name>
+        <qualifiedname>Dados.Condominios.GravarCondominios</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoArquivo</declname>
+        </param>
+        <briefdescription>
+<para>Grava a lista de condomínios em um arquivo usando serialização JSON. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoArquivo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O caminho do arquivo para salvar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>CondominioException.GravarCondominiosException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada em caso de erro ao gravar condomínios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="100" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" bodystart="100" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_condominios_1ae08f94f0f7049a338a57492a7880e1f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dados.Condominios.CarregarCondominios</definition>
+        <argsstring>(string caminhoArquivo)</argsstring>
+        <name>CarregarCondominios</name>
+        <qualifiedname>Dados.Condominios.CarregarCondominios</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoArquivo</declname>
+        </param>
+        <briefdescription>
+<para>Carrega a lista de condomínios a partir de um arquivo usando desserialização JSON. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoArquivo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O caminho do arquivo para carregar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>CondominioException.CarregarCondominiosException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada em caso de erro ao carregar condomínios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="118" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" bodystart="118" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe responsável por armazenar e gerenciar informações sobre condomínios. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" line="23" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Condominios.cs" bodystart="24" bodyend="134"/>
+    <listofallmembers>
+      <member refid="class_dados_1_1_condominios_1a86aed0ed38356293055f958e11a7c0e3" prot="public" virt="non-virtual"><scope>Dados::Condominios</scope><name>AdicionarCondominio</name></member>
+      <member refid="class_dados_1_1_condominios_1ae08f94f0f7049a338a57492a7880e1f0" prot="public" virt="non-virtual"><scope>Dados::Condominios</scope><name>CarregarCondominios</name></member>
+      <member refid="class_dados_1_1_condominios_1a9d542b05b56b9a14389b7f09ce1b1d49" prot="public" virt="non-virtual"><scope>Dados::Condominios</scope><name>Condominios</name></member>
+      <member refid="class_dados_1_1_condominios_1abf925ff0a320e6bcaa31d508663594a3" prot="public" virt="non-virtual"><scope>Dados::Condominios</scope><name>GravarCondominios</name></member>
+      <member refid="class_dados_1_1_condominios_1a3103efde289af345be7bc7064a5a2b13" prot="private" virt="non-virtual"><scope>Dados::Condominios</scope><name>listaCondominios</name></member>
+      <member refid="class_dados_1_1_condominios_1a5de40fac9d95f37ad2a5a0be7951a01e" prot="public" virt="non-virtual"><scope>Dados::Condominios</scope><name>ObterCondominioPorNome</name></member>
+      <member refid="class_dados_1_1_condominios_1acf50c656e5e62f794771fbd8bd2c7eae" prot="public" virt="non-virtual"><scope>Dados::Condominios</scope><name>ObterCondominios</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

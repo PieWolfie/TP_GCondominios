@@ -1,0 +1,7 @@
+<map id="Excecoes.ProprietarioException.NifProprietarioNuloOuVazioException" name="Excecoes.ProprietarioException.NifProprietarioNuloOuVazioException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando o NIF do proprietário é nulo ou vazio." alt="" coords="5,159,289,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_proprietario_exception.html" title="Exceção base para o domínio de Proprietário." alt="" coords="60,82,234,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,126,150,159,144,159,144,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="102,5,192,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,50,150,82,144,82,144,50"/>
+</map>

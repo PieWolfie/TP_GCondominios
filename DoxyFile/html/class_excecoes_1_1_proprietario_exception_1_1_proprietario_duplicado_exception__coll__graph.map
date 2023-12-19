@@ -1,0 +1,7 @@
+<map id="Excecoes.ProprietarioException.ProprietarioDuplicadoException" name="Excecoes.ProprietarioException.ProprietarioDuplicadoException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando um proprietário duplicado é adicionado à lista." alt="" coords="5,159,256,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_proprietario_exception.html" title="Exceção base para o domínio de Proprietário." alt="" coords="44,82,217,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,126,133,159,128,159,128,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="85,5,176,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,50,133,82,128,82,128,50"/>
+</map>

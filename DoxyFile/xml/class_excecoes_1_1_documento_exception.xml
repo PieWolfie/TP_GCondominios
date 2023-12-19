@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_documento_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::DocumentoException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_documento_exception_1_1_carregar_documentos_exception" prot="public" virt="non-virtual">Excecoes.DocumentoException.CarregarDocumentosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_documento_exception_1_1_conteudo_documento_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.DocumentoException.ConteudoDocumentoNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_documento_exception_1_1_documento_duplicado_exception" prot="public" virt="non-virtual">Excecoes.DocumentoException.DocumentoDuplicadoException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_documento_exception_1_1_gravar_documentos_exception" prot="public" virt="non-virtual">Excecoes.DocumentoException.GravarDocumentosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_documento_exception_1_1_nome_documento_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.DocumentoException.NomeDocumentoNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_documento_exception_1_1_tipo_documento_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.DocumentoException.TipoDocumentoNuloOuVazioException</derivedcompoundref>
+    <innerclass refid="class_excecoes_1_1_documento_exception_1_1_carregar_documentos_exception" prot="public">Excecoes::DocumentoException::CarregarDocumentosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_documento_exception_1_1_conteudo_documento_nulo_ou_vazio_exception" prot="public">Excecoes::DocumentoException::ConteudoDocumentoNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_documento_exception_1_1_documento_duplicado_exception" prot="public">Excecoes::DocumentoException::DocumentoDuplicadoException</innerclass>
+    <innerclass refid="class_excecoes_1_1_documento_exception_1_1_gravar_documentos_exception" prot="public">Excecoes::DocumentoException::GravarDocumentosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_documento_exception_1_1_nome_documento_nulo_ou_vazio_exception" prot="public">Excecoes::DocumentoException::NomeDocumentoNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_documento_exception_1_1_tipo_documento_nulo_ou_vazio_exception" prot="public">Excecoes::DocumentoException::TipoDocumentoNuloOuVazioException</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_documento_exception_1a6d51d6105c1fc36d9b3a80afac522908" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.DocumentoException.DocumentoException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>DocumentoException</name>
+        <qualifiedname>Excecoes.DocumentoException.DocumentoException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="146" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção base para o domínio de Documento. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.DocumentoException</label>
+        <link refid="class_excecoes_1_1_documento_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Excecoes.DocumentoException.CarregarDocumentosException</label>
+        <link refid="class_excecoes_1_1_documento_exception_1_1_carregar_documentos_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Excecoes.DocumentoException.ConteudoDocumentoNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_documento_exception_1_1_conteudo_documento_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Excecoes.DocumentoException.DocumentoDuplicadoException</label>
+        <link refid="class_excecoes_1_1_documento_exception_1_1_documento_duplicado_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Excecoes.DocumentoException.GravarDocumentosException</label>
+        <link refid="class_excecoes_1_1_documento_exception_1_1_gravar_documentos_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Excecoes.DocumentoException.NomeDocumentoNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_documento_exception_1_1_nome_documento_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Excecoes.DocumentoException.TipoDocumentoNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_documento_exception_1_1_tipo_documento_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.DocumentoException</label>
+        <link refid="class_excecoes_1_1_documento_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="144" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="145" bodyend="217"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_documento_exception_1a6d51d6105c1fc36d9b3a80afac522908" prot="public" virt="non-virtual"><scope>Excecoes::DocumentoException</scope><name>DocumentoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

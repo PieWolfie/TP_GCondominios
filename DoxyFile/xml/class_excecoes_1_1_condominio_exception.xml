@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_condominio_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::CondominioException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_carregar_condominios_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.CarregarCondominiosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_condominio_duplicado_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.CondominioDuplicadoException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_despesas_condominio_vazias_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.DespesasCondominioVaziasException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_documentos_condominio_vazios_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.DocumentosCondominioVaziosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_endereco_condominio_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.EnderecoCondominioNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_gravar_condominios_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.GravarCondominiosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_imoveis_condominio_vazios_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.ImoveisCondominioVaziosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_nome_condominio_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.NomeCondominioNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_proprietarios_condominio_vazios_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.ProprietariosCondominioVaziosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_condominio_exception_1_1_reunioes_condominio_vazias_exception" prot="public" virt="non-virtual">Excecoes.CondominioException.ReunioesCondominioVaziasException</derivedcompoundref>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_carregar_condominios_exception" prot="public">Excecoes::CondominioException::CarregarCondominiosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_condominio_duplicado_exception" prot="public">Excecoes::CondominioException::CondominioDuplicadoException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_despesas_condominio_vazias_exception" prot="public">Excecoes::CondominioException::DespesasCondominioVaziasException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_documentos_condominio_vazios_exception" prot="public">Excecoes::CondominioException::DocumentosCondominioVaziosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_endereco_condominio_nulo_ou_vazio_exception" prot="public">Excecoes::CondominioException::EnderecoCondominioNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_gravar_condominios_exception" prot="public">Excecoes::CondominioException::GravarCondominiosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_imoveis_condominio_vazios_exception" prot="public">Excecoes::CondominioException::ImoveisCondominioVaziosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_nome_condominio_nulo_ou_vazio_exception" prot="public">Excecoes::CondominioException::NomeCondominioNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_proprietarios_condominio_vazios_exception" prot="public">Excecoes::CondominioException::ProprietariosCondominioVaziosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_condominio_exception_1_1_reunioes_condominio_vazias_exception" prot="public">Excecoes::CondominioException::ReunioesCondominioVaziasException</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_condominio_exception_1abe0794ac1e970320c7aac47cd1ef798a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.CondominioException.CondominioException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>CondominioException</name>
+        <qualifiedname>Excecoes.CondominioException.CondominioException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="25" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção base para o domínio de Condomínio. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Excecoes.CondominioException.CarregarCondominiosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_carregar_condominios_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Excecoes.CondominioException.CondominioDuplicadoException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_condominio_duplicado_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Excecoes.CondominioException.DespesasCondominioVaziasException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_despesas_condominio_vazias_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Excecoes.CondominioException.DocumentosCondominioVaziosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_documentos_condominio_vazios_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Excecoes.CondominioException.EnderecoCondominioNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_endereco_condominio_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Excecoes.CondominioException.GravarCondominiosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_gravar_condominios_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Excecoes.CondominioException.ImoveisCondominioVaziosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_imoveis_condominio_vazios_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Excecoes.CondominioException.NomeCondominioNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_nome_condominio_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Excecoes.CondominioException.ProprietariosCondominioVaziosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_proprietarios_condominio_vazios_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Excecoes.CondominioException.ReunioesCondominioVaziasException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_reunioes_condominio_vazias_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="23" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="24" bodyend="139"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_condominio_exception_1abe0794ac1e970320c7aac47cd1ef798a" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException</scope><name>CondominioException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

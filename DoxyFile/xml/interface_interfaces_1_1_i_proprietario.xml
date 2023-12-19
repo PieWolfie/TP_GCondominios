@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_interfaces_1_1_i_proprietario" kind="interface" language="C#" prot="public">
+    <compoundname>Interfaces::IProprietario</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="interface_interfaces_1_1_i_proprietario_1ad592a73de78a38b09d0f529677aa921e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IProprietario.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>Interfaces.IProprietario.Nome</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o nome do proprietário. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="23" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_proprietario_1aed85984c4599b7733daf5744a486f906" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IProprietario.Contato</definition>
+        <argsstring></argsstring>
+        <name>Contato</name>
+        <qualifiedname>Interfaces.IProprietario.Contato</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o número de telefone do proprietário. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="28" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_proprietario_1aec759451def8ecd9eaa8389a3901f47e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IProprietario.Imovel</definition>
+        <argsstring></argsstring>
+        <name>Imovel</name>
+        <qualifiedname>Interfaces.IProprietario.Imovel</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o identificador único do imóvel do proprietário. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="33" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_proprietario_1af49cf7ec066bf378cfb4ab9f316e7642" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IProprietario.Nif</definition>
+        <argsstring></argsstring>
+        <name>Nif</name>
+        <qualifiedname>Interfaces.IProprietario.Nif</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o número de identificação fiscal do proprietário. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="38" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="38" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="18" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="19" bodyend="39"/>
+    <listofallmembers>
+      <member refid="interface_interfaces_1_1_i_proprietario_1aed85984c4599b7733daf5744a486f906" prot="public" virt="non-virtual"><scope>Interfaces::IProprietario</scope><name>Contato</name></member>
+      <member refid="interface_interfaces_1_1_i_proprietario_1aec759451def8ecd9eaa8389a3901f47e" prot="public" virt="non-virtual"><scope>Interfaces::IProprietario</scope><name>Imovel</name></member>
+      <member refid="interface_interfaces_1_1_i_proprietario_1af49cf7ec066bf378cfb4ab9f316e7642" prot="public" virt="non-virtual"><scope>Interfaces::IProprietario</scope><name>Nif</name></member>
+      <member refid="interface_interfaces_1_1_i_proprietario_1ad592a73de78a38b09d0f529677aa921e" prot="public" virt="non-virtual"><scope>Interfaces::IProprietario</scope><name>Nome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

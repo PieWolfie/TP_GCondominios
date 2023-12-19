@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_regras_negocio" kind="namespace" language="C#">
+    <compoundname>RegrasNegocio</compoundname>
+    <innerclass refid="class_regras_negocio_1_1_condominio_regras" prot="public">RegrasNegocio::CondominioRegras</innerclass>
+    <innerclass refid="class_regras_negocio_1_1_despesa_regras" prot="public">RegrasNegocio::DespesaRegras</innerclass>
+    <innerclass refid="class_regras_negocio_1_1_documento_regras" prot="public">RegrasNegocio::DocumentoRegras</innerclass>
+    <innerclass refid="class_regras_negocio_1_1_imovel_regras" prot="public">RegrasNegocio::ImovelRegras</innerclass>
+    <innerclass refid="class_regras_negocio_1_1_proprietario_regras" prot="public">RegrasNegocio::ProprietarioRegras</innerclass>
+    <innerclass refid="class_regras_negocio_1_1_reuniao_regras" prot="public">RegrasNegocio::ReuniaoRegras</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::DespesaException::GravarDespesasException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_despesa_exception" prot="public" virt="non-virtual">Excecoes.DespesaException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception_1aa989aa0f8619f19667d951c78f5646dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.DespesaException.GravarDespesasException.GravarDespesasException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>GravarDespesasException</name>
+        <qualifiedname>Excecoes.DespesaException.GravarDespesasException.GravarDespesasException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="465" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="465" bodyend="468"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada ao ocorrer um erro durante a gravação de despesas. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DespesaException.GravarDespesasException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DespesaException.GravarDespesasException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="463" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="464" bodyend="469"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_despesa_exception_1ad5b96f468440b4d35f3f06d94fe64082" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException::GravarDespesasException</scope><name>DespesaException</name></member>
+      <member refid="class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception_1aa989aa0f8619f19667d951c78f5646dc" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException::GravarDespesasException</scope><name>GravarDespesasException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

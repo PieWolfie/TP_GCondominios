@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_interfaces_1_1_i_documento" kind="interface" language="C#" prot="public">
+    <compoundname>Interfaces::IDocumento</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="interface_interfaces_1_1_i_documento_1aae8a1ca1295d8e69abab8df77e217676" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IDocumento.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>Interfaces.IDocumento.Nome</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o nome do documento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="139" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_documento_1a8261e277bcf15c26c1dd9d177237e252" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IDocumento.Tipo</definition>
+        <argsstring></argsstring>
+        <name>Tipo</name>
+        <qualifiedname>Interfaces.IDocumento.Tipo</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o tipo do documento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="144" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="144" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_documento_1a1b8fcb516749fb5b6eb193be5518d941" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IDocumento.Conteudo</definition>
+        <argsstring></argsstring>
+        <name>Conteudo</name>
+        <qualifiedname>Interfaces.IDocumento.Conteudo</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o conteúdo do documento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="149" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="149" bodyend="149"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="134" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="135" bodyend="150"/>
+    <listofallmembers>
+      <member refid="interface_interfaces_1_1_i_documento_1a1b8fcb516749fb5b6eb193be5518d941" prot="public" virt="non-virtual"><scope>Interfaces::IDocumento</scope><name>Conteudo</name></member>
+      <member refid="interface_interfaces_1_1_i_documento_1aae8a1ca1295d8e69abab8df77e217676" prot="public" virt="non-virtual"><scope>Interfaces::IDocumento</scope><name>Nome</name></member>
+      <member refid="interface_interfaces_1_1_i_documento_1a8261e277bcf15c26c1dd9d177237e252" prot="public" virt="non-virtual"><scope>Interfaces::IDocumento</scope><name>Tipo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

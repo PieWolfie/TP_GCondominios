@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_imovel_exception_1_1_proprietarios_imovel_vazios_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ImovelException::ProprietariosImovelVaziosException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_imovel_exception" prot="public" virt="non-virtual">Excecoes.ImovelException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_imovel_exception_1_1_proprietarios_imovel_vazios_exception_1a6a47084f114dbf952cefa72cd0f86e1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ImovelException.ProprietariosImovelVaziosException.ProprietariosImovelVaziosException</definition>
+        <argsstring>()</argsstring>
+        <name>ProprietariosImovelVaziosException</name>
+        <qualifiedname>Excecoes.ImovelException.ProprietariosImovelVaziosException.ProprietariosImovelVaziosException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="509" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="509" bodyend="512"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando a lista de proprietários associados ao imóvel está vazia. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ImovelException.ProprietariosImovelVaziosException</label>
+        <link refid="class_excecoes_1_1_imovel_exception_1_1_proprietarios_imovel_vazios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ImovelException</label>
+        <link refid="class_excecoes_1_1_imovel_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ImovelException.ProprietariosImovelVaziosException</label>
+        <link refid="class_excecoes_1_1_imovel_exception_1_1_proprietarios_imovel_vazios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ImovelException</label>
+        <link refid="class_excecoes_1_1_imovel_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="507" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="508" bodyend="513"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_imovel_exception_1af3553d310f71fcd16dd4a8f303f17164" prot="public" virt="non-virtual"><scope>Excecoes::ImovelException::ProprietariosImovelVaziosException</scope><name>ImovelException</name></member>
+      <member refid="class_excecoes_1_1_imovel_exception_1_1_proprietarios_imovel_vazios_exception_1a6a47084f114dbf952cefa72cd0f86e1d" prot="public" virt="non-virtual"><scope>Excecoes::ImovelException::ProprietariosImovelVaziosException</scope><name>ProprietariosImovelVaziosException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_3ef8005d54edd470561c245eb7ec0d10" kind="dir">
+    <compoundname>C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces</compoundname>
+    <innerdir refid="dir_f49ba847f9260565008c8b6517cda60e">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/obj</innerdir>
+    <innerfile refid="_interfaces_8cs">Interfaces.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/"/>
+  </compounddef>
+</doxygen>

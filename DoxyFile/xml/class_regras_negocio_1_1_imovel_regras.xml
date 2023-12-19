@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_regras_negocio_1_1_imovel_regras" kind="class" language="C#" prot="public">
+    <compoundname>RegrasNegocio::ImovelRegras</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_regras_negocio_1_1_imovel_regras_1adbaf4796d56db9474460981cf7820369" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RegrasNegocio.ImovelRegras.ValidarImovel</definition>
+        <argsstring>(Imovel imovel)</argsstring>
+        <name>ValidarImovel</name>
+        <qualifiedname>RegrasNegocio.ImovelRegras.ValidarImovel</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_imovel" kindref="compound">Imovel</ref></type>
+          <declname>imovel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" line="90" column="28" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" bodystart="90" bodyend="106"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" line="88" column="19" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" bodystart="89" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_regras_negocio_1_1_imovel_regras_1adbaf4796d56db9474460981cf7820369" prot="public" virt="non-virtual"><scope>RegrasNegocio::ImovelRegras</scope><name>ValidarImovel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

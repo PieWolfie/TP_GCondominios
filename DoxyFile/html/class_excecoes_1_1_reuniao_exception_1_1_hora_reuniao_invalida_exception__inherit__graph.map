@@ -1,0 +1,7 @@
+<map id="Excecoes.ReuniaoException.HoraReuniaoInvalidaException" name="Excecoes.ReuniaoException.HoraReuniaoInvalidaException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando a hora da reunião é inválida." alt="" coords="5,159,240,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_reuniao_exception.html" title="Exceção base para o domínio de Reunião." alt="" coords="48,82,197,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,126,125,159,120,159,120,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="77,5,168,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="125,50,125,82,120,82,120,50"/>
+</map>

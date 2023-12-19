@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_condominio" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Condominio</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_condominio_1a06a4abb5c12fe191a99c3f6644b030cd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Condominio.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <qualifiedname>ObjetosNegocio.Condominio.nome</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="25" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_condominio_1a9bcc787e4941e0e933ba38834a60552e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Condominio.endereco</definition>
+        <argsstring></argsstring>
+        <name>endereco</name>
+        <qualifiedname>ObjetosNegocio.Condominio.endereco</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="28" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_condominio_1a21301b32afea569107f2551d5f7b8163" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.despesas</definition>
+        <argsstring></argsstring>
+        <name>despesas</name>
+        <qualifiedname>ObjetosNegocio.Condominio.despesas</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="31" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_condominio_1aaf78590e18284a151d77af661107cde0" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.imoveis</definition>
+        <argsstring></argsstring>
+        <name>imoveis</name>
+        <qualifiedname>ObjetosNegocio.Condominio.imoveis</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="34" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_condominio_1ac1438ec018980fef7677e7dc080f2e3e" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.proprietarios</definition>
+        <argsstring></argsstring>
+        <name>proprietarios</name>
+        <qualifiedname>ObjetosNegocio.Condominio.proprietarios</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="37" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_condominio_1aa42a8bd9261ce16f7c076fbaa37daa49" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.reunioes</definition>
+        <argsstring></argsstring>
+        <name>reunioes</name>
+        <qualifiedname>ObjetosNegocio.Condominio.reunioes</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="40" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_condominio_1a6eeda1eadde4e96775dd58bb8994451c" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.documentos</definition>
+        <argsstring></argsstring>
+        <name>documentos</name>
+        <qualifiedname>ObjetosNegocio.Condominio.documentos</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="43" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_condominio_1a4f7c04331cbb42fa4bb17f4f5c8c1ace" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Condominio.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.Condominio.Nome</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o nome do condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="79" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="80" bodyend="83"/>
+        <referencedby refid="class_dados_1_1_condominios_1a86aed0ed38356293055f958e11a7c0e3" compoundref="_condominios_8cs" startline="60" endline="74">Dados.Condominios.AdicionarCondominio</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" compoundref="_condominio_8cs" startline="61" endline="70">ObjetosNegocio.Condominio.Condominio</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_condominio_1a9ddb1dfebbc38ac57e3ba1d1809047d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Condominio.Endereco</definition>
+        <argsstring></argsstring>
+        <name>Endereco</name>
+        <qualifiedname>ObjetosNegocio.Condominio.Endereco</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o endereço do condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="88" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="89" bodyend="92"/>
+        <referencedby refid="class_dados_1_1_condominios_1a86aed0ed38356293055f958e11a7c0e3" compoundref="_condominios_8cs" startline="60" endline="74">Dados.Condominios.AdicionarCondominio</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" compoundref="_condominio_8cs" startline="61" endline="70">ObjetosNegocio.Condominio.Condominio</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_condominio_1a85516cb7714d8210b1c0b63a6d653ecc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.Despesas</definition>
+        <argsstring></argsstring>
+        <name>Despesas</name>
+        <qualifiedname>ObjetosNegocio.Condominio.Despesas</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de despesas associadas ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="97" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="98" bodyend="101"/>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a1817aec2ae82aba5a35a3526d18b9171" compoundref="_condominio_8cs" startline="150" endline="153">ObjetosNegocio.Condominio.AdicionarDespesa</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" compoundref="_condominio_8cs" startline="61" endline="70">ObjetosNegocio.Condominio.Condominio</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_condominio_1a8c0a1d8101ed01abe4eb7b0e9a70d1a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.Imoveis</definition>
+        <argsstring></argsstring>
+        <name>Imoveis</name>
+        <qualifiedname>ObjetosNegocio.Condominio.Imoveis</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de imóveis associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="106" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="107" bodyend="110"/>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1ad9b12a0a6f2cfea1ab294871e9bcb44a" compoundref="_condominio_8cs" startline="159" endline="162">ObjetosNegocio.Condominio.AdicionarImovel</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" compoundref="_condominio_8cs" startline="61" endline="70">ObjetosNegocio.Condominio.Condominio</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_condominio_1a837565a56ae379439974a43fdb7a360a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.Proprietarios</definition>
+        <argsstring></argsstring>
+        <name>Proprietarios</name>
+        <qualifiedname>ObjetosNegocio.Condominio.Proprietarios</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de proprietários associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="115" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="116" bodyend="119"/>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1ab2591c8f94314b90e648937295447d2e" compoundref="_condominio_8cs" startline="168" endline="171">ObjetosNegocio.Condominio.AdicionarProprietario</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" compoundref="_condominio_8cs" startline="61" endline="70">ObjetosNegocio.Condominio.Condominio</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_condominio_1ac9771bdff7e977cd04c119dc098d2fa6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.Reunioes</definition>
+        <argsstring></argsstring>
+        <name>Reunioes</name>
+        <qualifiedname>ObjetosNegocio.Condominio.Reunioes</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de reuniões agendadas no condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="124" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="125" bodyend="128"/>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a9f4f2729136d0ead662462d994427df4" compoundref="_condominio_8cs" startline="177" endline="180">ObjetosNegocio.Condominio.AgendarReuniao</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" compoundref="_condominio_8cs" startline="61" endline="70">ObjetosNegocio.Condominio.Condominio</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_condominio_1acdc28f0fb717e848059301cc181ed0d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Condominio.Documentos</definition>
+        <argsstring></argsstring>
+        <name>Documentos</name>
+        <qualifiedname>ObjetosNegocio.Condominio.Documentos</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de documentos associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="133" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="134" bodyend="137"/>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1aac141cb2cf454f0ea1669807a4858b20" compoundref="_condominio_8cs" startline="186" endline="189">ObjetosNegocio.Condominio.AdicionarDocumento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" compoundref="_condominio_8cs" startline="61" endline="70">ObjetosNegocio.Condominio.Condominio</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Condominio.Condominio</definition>
+        <argsstring>(string nome, string endereco, List&lt; string &gt; despesas, List&lt; string &gt; imoveis, List&lt; string &gt; proprietarios, List&lt; string &gt; reunioes, List&lt; string &gt; documentos)</argsstring>
+        <name>Condominio</name>
+        <qualifiedname>ObjetosNegocio.Condominio.Condominio</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>endereco</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>despesas</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>imoveis</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>proprietarios</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>reunioes</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>documentos</declname>
+        </param>
+        <briefdescription>
+<para>Construtor predefinido para a classe Condominio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O nome do condomínio.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endereco</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O endereço do condomínio.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>despesas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A lista de despesas associadas ao condomínio.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imoveis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A lista de imóveis associados ao condomínio.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>proprietarios</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A lista de proprietários associados ao condomínio.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reunioes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A lista de reuniões agendadas no condomínio.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>documentos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A lista de documentos associados ao condomínio.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="61" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="61" bodyend="70"/>
+        <references refid="class_objetos_negocio_1_1_condominio_1a85516cb7714d8210b1c0b63a6d653ecc" compoundref="_condominio_8cs" startline="98" endline="101">ObjetosNegocio.Condominio.Despesas</references>
+        <references refid="class_objetos_negocio_1_1_condominio_1acdc28f0fb717e848059301cc181ed0d1" compoundref="_condominio_8cs" startline="134" endline="137">ObjetosNegocio.Condominio.Documentos</references>
+        <references refid="class_objetos_negocio_1_1_condominio_1a9ddb1dfebbc38ac57e3ba1d1809047d2" compoundref="_condominio_8cs" startline="89" endline="92">ObjetosNegocio.Condominio.Endereco</references>
+        <references refid="class_objetos_negocio_1_1_condominio_1a8c0a1d8101ed01abe4eb7b0e9a70d1a5" compoundref="_condominio_8cs" startline="107" endline="110">ObjetosNegocio.Condominio.Imoveis</references>
+        <references refid="class_objetos_negocio_1_1_condominio_1a4f7c04331cbb42fa4bb17f4f5c8c1ace" compoundref="_condominio_8cs" startline="80" endline="83">ObjetosNegocio.Condominio.Nome</references>
+        <references refid="class_objetos_negocio_1_1_condominio_1a837565a56ae379439974a43fdb7a360a" compoundref="_condominio_8cs" startline="116" endline="119">ObjetosNegocio.Condominio.Proprietarios</references>
+        <references refid="class_objetos_negocio_1_1_condominio_1ac9771bdff7e977cd04c119dc098d2fa6" compoundref="_condominio_8cs" startline="125" endline="128">ObjetosNegocio.Condominio.Reunioes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_condominio_1a1817aec2ae82aba5a35a3526d18b9171" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Condominio.AdicionarDespesa</definition>
+        <argsstring>(string despesa)</argsstring>
+        <name>AdicionarDespesa</name>
+        <qualifiedname>ObjetosNegocio.Condominio.AdicionarDespesa</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>despesa</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona uma nova despesa à lista de despesas associadas ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>despesa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A despesa a ser adicionada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="150" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="150" bodyend="153"/>
+        <references refid="class_objetos_negocio_1_1_condominio_1a85516cb7714d8210b1c0b63a6d653ecc" compoundref="_condominio_8cs" startline="98" endline="101">ObjetosNegocio.Condominio.Despesas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_condominio_1ad9b12a0a6f2cfea1ab294871e9bcb44a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Condominio.AdicionarImovel</definition>
+        <argsstring>(string imovel)</argsstring>
+        <name>AdicionarImovel</name>
+        <qualifiedname>ObjetosNegocio.Condominio.AdicionarImovel</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>imovel</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um novo imóvel à lista de imóveis associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>imovel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O imóvel a ser adicionado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="159" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="159" bodyend="162"/>
+        <references refid="class_objetos_negocio_1_1_condominio_1a8c0a1d8101ed01abe4eb7b0e9a70d1a5" compoundref="_condominio_8cs" startline="107" endline="110">ObjetosNegocio.Condominio.Imoveis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_condominio_1ab2591c8f94314b90e648937295447d2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Condominio.AdicionarProprietario</definition>
+        <argsstring>(string proprietario)</argsstring>
+        <name>AdicionarProprietario</name>
+        <qualifiedname>ObjetosNegocio.Condominio.AdicionarProprietario</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>proprietario</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um novo proprietário à lista de proprietários associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>proprietario</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O proprietário a ser adicionado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="168" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="168" bodyend="171"/>
+        <references refid="class_objetos_negocio_1_1_condominio_1a837565a56ae379439974a43fdb7a360a" compoundref="_condominio_8cs" startline="116" endline="119">ObjetosNegocio.Condominio.Proprietarios</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_condominio_1a9f4f2729136d0ead662462d994427df4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Condominio.AgendarReuniao</definition>
+        <argsstring>(string reuniao)</argsstring>
+        <name>AgendarReuniao</name>
+        <qualifiedname>ObjetosNegocio.Condominio.AgendarReuniao</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>reuniao</declname>
+        </param>
+        <briefdescription>
+<para>Agenda uma nova reunião na lista de reuniões do condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>reuniao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A reunião a ser agendada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="177" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="177" bodyend="180"/>
+        <references refid="class_objetos_negocio_1_1_condominio_1ac9771bdff7e977cd04c119dc098d2fa6" compoundref="_condominio_8cs" startline="125" endline="128">ObjetosNegocio.Condominio.Reunioes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_condominio_1aac141cb2cf454f0ea1669807a4858b20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Condominio.AdicionarDocumento</definition>
+        <argsstring>(string documento)</argsstring>
+        <name>AdicionarDocumento</name>
+        <qualifiedname>ObjetosNegocio.Condominio.AdicionarDocumento</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>documento</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um novo documento à lista de documentos associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>documento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O documento a ser adicionado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="186" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="186" bodyend="189"/>
+        <references refid="class_objetos_negocio_1_1_condominio_1acdc28f0fb717e848059301cc181ed0d1" compoundref="_condominio_8cs" startline="134" endline="137">ObjetosNegocio.Condominio.Documentos</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Representa um condomínio no contexto do sistema. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" line="20" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Condominio.cs" bodystart="21" bodyend="197"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_condominio_1a1817aec2ae82aba5a35a3526d18b9171" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>AdicionarDespesa</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1aac141cb2cf454f0ea1669807a4858b20" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>AdicionarDocumento</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1ad9b12a0a6f2cfea1ab294871e9bcb44a" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>AdicionarImovel</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1ab2591c8f94314b90e648937295447d2e" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>AdicionarProprietario</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a9f4f2729136d0ead662462d994427df4" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>AgendarReuniao</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a693a4db0a26c6e7c98dc7c6bd1e7c4fd" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>Condominio</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a21301b32afea569107f2551d5f7b8163" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>despesas</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a85516cb7714d8210b1c0b63a6d653ecc" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>Despesas</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a6eeda1eadde4e96775dd58bb8994451c" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>documentos</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1acdc28f0fb717e848059301cc181ed0d1" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>Documentos</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a9bcc787e4941e0e933ba38834a60552e" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>endereco</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a9ddb1dfebbc38ac57e3ba1d1809047d2" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>Endereco</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1aaf78590e18284a151d77af661107cde0" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>imoveis</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a8c0a1d8101ed01abe4eb7b0e9a70d1a5" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>Imoveis</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a06a4abb5c12fe191a99c3f6644b030cd" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>nome</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a4f7c04331cbb42fa4bb17f4f5c8c1ace" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>Nome</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1ac1438ec018980fef7677e7dc080f2e3e" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>proprietarios</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1a837565a56ae379439974a43fdb7a360a" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>Proprietarios</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1aa42a8bd9261ce16f7c076fbaa37daa49" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>reunioes</name></member>
+      <member refid="class_objetos_negocio_1_1_condominio_1ac9771bdff7e977cd04c119dc098d2fa6" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Condominio</scope><name>Reunioes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,7 @@
+<map id="Excecoes.DespesaException.GravarDespesasException" name="Excecoes.DespesaException.GravarDespesasException">
+<area shape="rect" id="Node000001" title="Exceção lançada ao ocorrer um erro durante a gravação de despesas." alt="" coords="5,159,237,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_despesa_exception.html" title="Exceção base para o domínio de Despesa." alt="" coords="44,82,198,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,126,124,159,118,159,118,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="76,5,166,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="124,50,124,82,118,82,118,50"/>
+</map>

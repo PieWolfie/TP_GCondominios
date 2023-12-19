@@ -1,0 +1,352 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_documento" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Documento</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_documento_1a66a25085b611e539d017310da6742eaf" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Documento.tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <qualifiedname>ObjetosNegocio.Documento.tipo</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="24" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_documento_1acd7ef10c24179713702bb198ffcb577b" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Documento.dataCriacao</definition>
+        <argsstring></argsstring>
+        <name>dataCriacao</name>
+        <qualifiedname>ObjetosNegocio.Documento.dataCriacao</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="27" column="26" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_documento_1a31216636f6037ae606d21ef3f034d422" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Documento.conteudo</definition>
+        <argsstring></argsstring>
+        <name>conteudo</name>
+        <qualifiedname>ObjetosNegocio.Documento.conteudo</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="30" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_documento_1a2de56b8b0a53a4f9f9b547259b13bf74" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Documento.nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <qualifiedname>ObjetosNegocio.Documento.nome</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="33" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_documento_1a8405540bd4088ef6e6fb2f350ee52706" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Documento.Tipo</definition>
+        <argsstring></argsstring>
+        <name>Tipo</name>
+        <qualifiedname>ObjetosNegocio.Documento.Tipo</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o tipo do documento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="63" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="64" bodyend="67"/>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" compoundref="_documento_8cs" startline="110" endline="116">ObjetosNegocio.Documento.AdicionarDocumento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" compoundref="_documento_8cs" startline="48" endline="54">ObjetosNegocio.Documento.Documento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" compoundref="_documento_8cs" startline="121" endline="127">ObjetosNegocio.Documento.RemoverDocumento</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Documento.DataCriacao</definition>
+        <argsstring></argsstring>
+        <name>DataCriacao</name>
+        <qualifiedname>ObjetosNegocio.Documento.DataCriacao</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a data de criação do documento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="72" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="73" bodyend="76"/>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" compoundref="_documento_8cs" startline="110" endline="116">ObjetosNegocio.Documento.AdicionarDocumento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" compoundref="_documento_8cs" startline="48" endline="54">ObjetosNegocio.Documento.Documento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" compoundref="_documento_8cs" startline="121" endline="127">ObjetosNegocio.Documento.RemoverDocumento</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Documento.Conteudo</definition>
+        <argsstring></argsstring>
+        <name>Conteudo</name>
+        <qualifiedname>ObjetosNegocio.Documento.Conteudo</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o conteúdo do documento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="81" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="82" bodyend="85"/>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" compoundref="_documento_8cs" startline="110" endline="116">ObjetosNegocio.Documento.AdicionarDocumento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a073d0e865b99ea2b10133ddcaa7903fa" compoundref="_documento_8cs" startline="132" endline="135">ObjetosNegocio.Documento.AtualizarConteudo</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" compoundref="_documento_8cs" startline="48" endline="54">ObjetosNegocio.Documento.Documento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" compoundref="_documento_8cs" startline="121" endline="127">ObjetosNegocio.Documento.RemoverDocumento</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Documento.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>ObjetosNegocio.Documento.Nome</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o nome do documento. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="90" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="91" bodyend="94"/>
+        <referencedby refid="class_dados_1_1_documentos_1adec6adc6e7c017197c7ca0476349c9c0" compoundref="_documentos_8cs" startline="56" endline="70">Dados.Documentos.AdicionarDocumento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" compoundref="_documento_8cs" startline="110" endline="116">ObjetosNegocio.Documento.AdicionarDocumento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" compoundref="_documento_8cs" startline="48" endline="54">ObjetosNegocio.Documento.Documento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" compoundref="_documento_8cs" startline="121" endline="127">ObjetosNegocio.Documento.RemoverDocumento</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Documento.Documento</definition>
+        <argsstring>(string tipo, DateTime dataCriacao, string conteudo, string nome)</argsstring>
+        <name>Documento</name>
+        <qualifiedname>ObjetosNegocio.Documento.Documento</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tipo</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataCriacao</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>conteudo</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe Documento com os parâmetros especificados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tipo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O tipo do documento.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataCriacao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data de criação do documento.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>conteudo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O conteúdo do documento.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O nome do documento.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="48" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="48" bodyend="54"/>
+        <references refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" compoundref="_documento_8cs" startline="82" endline="85">ObjetosNegocio.Documento.Conteudo</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" compoundref="_documento_8cs" startline="73" endline="76">ObjetosNegocio.Documento.DataCriacao</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" compoundref="_documento_8cs" startline="91" endline="94">ObjetosNegocio.Documento.Nome</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a8405540bd4088ef6e6fb2f350ee52706" compoundref="_documento_8cs" startline="64" endline="67">ObjetosNegocio.Documento.Tipo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Documento.AdicionarDocumento</definition>
+        <argsstring>(string tipo, DateTime dataCriacao, string conteudo, string nome)</argsstring>
+        <name>AdicionarDocumento</name>
+        <qualifiedname>ObjetosNegocio.Documento.AdicionarDocumento</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tipo</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataCriacao</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>conteudo</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um novo documento com o tipo, data de criação, conteúdo e nome fornecidos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tipo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O tipo do documento.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataCriacao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data de criação do documento.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>conteudo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O conteúdo do documento.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nome</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O nome do documento.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="110" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="110" bodyend="116"/>
+        <references refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" compoundref="_documento_8cs" startline="82" endline="85">ObjetosNegocio.Documento.Conteudo</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" compoundref="_documento_8cs" startline="73" endline="76">ObjetosNegocio.Documento.DataCriacao</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" compoundref="_documento_8cs" startline="91" endline="94">ObjetosNegocio.Documento.Nome</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a8405540bd4088ef6e6fb2f350ee52706" compoundref="_documento_8cs" startline="64" endline="67">ObjetosNegocio.Documento.Tipo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Documento.RemoverDocumento</definition>
+        <argsstring>()</argsstring>
+        <name>RemoverDocumento</name>
+        <qualifiedname>ObjetosNegocio.Documento.RemoverDocumento</qualifiedname>
+        <briefdescription>
+<para>Remove o documento, definindo todos os atributos como vazios ou padrão. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="121" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="121" bodyend="127"/>
+        <references refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" compoundref="_documento_8cs" startline="82" endline="85">ObjetosNegocio.Documento.Conteudo</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" compoundref="_documento_8cs" startline="73" endline="76">ObjetosNegocio.Documento.DataCriacao</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" compoundref="_documento_8cs" startline="91" endline="94">ObjetosNegocio.Documento.Nome</references>
+        <references refid="class_objetos_negocio_1_1_documento_1a8405540bd4088ef6e6fb2f350ee52706" compoundref="_documento_8cs" startline="64" endline="67">ObjetosNegocio.Documento.Tipo</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_documento_1a073d0e865b99ea2b10133ddcaa7903fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Documento.AtualizarConteudo</definition>
+        <argsstring>(string conteudo)</argsstring>
+        <name>AtualizarConteudo</name>
+        <qualifiedname>ObjetosNegocio.Documento.AtualizarConteudo</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>conteudo</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona ou atualiza o documento com o conteúdo fornecido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>conteudo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O novo conteúdo do documento.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="132" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="132" bodyend="135"/>
+        <references refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" compoundref="_documento_8cs" startline="82" endline="85">ObjetosNegocio.Documento.Conteudo</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Representa um documento no contexto do sistema. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" line="19" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Documento.cs" bodystart="20" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_documento_1a415882173aa406239958e70f754166a5" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>AdicionarDocumento</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1a073d0e865b99ea2b10133ddcaa7903fa" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>AtualizarConteudo</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1a31216636f6037ae606d21ef3f034d422" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>conteudo</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1ae878d58a6df957308a2ac30f8d1590ea" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>Conteudo</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1acd7ef10c24179713702bb198ffcb577b" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>dataCriacao</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1a3ef30bb9229d71a222e094d4bfb94793" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>DataCriacao</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1a91cf402fdb9c30fbd65e180326e581ad" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>Documento</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1a2de56b8b0a53a4f9f9b547259b13bf74" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>nome</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1a94439ef5016e2ef2f1a888277133bd92" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>Nome</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1afb23cb710dead5c850c365bdde2c957a" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>RemoverDocumento</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1a66a25085b611e539d017310da6742eaf" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>tipo</name></member>
+      <member refid="class_objetos_negocio_1_1_documento_1a8405540bd4088ef6e6fb2f350ee52706" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Documento</scope><name>Tipo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

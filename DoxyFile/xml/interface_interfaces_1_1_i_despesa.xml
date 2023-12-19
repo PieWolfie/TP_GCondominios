@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_interfaces_1_1_i_despesa" kind="interface" language="C#" prot="public">
+    <compoundname>Interfaces::IDespesa</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="interface_interfaces_1_1_i_despesa_1ab9c55d4e63a2e9bd2fd30f209413d2ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IDespesa.Tipo</definition>
+        <argsstring></argsstring>
+        <name>Tipo</name>
+        <qualifiedname>Interfaces.IDespesa.Tipo</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o tipo da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="46" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_despesa_1aa5b7f40dbec2b637bf6d64147b44d07e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal</type>
+        <definition>decimal Interfaces.IDespesa.Valor</definition>
+        <argsstring></argsstring>
+        <name>Valor</name>
+        <qualifiedname>Interfaces.IDespesa.Valor</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o valor da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="50" column="17" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_despesa_1abd16366a820ad3f4e15524948c787449" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Interfaces.IDespesa.DataVencimento</definition>
+        <argsstring></argsstring>
+        <name>DataVencimento</name>
+        <qualifiedname>Interfaces.IDespesa.DataVencimento</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a data de vencimento da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="55" column="18" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_despesa_1a209574b29d73747dadab685199e9796e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Interfaces.IDespesa.EstadoPagamento</definition>
+        <argsstring></argsstring>
+        <name>EstadoPagamento</name>
+        <qualifiedname>Interfaces.IDespesa.EstadoPagamento</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o estado de pagamento da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="60" column="14" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_despesa_1af3ba3738b406420a498b6e4fcbc9d39b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.IDespesa.Imovel</definition>
+        <argsstring></argsstring>
+        <name>Imovel</name>
+        <qualifiedname>Interfaces.IDespesa.Imovel</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o imóvel associado à despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="65" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="41" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="42" bodyend="66"/>
+    <listofallmembers>
+      <member refid="interface_interfaces_1_1_i_despesa_1abd16366a820ad3f4e15524948c787449" prot="public" virt="non-virtual"><scope>Interfaces::IDespesa</scope><name>DataVencimento</name></member>
+      <member refid="interface_interfaces_1_1_i_despesa_1a209574b29d73747dadab685199e9796e" prot="public" virt="non-virtual"><scope>Interfaces::IDespesa</scope><name>EstadoPagamento</name></member>
+      <member refid="interface_interfaces_1_1_i_despesa_1af3ba3738b406420a498b6e4fcbc9d39b" prot="public" virt="non-virtual"><scope>Interfaces::IDespesa</scope><name>Imovel</name></member>
+      <member refid="interface_interfaces_1_1_i_despesa_1ab9c55d4e63a2e9bd2fd30f209413d2ec" prot="public" virt="non-virtual"><scope>Interfaces::IDespesa</scope><name>Tipo</name></member>
+      <member refid="interface_interfaces_1_1_i_despesa_1aa5b7f40dbec2b637bf6d64147b44d07e" prot="public" virt="non-virtual"><scope>Interfaces::IDespesa</scope><name>Valor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

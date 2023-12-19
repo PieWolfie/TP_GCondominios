@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_regras_negocio_1_1_despesa_regras" kind="class" language="C#" prot="public">
+    <compoundname>RegrasNegocio::DespesaRegras</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_regras_negocio_1_1_despesa_regras_1ac63bfb99a9de474810d0af93a946b188" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void RegrasNegocio.DespesaRegras.ValidarDespesa</definition>
+        <argsstring>(Despesa despesa)</argsstring>
+        <name>ValidarDespesa</name>
+        <qualifiedname>RegrasNegocio.DespesaRegras.ValidarDespesa</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref></type>
+          <declname>despesa</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" line="64" column="28" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" bodystart="64" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" line="62" column="19" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/RegrasNegocio/Regras.cs" bodystart="63" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_regras_negocio_1_1_despesa_regras_1ac63bfb99a9de474810d0af93a946b188" prot="public" virt="non-virtual"><scope>RegrasNegocio::DespesaRegras</scope><name>ValidarDespesa</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

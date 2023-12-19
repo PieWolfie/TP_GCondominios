@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_imovel" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Imovel</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_imovel_1a9433067fcb74a40fe5fb1ec2831ad666" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Imovel.idImovel</definition>
+        <argsstring></argsstring>
+        <name>idImovel</name>
+        <qualifiedname>ObjetosNegocio.Imovel.idImovel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="23" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_imovel_1a641dcb3417bccac0b7dda8e9fe4737a0" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_proprietario" kindref="compound">Proprietario</ref> &gt;</type>
+        <definition>List&lt;Proprietario&gt; ObjetosNegocio.Imovel.proprietarios</definition>
+        <argsstring></argsstring>
+        <name>proprietarios</name>
+        <qualifiedname>ObjetosNegocio.Imovel.proprietarios</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="26" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_imovel_1ac6ba4be3b4b05c64abb1d00b7a000830" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref> &gt;</type>
+        <definition>List&lt;Despesa&gt; ObjetosNegocio.Imovel.despesas</definition>
+        <argsstring></argsstring>
+        <name>despesas</name>
+        <qualifiedname>ObjetosNegocio.Imovel.despesas</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="29" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_imovel_1a914ba1e7aad4af2f72ec32c6d0af2ddc" prot="private" static="no" mutable="no">
+        <type>List&lt; decimal &gt;</type>
+        <definition>List&lt;decimal&gt; ObjetosNegocio.Imovel.quotas</definition>
+        <argsstring></argsstring>
+        <name>quotas</name>
+        <qualifiedname>ObjetosNegocio.Imovel.quotas</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="32" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_imovel_1a084c0aacf3490e4debc324b5e88b55ed" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Imovel.endereco</definition>
+        <argsstring></argsstring>
+        <name>endereco</name>
+        <qualifiedname>ObjetosNegocio.Imovel.endereco</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="35" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1aac775bede62928998e5013895899bac2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int ObjetosNegocio.Imovel.IdImovel</definition>
+        <argsstring></argsstring>
+        <name>IdImovel</name>
+        <qualifiedname>ObjetosNegocio.Imovel.IdImovel</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o identificador único do imóvel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="71" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="72" bodyend="75"/>
+        <referencedby refid="class_dados_1_1_imoveis_1ad2533595df4f07fd1e22be40f76a4381" compoundref="_imoveis_8cs" startline="56" endline="71">Dados.Imoveis.AdicionarImovel</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1a7559fd24680ba72666f9e3d529a6c5d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_proprietario" kindref="compound">Proprietario</ref> &gt;</type>
+        <definition>List&lt;Proprietario&gt; ObjetosNegocio.Imovel.Proprietarios</definition>
+        <argsstring></argsstring>
+        <name>Proprietarios</name>
+        <qualifiedname>ObjetosNegocio.Imovel.Proprietarios</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de proprietários do imóvel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="80" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="81" bodyend="84"/>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref> &gt;</type>
+        <definition>List&lt;Despesa&gt; ObjetosNegocio.Imovel.Despesas</definition>
+        <argsstring></argsstring>
+        <name>Despesas</name>
+        <qualifiedname>ObjetosNegocio.Imovel.Despesas</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de despesas associadas ao imóvel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="89" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="90" bodyend="93"/>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1a43b0b98368c103b01400f54fc0a1c444" compoundref="_imovel_8cs" startline="124" endline="127">ObjetosNegocio.Imovel.AdicionarDespesa</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1acac4fdb9de60d4fede8bd8e589839437" compoundref="_imovel_8cs" startline="142" endline="161">ObjetosNegocio.Imovel.ObterSaldo</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; decimal &gt;</type>
+        <definition>List&lt;decimal&gt; ObjetosNegocio.Imovel.Quotas</definition>
+        <argsstring></argsstring>
+        <name>Quotas</name>
+        <qualifiedname>ObjetosNegocio.Imovel.Quotas</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de quotas associadas ao imóvel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="98" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="99" bodyend="102"/>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1acac4fdb9de60d4fede8bd8e589839437" compoundref="_imovel_8cs" startline="142" endline="161">ObjetosNegocio.Imovel.ObterSaldo</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1a0c2dd2478001df89a5a6905de302c23c" compoundref="_imovel_8cs" startline="133" endline="136">ObjetosNegocio.Imovel.PagarQuota</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_imovel_1a595dcf4672d8353fa4f2bfaa91fb7175" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Imovel.Endereco</definition>
+        <argsstring></argsstring>
+        <name>Endereco</name>
+        <qualifiedname>ObjetosNegocio.Imovel.Endereco</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o endereço do imóvel. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="107" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="108" bodyend="111"/>
+        <referencedby refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" compoundref="_imovel_8cs" startline="49" endline="62">ObjetosNegocio.Imovel.Imovel</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Imovel.Imovel</definition>
+        <argsstring>(int idImovel, List&lt; Proprietario &gt; proprietarios, string endereco)</argsstring>
+        <name>Imovel</name>
+        <qualifiedname>ObjetosNegocio.Imovel.Imovel</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idImovel</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_objetos_negocio_1_1_proprietario" kindref="compound">Proprietario</ref> &gt;</type>
+          <declname>proprietarios</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>endereco</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe Imovel com os parâmetros especificados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idImovel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O identificador único do imóvel.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>proprietarios</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A lista de proprietários do imóvel.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endereco</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O endereço do imóvel.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="49" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="49" bodyend="62"/>
+        <references refid="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" compoundref="_imovel_8cs" startline="90" endline="93">ObjetosNegocio.Imovel.Despesas</references>
+        <references refid="class_objetos_negocio_1_1_imovel_1a595dcf4672d8353fa4f2bfaa91fb7175" compoundref="_imovel_8cs" startline="108" endline="111">ObjetosNegocio.Imovel.Endereco</references>
+        <references refid="class_objetos_negocio_1_1_imovel_1aac775bede62928998e5013895899bac2" compoundref="_imovel_8cs" startline="72" endline="75">ObjetosNegocio.Imovel.IdImovel</references>
+        <references refid="class_objetos_negocio_1_1_imovel_1a7559fd24680ba72666f9e3d529a6c5d9" compoundref="_imovel_8cs" startline="81" endline="84">ObjetosNegocio.Imovel.Proprietarios</references>
+        <references refid="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" compoundref="_imovel_8cs" startline="99" endline="102">ObjetosNegocio.Imovel.Quotas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_imovel_1a43b0b98368c103b01400f54fc0a1c444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Imovel.AdicionarDespesa</definition>
+        <argsstring>(Despesa despesa)</argsstring>
+        <name>AdicionarDespesa</name>
+        <qualifiedname>ObjetosNegocio.Imovel.AdicionarDespesa</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref></type>
+          <declname>despesa</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona uma despesa à lista de despesas associadas ao imóvel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>despesa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A despesa a ser adicionada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="124" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="124" bodyend="127"/>
+        <references refid="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" compoundref="_imovel_8cs" startline="90" endline="93">ObjetosNegocio.Imovel.Despesas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_imovel_1a0c2dd2478001df89a5a6905de302c23c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Imovel.PagarQuota</definition>
+        <argsstring>(decimal valorPago)</argsstring>
+        <name>PagarQuota</name>
+        <qualifiedname>ObjetosNegocio.Imovel.PagarQuota</qualifiedname>
+        <param>
+          <type>decimal</type>
+          <declname>valorPago</declname>
+        </param>
+        <briefdescription>
+<para>Registra o pagamento de uma quota do imóvel. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>valorPago</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor pago para a quota.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="133" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="133" bodyend="136"/>
+        <references refid="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" compoundref="_imovel_8cs" startline="99" endline="102">ObjetosNegocio.Imovel.Quotas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_imovel_1acac4fdb9de60d4fede8bd8e589839437" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>decimal</type>
+        <definition>decimal ObjetosNegocio.Imovel.ObterSaldo</definition>
+        <argsstring>()</argsstring>
+        <name>ObterSaldo</name>
+        <qualifiedname>ObjetosNegocio.Imovel.ObterSaldo</qualifiedname>
+        <briefdescription>
+<para>Obtém o saldo total do imóvel considerando as despesas e quotas pagas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>O saldo total do imóvel.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="142" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="142" bodyend="161"/>
+        <references refid="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" compoundref="_imovel_8cs" startline="90" endline="93">ObjetosNegocio.Imovel.Despesas</references>
+        <references refid="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" compoundref="_imovel_8cs" startline="99" endline="102">ObjetosNegocio.Imovel.Quotas</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Representa um imóvel no contexto do sistema. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" line="18" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Imovel.cs" bodystart="19" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_imovel_1a43b0b98368c103b01400f54fc0a1c444" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>AdicionarDespesa</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1ac6ba4be3b4b05c64abb1d00b7a000830" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>despesas</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1a22c46d20ffddbed0337366728652076b" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>Despesas</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1a084c0aacf3490e4debc324b5e88b55ed" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>endereco</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1a595dcf4672d8353fa4f2bfaa91fb7175" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>Endereco</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1a9433067fcb74a40fe5fb1ec2831ad666" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>idImovel</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1aac775bede62928998e5013895899bac2" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>IdImovel</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1acc6002b968928c322602616d2c80b5bd" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>Imovel</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1acac4fdb9de60d4fede8bd8e589839437" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>ObterSaldo</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1a0c2dd2478001df89a5a6905de302c23c" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>PagarQuota</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1a641dcb3417bccac0b7dda8e9fe4737a0" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>proprietarios</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1a7559fd24680ba72666f9e3d529a6c5d9" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>Proprietarios</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1a914ba1e7aad4af2f72ec32c6d0af2ddc" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>quotas</name></member>
+      <member refid="class_objetos_negocio_1_1_imovel_1ae55c7cb8098bafd08f4b2c7cbb2f7435" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Imovel</scope><name>Quotas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

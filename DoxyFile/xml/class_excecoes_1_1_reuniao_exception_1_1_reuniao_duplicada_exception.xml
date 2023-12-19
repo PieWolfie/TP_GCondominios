@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_reuniao_exception_1_1_reuniao_duplicada_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ReuniaoException::ReuniaoDuplicadaException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_reuniao_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_reuniao_exception_1_1_reuniao_duplicada_exception_1afbf43fa8dbced87a051215e2cb1a3665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ReuniaoException.ReuniaoDuplicadaException.ReuniaoDuplicadaException</definition>
+        <argsstring>(DateTime data, TimeSpan hora)</argsstring>
+        <name>ReuniaoDuplicadaException</name>
+        <qualifiedname>Excecoes.ReuniaoException.ReuniaoDuplicadaException.ReuniaoDuplicadaException</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>hora</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="278" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="278" bodyend="281"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando uma reunião duplicada é adicionada à lista. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ReuniaoException.ReuniaoDuplicadaException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_reuniao_duplicada_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ReuniaoException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ReuniaoException.ReuniaoDuplicadaException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_reuniao_duplicada_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ReuniaoException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="276" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="277" bodyend="282"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_reuniao_exception_1_1_reuniao_duplicada_exception_1afbf43fa8dbced87a051215e2cb1a3665" prot="public" virt="non-virtual"><scope>Excecoes::ReuniaoException::ReuniaoDuplicadaException</scope><name>ReuniaoDuplicadaException</name></member>
+      <member refid="class_excecoes_1_1_reuniao_exception_1ad928e339cb58614d42d6f0ef97542b47" prot="public" virt="non-virtual"><scope>Excecoes::ReuniaoException::ReuniaoDuplicadaException</scope><name>ReuniaoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

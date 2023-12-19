@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::DespesaException::DespesaDuplicadaException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_despesa_exception" prot="public" virt="non-virtual">Excecoes.DespesaException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception_1a26e0fac8d3b2236aba4b7f922a92e5be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.DespesaException.DespesaDuplicadaException.DespesaDuplicadaException</definition>
+        <argsstring>(string tipo, decimal valor, DateTime dataVencimento)</argsstring>
+        <name>DespesaDuplicadaException</name>
+        <qualifiedname>Excecoes.DespesaException.DespesaDuplicadaException.DespesaDuplicadaException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tipo</declname>
+        </param>
+        <param>
+          <type>decimal</type>
+          <declname>valor</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataVencimento</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="454" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="454" bodyend="457"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando uma despesa duplicada é adicionada à lista. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DespesaException.DespesaDuplicadaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DespesaException.DespesaDuplicadaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="452" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="453" bodyend="458"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception_1a26e0fac8d3b2236aba4b7f922a92e5be" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException::DespesaDuplicadaException</scope><name>DespesaDuplicadaException</name></member>
+      <member refid="class_excecoes_1_1_despesa_exception_1ad5b96f468440b4d35f3f06d94fe64082" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException::DespesaDuplicadaException</scope><name>DespesaException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

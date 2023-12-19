@@ -1,0 +1,19 @@
+<map id="Excecoes.ImovelException" name="Excecoes.ImovelException">
+<area shape="rect" id="Node000001" title="Exceção base para o domínio de Imóvel." alt="" coords="144,226,351,255"/>
+<area shape="rect" id="Node000003" href="$class_excecoes_1_1_imovel_exception_1_1_carregar_imoveis_exception.html" title="Exceção lançada ao ocorrer um erro durante o carregamento de imóveis." alt="" coords="440,5,651,52"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,212,284,177,315,136,353,95,398,61,438,43,441,48,400,66,357,99,319,139,289,180,266,214"/>
+<area shape="rect" id="Node000004" href="$class_excecoes_1_1_imovel_exception_1_1_despesas_imovel_vazias_exception.html" title="Exceção lançada quando a lista de despesas associadas ao imóvel está vazia." alt="" coords="419,76,673,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="275,214,329,172,398,132,426,121,428,126,400,136,332,176,278,218"/>
+<area shape="rect" id="Node000005" href="$class_excecoes_1_1_imovel_exception_1_1_endereco_imovel_nulo_ou_vazio_exception.html" title="Exceção lançada quando o endereço do imóvel é nulo ou vazio." alt="" coords="399,147,692,193"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="325,220,398,202,443,191,444,197,400,207,326,225"/>
+<area shape="rect" id="Node000006" href="$class_excecoes_1_1_imovel_exception_1_1_gravar_imoveis_exception.html" title="Exceção lançada ao ocorrer um erro durante a gravação de imóveis." alt="" coords="440,217,651,264"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="367,238,440,238,440,243,367,243"/>
+<area shape="rect" id="Node000007" href="$class_excecoes_1_1_imovel_exception_1_1_imovel_duplicado_exception.html" title="Exceção lançada quando um imóvel duplicado é adicionado à lista." alt="" coords="440,288,651,335"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="326,257,400,274,444,285,443,290,398,279,325,262"/>
+<area shape="rect" id="Node000008" href="$class_excecoes_1_1_imovel_exception_1_1_proprietarios_imovel_vazios_exception.html" title="Exceção lançada quando a lista de proprietários associados ao imóvel está vazia." alt="" coords="409,359,682,405"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="278,263,332,305,400,345,428,356,426,361,398,350,329,310,275,267"/>
+<area shape="rect" id="Node000009" href="$class_excecoes_1_1_imovel_exception_1_1_quotas_imovel_vazias_exception.html" title="Exceção lançada quando a lista de quotas associadas ao imóvel está vazia." alt="" coords="430,429,662,476"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="266,267,289,301,319,342,357,382,400,416,430,430,428,435,398,420,353,386,315,345,284,305,262,270"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,96,255"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,238,143,238,143,243,111,243"/>
+</map>

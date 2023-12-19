@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_019bcb82956823f403a157affed6c543" kind="dir">
+    <compoundname>C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes</compoundname>
+    <innerdir refid="dir_017d3ac509159834b81bbadff73d7bba">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/obj</innerdir>
+    <innerdir refid="dir_3747a065af505509c49b867e63d9f27a">C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Properties</innerdir>
+    <innerfile refid="_excecoes_8cs">Excecoes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/"/>
+  </compounddef>
+</doxygen>

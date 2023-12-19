@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_condominio_exception_1_1_carregar_condominios_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::CondominioException::CarregarCondominiosException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_condominio_exception" prot="public" virt="non-virtual">Excecoes.CondominioException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_condominio_exception_1_1_carregar_condominios_exception_1a55af199b45345fcb0deef275378981fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.CondominioException.CarregarCondominiosException.CarregarCondominiosException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>CarregarCondominiosException</name>
+        <qualifiedname>Excecoes.CondominioException.CarregarCondominiosException.CarregarCondominiosException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="134" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="134" bodyend="137"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada ao ocorrer um erro durante o carregamento de condomínios. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.CondominioException.CarregarCondominiosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_carregar_condominios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.CondominioException.CarregarCondominiosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_carregar_condominios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="132" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="133" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_condominio_exception_1_1_carregar_condominios_exception_1a55af199b45345fcb0deef275378981fc" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException::CarregarCondominiosException</scope><name>CarregarCondominiosException</name></member>
+      <member refid="class_excecoes_1_1_condominio_exception_1abe0794ac1e970320c7aac47cd1ef798a" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException::CarregarCondominiosException</scope><name>CondominioException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

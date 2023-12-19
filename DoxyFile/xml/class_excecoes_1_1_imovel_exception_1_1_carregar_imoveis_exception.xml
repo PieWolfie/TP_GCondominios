@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_imovel_exception_1_1_carregar_imoveis_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ImovelException::CarregarImoveisException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_imovel_exception" prot="public" virt="non-virtual">Excecoes.ImovelException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_imovel_exception_1_1_carregar_imoveis_exception_1add596650c8bf31eb1f02e3a1e0af4c93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ImovelException.CarregarImoveisException.CarregarImoveisException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>CarregarImoveisException</name>
+        <qualifiedname>Excecoes.ImovelException.CarregarImoveisException.CarregarImoveisException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="564" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="564" bodyend="567"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada ao ocorrer um erro durante o carregamento de imóveis. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ImovelException.CarregarImoveisException</label>
+        <link refid="class_excecoes_1_1_imovel_exception_1_1_carregar_imoveis_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ImovelException</label>
+        <link refid="class_excecoes_1_1_imovel_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ImovelException.CarregarImoveisException</label>
+        <link refid="class_excecoes_1_1_imovel_exception_1_1_carregar_imoveis_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ImovelException</label>
+        <link refid="class_excecoes_1_1_imovel_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="562" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="563" bodyend="568"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_imovel_exception_1_1_carregar_imoveis_exception_1add596650c8bf31eb1f02e3a1e0af4c93" prot="public" virt="non-virtual"><scope>Excecoes::ImovelException::CarregarImoveisException</scope><name>CarregarImoveisException</name></member>
+      <member refid="class_excecoes_1_1_imovel_exception_1af3553d310f71fcd16dd4a8f303f17164" prot="public" virt="non-virtual"><scope>Excecoes::ImovelException::CarregarImoveisException</scope><name>ImovelException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

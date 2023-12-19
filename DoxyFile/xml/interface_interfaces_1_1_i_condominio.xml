@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_interfaces_1_1_i_condominio" kind="interface" language="C#" prot="public">
+    <compoundname>Interfaces::ICondominio</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="interface_interfaces_1_1_i_condominio_1a46b819493378eb6ab160840d7c487edf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.ICondominio.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <qualifiedname>Interfaces.ICondominio.Nome</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o nome do condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="101" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_condominio_1a24a3b258f30aff5140ad8b7326f5f4eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Interfaces.ICondominio.Endereco</definition>
+        <argsstring></argsstring>
+        <name>Endereco</name>
+        <qualifiedname>Interfaces.ICondominio.Endereco</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o endereço do condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="106" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_condominio_1a68687625416e0284c4d06f3ee3384136" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="interface_interfaces_1_1_i_despesa" kindref="compound">IDespesa</ref> &gt;</type>
+        <definition>List&lt;IDespesa&gt; Interfaces.ICondominio.Despesas</definition>
+        <argsstring></argsstring>
+        <name>Despesas</name>
+        <qualifiedname>Interfaces.ICondominio.Despesas</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de despesas associadas ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="111" column="14" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_condominio_1a67f1f6a9034f5802856e92710f806ef7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="interface_interfaces_1_1_i_imovel" kindref="compound">IImovel</ref> &gt;</type>
+        <definition>List&lt;IImovel&gt; Interfaces.ICondominio.Imoveis</definition>
+        <argsstring></argsstring>
+        <name>Imoveis</name>
+        <qualifiedname>Interfaces.ICondominio.Imoveis</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de imóveis associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="116" column="14" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_condominio_1a601393f568cf892ebd7f2600d50b689f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="interface_interfaces_1_1_i_proprietario" kindref="compound">IProprietario</ref> &gt;</type>
+        <definition>List&lt;IProprietario&gt; Interfaces.ICondominio.Proprietarios</definition>
+        <argsstring></argsstring>
+        <name>Proprietarios</name>
+        <qualifiedname>Interfaces.ICondominio.Proprietarios</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de proprietários associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="121" column="14" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_condominio_1a1832b2b71cce529d2f2d7fc1c83f793f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="interface_interfaces_1_1_i_reuniao" kindref="compound">IReuniao</ref> &gt;</type>
+        <definition>List&lt;IReuniao&gt; Interfaces.ICondominio.Reunioes</definition>
+        <argsstring></argsstring>
+        <name>Reunioes</name>
+        <qualifiedname>Interfaces.ICondominio.Reunioes</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de reuniões agendadas no condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="126" column="14" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_interfaces_1_1_i_condominio_1add8485203a438e2b4ee98efaa0e38b55" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="interface_interfaces_1_1_i_documento" kindref="compound">IDocumento</ref> &gt;</type>
+        <definition>List&lt;IDocumento&gt; Interfaces.ICondominio.Documentos</definition>
+        <argsstring></argsstring>
+        <name>Documentos</name>
+        <qualifiedname>Interfaces.ICondominio.Documentos</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de documentos associados ao condomínio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="131" column="14" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="131" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="96" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" bodystart="97" bodyend="132"/>
+    <listofallmembers>
+      <member refid="interface_interfaces_1_1_i_condominio_1a68687625416e0284c4d06f3ee3384136" prot="public" virt="non-virtual"><scope>Interfaces::ICondominio</scope><name>Despesas</name></member>
+      <member refid="interface_interfaces_1_1_i_condominio_1add8485203a438e2b4ee98efaa0e38b55" prot="public" virt="non-virtual"><scope>Interfaces::ICondominio</scope><name>Documentos</name></member>
+      <member refid="interface_interfaces_1_1_i_condominio_1a24a3b258f30aff5140ad8b7326f5f4eb" prot="public" virt="non-virtual"><scope>Interfaces::ICondominio</scope><name>Endereco</name></member>
+      <member refid="interface_interfaces_1_1_i_condominio_1a67f1f6a9034f5802856e92710f806ef7" prot="public" virt="non-virtual"><scope>Interfaces::ICondominio</scope><name>Imoveis</name></member>
+      <member refid="interface_interfaces_1_1_i_condominio_1a46b819493378eb6ab160840d7c487edf" prot="public" virt="non-virtual"><scope>Interfaces::ICondominio</scope><name>Nome</name></member>
+      <member refid="interface_interfaces_1_1_i_condominio_1a601393f568cf892ebd7f2600d50b689f" prot="public" virt="non-virtual"><scope>Interfaces::ICondominio</scope><name>Proprietarios</name></member>
+      <member refid="interface_interfaces_1_1_i_condominio_1a1832b2b71cce529d2f2d7fc1c83f793f" prot="public" virt="non-virtual"><scope>Interfaces::ICondominio</scope><name>Reunioes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

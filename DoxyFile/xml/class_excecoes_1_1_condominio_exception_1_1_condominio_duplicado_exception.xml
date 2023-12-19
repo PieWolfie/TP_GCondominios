@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_condominio_exception_1_1_condominio_duplicado_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::CondominioException::CondominioDuplicadoException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_condominio_exception" prot="public" virt="non-virtual">Excecoes.CondominioException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_condominio_exception_1_1_condominio_duplicado_exception_1a9254184603455badc5af9be272a85dc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.CondominioException.CondominioDuplicadoException.CondominioDuplicadoException</definition>
+        <argsstring>(string nome, string endereco)</argsstring>
+        <name>CondominioDuplicadoException</name>
+        <qualifiedname>Excecoes.CondominioException.CondominioDuplicadoException.CondominioDuplicadoException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>endereco</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="112" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="112" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando um condomínio duplicado é adicionado à lista. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.CondominioException.CondominioDuplicadoException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_condominio_duplicado_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.CondominioException.CondominioDuplicadoException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_condominio_duplicado_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="110" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="111" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_condominio_exception_1_1_condominio_duplicado_exception_1a9254184603455badc5af9be272a85dc6" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException::CondominioDuplicadoException</scope><name>CondominioDuplicadoException</name></member>
+      <member refid="class_excecoes_1_1_condominio_exception_1abe0794ac1e970320c7aac47cd1ef798a" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException::CondominioDuplicadoException</scope><name>CondominioException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

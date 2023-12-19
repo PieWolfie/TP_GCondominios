@@ -1,0 +1,19 @@
+<map id="Excecoes.ProprietarioException" name="Excecoes.ProprietarioException">
+<area shape="rect" id="Node000001" title="Exceção base para o domínio de Proprietário." alt="" coords="144,226,390,255"/>
+<area shape="rect" id="Node000003" href="$class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception.html" title="Exceção lançada ao ocorrer um erro durante o carregamento de proprietários." alt="" coords="473,5,723,52"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="284,212,310,177,345,136,388,95,437,61,471,46,473,51,439,66,392,99,349,140,314,180,288,215"/>
+<area shape="rect" id="Node000004" href="$class_excecoes_1_1_proprietario_exception_1_1_contato_proprietario_nulo_ou_vazio_exception.html" title="Exceção lançada quando o contato do proprietário é nulo ou vazio." alt="" coords="438,76,757,123"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="297,215,360,172,398,150,437,132,468,121,469,126,439,136,400,155,362,177,300,219"/>
+<area shape="rect" id="Node000005" href="$class_excecoes_1_1_proprietario_exception_1_1_gravar_proprietarios_exception.html" title="Exceção lançada ao ocorrer um erro durante a gravação de proprietários." alt="" coords="473,147,723,193"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="352,220,485,191,486,196,353,225"/>
+<area shape="rect" id="Node000006" href="$class_excecoes_1_1_proprietario_exception_1_1_imovel_proprietario_nulo_ou_vazio_exception.html" title="Exceção lançada quando o imóvel associado ao proprietário é nulo ou vazio." alt="" coords="444,217,752,264"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="405,238,443,238,443,243,405,243"/>
+<area shape="rect" id="Node000007" href="$class_excecoes_1_1_proprietario_exception_1_1_nif_proprietario_nulo_ou_vazio_exception.html" title="Exceção lançada quando o NIF do proprietário é nulo ou vazio." alt="" coords="456,288,739,335"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="353,256,486,285,485,290,352,261"/>
+<area shape="rect" id="Node000008" href="$class_excecoes_1_1_proprietario_exception_1_1_nome_proprietario_nulo_ou_vazio_exception.html" title="Exceção lançada quando o nome do proprietário é nulo ou vazio." alt="" coords="445,359,751,405"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="300,262,362,305,400,326,439,345,469,356,468,361,437,350,398,331,360,309,297,267"/>
+<area shape="rect" id="Node000009" href="$class_excecoes_1_1_proprietario_exception_1_1_proprietario_duplicado_exception.html" title="Exceção lançada quando um proprietário duplicado é adicionado à lista." alt="" coords="473,429,723,476"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="288,266,314,301,349,342,392,382,439,416,473,431,471,435,437,420,388,386,345,345,310,304,284,269"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,96,255"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,238,143,238,143,243,111,243"/>
+</map>

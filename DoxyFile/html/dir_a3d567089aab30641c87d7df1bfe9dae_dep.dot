@@ -1,0 +1,21 @@
+digraph "C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=12,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=12,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_7c2e0486554cbcbdcbd69a85c4631c2b {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="POO_T1_Código", fontname=Helvetica,fontsize=12 style="filled,dashed", URL="dir_7c2e0486554cbcbdcbd69a85c4631c2b.html",tooltip=""]
+  subgraph clusterdir_a3d567089aab30641c87d7df1bfe9dae {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=12 style="filled,bold", URL="dir_a3d567089aab30641c87d7df1bfe9dae.html",tooltip=""]
+    dir_a3d567089aab30641c87d7df1bfe9dae [shape=plaintext, label="TP_GCondominios"];
+  dir_863cf8a7754432f5c6381295389fc66f [label="Dados", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_863cf8a7754432f5c6381295389fc66f.html",tooltip=""];
+  dir_019bcb82956823f403a157affed6c543 [label="Excecoes", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_019bcb82956823f403a157affed6c543.html",tooltip=""];
+  dir_3ef8005d54edd470561c245eb7ec0d10 [label="Interfaces", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_3ef8005d54edd470561c245eb7ec0d10.html",tooltip=""];
+  dir_884f7b534517c47d31917c3f558addc9 [label="ObjetosNegocio", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_884f7b534517c47d31917c3f558addc9.html",tooltip=""];
+  dir_1e36dc6d1a649eae2964c75c7f8267d3 [label="RegrasNegocio", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_1e36dc6d1a649eae2964c75c7f8267d3.html",tooltip=""];
+  dir_7f8f1cd73675e8dfa98d785253f6deb1 [label="TP_GCondominios", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_7f8f1cd73675e8dfa98d785253f6deb1.html",tooltip=""];
+  }
+  }
+}

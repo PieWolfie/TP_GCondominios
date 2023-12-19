@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_reuniao" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Reuniao</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_reuniao_1aa5384f854b4eed7b79f1fd2c18e7d6c7" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Reuniao.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.data</qualifiedname>
+        <briefdescription>
+<para>Representa a data da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="27" column="26" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_reuniao_1a7b74abe47a853b837cdd27ffdf421a1b" prot="private" static="no" mutable="no">
+        <type>TimeSpan</type>
+        <definition>TimeSpan ObjetosNegocio.Reuniao.hora</definition>
+        <argsstring></argsstring>
+        <name>hora</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.hora</qualifiedname>
+        <briefdescription>
+<para>Representa a hora da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="32" column="26" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_reuniao_1a5cb8a1b9f71d066bf2f13652835d2a4e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>ObjetosNegocio.Reuniao.string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.string</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+<para>Representa o local da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="37" column="17" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_reuniao_1a33c0121021d4a2fc20973ece18bd8096" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Reuniao.intervenientes</definition>
+        <argsstring></argsstring>
+        <name>intervenientes</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.intervenientes</qualifiedname>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+<para>Representa a lista de intervenientes na reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="42" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_reuniao_1ac9fd53eebfffd4a35c2c51d17505e0c2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Reuniao.ata</definition>
+        <argsstring></argsstring>
+        <name>ata</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.ata</qualifiedname>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+<para>Representa a ata da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="47" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1a17647a01f19c617c2bdcc9ad1b555b97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Reuniao.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.Data</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a data da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="83" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="84" bodyend="87"/>
+        <referencedby refid="class_dados_1_1_reunioes_1a9849bd2ed7ee5656ca4c4937da0b5085" compoundref="_reunioes_8cs" startline="57" endline="71">Dados.Reunioes.AdicionarReuniao</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" compoundref="_reuniao_8cs" startline="138" endline="143">ObjetosNegocio.Reuniao.AgendarReuniao</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_reuniao_1a7cb69b1f0fba1c24cf86da03506a9dae" compoundref="_reuniao_8cs" startline="69" endline="74">ObjetosNegocio.Reuniao.Reuniao</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1af3bb2f35e5fa159c3553d34160affe9b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>TimeSpan</type>
+        <definition>TimeSpan ObjetosNegocio.Reuniao.Hora</definition>
+        <argsstring></argsstring>
+        <name>Hora</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.Hora</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a hora da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="92" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="93" bodyend="96"/>
+        <referencedby refid="class_dados_1_1_reunioes_1a9849bd2ed7ee5656ca4c4937da0b5085" compoundref="_reunioes_8cs" startline="57" endline="71">Dados.Reunioes.AdicionarReuniao</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" compoundref="_reuniao_8cs" startline="138" endline="143">ObjetosNegocio.Reuniao.AgendarReuniao</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_reuniao_1a7cb69b1f0fba1c24cf86da03506a9dae" compoundref="_reuniao_8cs" startline="69" endline="74">ObjetosNegocio.Reuniao.Reuniao</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1a482bde275d7e59b9df91adb286480107" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Reuniao.Local</definition>
+        <argsstring></argsstring>
+        <name>Local</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.Local</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o local da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="101" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="102" bodyend="105"/>
+        <referencedby refid="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" compoundref="_reuniao_8cs" startline="138" endline="143">ObjetosNegocio.Reuniao.AgendarReuniao</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_reuniao_1a7cb69b1f0fba1c24cf86da03506a9dae" compoundref="_reuniao_8cs" startline="69" endline="74">ObjetosNegocio.Reuniao.Reuniao</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1ac519306385cc4b79b72c8fc83125572b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; ObjetosNegocio.Reuniao.Intervenientes</definition>
+        <argsstring></argsstring>
+        <name>Intervenientes</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.Intervenientes</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a lista de intervenientes na reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="110" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="111" bodyend="114"/>
+        <referencedby refid="class_objetos_negocio_1_1_reuniao_1a209a8a22924a6d7e27cc184998c32a61" compoundref="_reuniao_8cs" startline="149" endline="152">ObjetosNegocio.Reuniao.AdicionarInterveniente</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_reuniao_1adccf55363e116155c5815c53befaa6d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Reuniao.Ata</definition>
+        <argsstring></argsstring>
+        <name>Ata</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.Ata</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a ata da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="119" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="120" bodyend="123"/>
+        <referencedby refid="class_objetos_negocio_1_1_reuniao_1acd6ac65376816596bd5acb65c7fe26f9" compoundref="_reuniao_8cs" startline="158" endline="161">ObjetosNegocio.Reuniao.RegistarAta</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_reuniao_1a08bbd839e0c4db247988faa6722948f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Reuniao.Reuniao</definition>
+        <argsstring>()</argsstring>
+        <name>Reuniao</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.Reuniao</qualifiedname>
+        <briefdescription>
+<para>Construtor padrão da classe Reuniao. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="58" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_reuniao_1a7cb69b1f0fba1c24cf86da03506a9dae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Reuniao.Reuniao</definition>
+        <argsstring>(DateTime data, TimeSpan hora, string local)</argsstring>
+        <name>Reuniao</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.Reuniao</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>hora</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>local</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe Reuniao com os parâmetros especificados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data da reunião.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hora</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A hora da reunião.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>local</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O local da reunião.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="69" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="69" bodyend="74"/>
+        <references refid="class_objetos_negocio_1_1_reuniao_1a17647a01f19c617c2bdcc9ad1b555b97" compoundref="_reuniao_8cs" startline="84" endline="87">ObjetosNegocio.Reuniao.Data</references>
+        <references refid="class_objetos_negocio_1_1_reuniao_1af3bb2f35e5fa159c3553d34160affe9b" compoundref="_reuniao_8cs" startline="93" endline="96">ObjetosNegocio.Reuniao.Hora</references>
+        <references refid="class_objetos_negocio_1_1_reuniao_1a482bde275d7e59b9df91adb286480107" compoundref="_reuniao_8cs" startline="102" endline="105">ObjetosNegocio.Reuniao.Local</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Reuniao.AgendarReuniao</definition>
+        <argsstring>(DateTime data, TimeSpan hora, string local)</argsstring>
+        <name>AgendarReuniao</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.AgendarReuniao</qualifiedname>
+        <param>
+          <type>DateTime</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>TimeSpan</type>
+          <declname>hora</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>local</declname>
+        </param>
+        <briefdescription>
+<para>Agenda a reunião com a data, hora e local especificados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data da reunião.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hora</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A hora da reunião.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>local</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O local da reunião.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="138" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="138" bodyend="143"/>
+        <references refid="class_objetos_negocio_1_1_reuniao_1a17647a01f19c617c2bdcc9ad1b555b97" compoundref="_reuniao_8cs" startline="84" endline="87">ObjetosNegocio.Reuniao.Data</references>
+        <references refid="class_objetos_negocio_1_1_reuniao_1af3bb2f35e5fa159c3553d34160affe9b" compoundref="_reuniao_8cs" startline="93" endline="96">ObjetosNegocio.Reuniao.Hora</references>
+        <references refid="class_objetos_negocio_1_1_reuniao_1a482bde275d7e59b9df91adb286480107" compoundref="_reuniao_8cs" startline="102" endline="105">ObjetosNegocio.Reuniao.Local</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_reuniao_1a209a8a22924a6d7e27cc184998c32a61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Reuniao.AdicionarInterveniente</definition>
+        <argsstring>(string interveniente)</argsstring>
+        <name>AdicionarInterveniente</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.AdicionarInterveniente</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>interveniente</declname>
+        </param>
+        <briefdescription>
+<para>Adiciona um interveniente à lista de intervenientes na reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>interveniente</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O interveniente a ser adicionado.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="149" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="149" bodyend="152"/>
+        <references refid="class_objetos_negocio_1_1_reuniao_1ac519306385cc4b79b72c8fc83125572b" compoundref="_reuniao_8cs" startline="111" endline="114">ObjetosNegocio.Reuniao.Intervenientes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_reuniao_1acd6ac65376816596bd5acb65c7fe26f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Reuniao.RegistarAta</definition>
+        <argsstring>(string ata)</argsstring>
+        <name>RegistarAta</name>
+        <qualifiedname>ObjetosNegocio.Reuniao.RegistarAta</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>ata</declname>
+        </param>
+        <briefdescription>
+<para>Registra a ata da reunião. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ata</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A ata da reunião.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="158" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="158" bodyend="161"/>
+        <references refid="class_objetos_negocio_1_1_reuniao_1adccf55363e116155c5815c53befaa6d8" compoundref="_reuniao_8cs" startline="120" endline="123">ObjetosNegocio.Reuniao.Ata</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Representa uma reunião no contexto do sistema. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" line="20" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Reuniao.cs" bodystart="21" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_reuniao_1a209a8a22924a6d7e27cc184998c32a61" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>AdicionarInterveniente</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1acf9f084ebe4338053e1e9f014d9d44d5" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>AgendarReuniao</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1ac9fd53eebfffd4a35c2c51d17505e0c2" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>ata</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1adccf55363e116155c5815c53befaa6d8" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>Ata</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1aa5384f854b4eed7b79f1fd2c18e7d6c7" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>data</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1a17647a01f19c617c2bdcc9ad1b555b97" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>Data</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1a7b74abe47a853b837cdd27ffdf421a1b" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>hora</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1af3bb2f35e5fa159c3553d34160affe9b" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>Hora</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1a33c0121021d4a2fc20973ece18bd8096" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>intervenientes</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1ac519306385cc4b79b72c8fc83125572b" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>Intervenientes</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1a482bde275d7e59b9df91adb286480107" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>Local</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1acd6ac65376816596bd5acb65c7fe26f9" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>RegistarAta</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1a08bbd839e0c4db247988faa6722948f8" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>Reuniao</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1a7cb69b1f0fba1c24cf86da03506a9dae" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>Reuniao</name></member>
+      <member refid="class_objetos_negocio_1_1_reuniao_1a5cb8a1b9f71d066bf2f13652835d2a4e" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Reuniao</scope><name>string</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_condominio_exception_1_1_imoveis_condominio_vazios_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::CondominioException::ImoveisCondominioVaziosException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_condominio_exception" prot="public" virt="non-virtual">Excecoes.CondominioException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_condominio_exception_1_1_imoveis_condominio_vazios_exception_1a10f1b0cad24d3e68d07649e72ebb6f24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.CondominioException.ImoveisCondominioVaziosException.ImoveisCondominioVaziosException</definition>
+        <argsstring>()</argsstring>
+        <name>ImoveisCondominioVaziosException</name>
+        <qualifiedname>Excecoes.CondominioException.ImoveisCondominioVaziosException.ImoveisCondominioVaziosException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="68" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando a lista de imóveis associados ao condomínio está vazia. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.CondominioException.ImoveisCondominioVaziosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_imoveis_condominio_vazios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CondominioException</label>
+        <link refid="class_excecoes_1_1_condominio_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.CondominioException.ImoveisCondominioVaziosException</label>
+        <link refid="class_excecoes_1_1_condominio_exception_1_1_imoveis_condominio_vazios_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="66" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="67" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_condominio_exception_1abe0794ac1e970320c7aac47cd1ef798a" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException::ImoveisCondominioVaziosException</scope><name>CondominioException</name></member>
+      <member refid="class_excecoes_1_1_condominio_exception_1_1_imoveis_condominio_vazios_exception_1a10f1b0cad24d3e68d07649e72ebb6f24" prot="public" virt="non-virtual"><scope>Excecoes::CondominioException::ImoveisCondominioVaziosException</scope><name>ImoveisCondominioVaziosException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

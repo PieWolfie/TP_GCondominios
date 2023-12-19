@@ -1,0 +1,7 @@
+<map id="Excecoes.CondominioException.ReunioesCondominioVaziasException" name="Excecoes.CondominioException.ReunioesCondominioVaziasException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando a lista de reuniões agendadas no condomínio está vazia." alt="" coords="5,159,295,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_condominio_exception.html" title="Exceção base para o domínio de Condomínio." alt="" coords="62,82,238,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,126,153,159,147,159,147,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,5,195,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,50,153,82,147,82,147,50"/>
+</map>

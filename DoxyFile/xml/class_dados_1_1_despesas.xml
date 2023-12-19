@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_dados_1_1_despesas" kind="class" language="C#" prot="public">
+    <compoundname>Dados::Despesas</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dados_1_1_despesas_1a85f59d7acb73b11b0373344470cbd400" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref> &gt;</type>
+        <definition>List&lt;Despesa&gt; Dados.Despesas.listaDespesas</definition>
+        <argsstring></argsstring>
+        <name>listaDespesas</name>
+        <qualifiedname>Dados.Despesas.listaDespesas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="27" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dados_1_1_despesas_1ab8bbca3b077605f5f6880aa3e627b3e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Dados.Despesas.Despesas</definition>
+        <argsstring>()</argsstring>
+        <name>Despesas</name>
+        <qualifiedname>Dados.Despesas.Despesas</qualifiedname>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="38" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_despesas_1a6bf5fbc12ca843426917ce1fbde6744b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dados.Despesas.AdicionarDespesa</definition>
+        <argsstring>(Despesa despesa, bool lancaExcecao=false)</argsstring>
+        <name>AdicionarDespesa</name>
+        <qualifiedname>Dados.Despesas.AdicionarDespesa</qualifiedname>
+        <param>
+          <type><ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref></type>
+          <declname>despesa</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>lancaExcecao</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Adiciona uma nova despesa à lista. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>despesa</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A despesa a ser adicionada.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lancaExcecao</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indica se uma exceção deve ser lançada em caso de duplicata.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>DespesaException.DespesaDuplicadaException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada se uma despesa duplicada for detectada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="56" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="56" bodyend="70"/>
+        <references refid="class_objetos_negocio_1_1_despesa_1aeff055c9b37d0daaf4b43510cca9a86e" compoundref="_despesa_8cs" startline="87" endline="90">ObjetosNegocio.Despesa.DataVencimento</references>
+        <references refid="class_objetos_negocio_1_1_despesa_1a260708ff1fcd7c48ef576bc86caf1ab8" compoundref="_despesa_8cs" startline="69" endline="72">ObjetosNegocio.Despesa.Tipo</references>
+        <references refid="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" compoundref="_despesa_8cs" startline="78" endline="81">ObjetosNegocio.Despesa.Valor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_despesas_1a691e5b3767ae1d7ca518ae708ddfeb52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref> &gt;</type>
+        <definition>List&lt; Despesa &gt; Dados.Despesas.ObterDespesas</definition>
+        <argsstring>()</argsstring>
+        <name>ObterDespesas</name>
+        <qualifiedname>Dados.Despesas.ObterDespesas</qualifiedname>
+        <briefdescription>
+<para>Obtém a lista de todas as despesas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A lista de despesas.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="76" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_despesas_1a1b69235e0803053982cdb49a7652c7df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_objetos_negocio_1_1_despesa" kindref="compound">Despesa</ref>?</type>
+        <definition>Despesa? Dados.Despesas.ObterDespesaPorTipoValorEData</definition>
+        <argsstring>(string tipo, decimal valor, DateTime dataVencimento)</argsstring>
+        <name>ObterDespesaPorTipoValorEData</name>
+        <qualifiedname>Dados.Despesas.ObterDespesaPorTipoValorEData</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tipo</declname>
+        </param>
+        <param>
+          <type>decimal</type>
+          <declname>valor</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataVencimento</declname>
+        </param>
+        <briefdescription>
+<para>Obtém uma despesa com base no tipo, valor e data de vencimento. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tipo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O tipo da despesa.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>valor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor da despesa.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataVencimento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data de vencimento da despesa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A despesa correspondente ou null se não encontrada.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="88" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_despesas_1a99fd7d004782c5026a5cf3958d12dc28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dados.Despesas.GravarDespesas</definition>
+        <argsstring>(string caminhoArquivo)</argsstring>
+        <name>GravarDespesas</name>
+        <qualifiedname>Dados.Despesas.GravarDespesas</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoArquivo</declname>
+        </param>
+        <briefdescription>
+<para>Grava a lista de despesas em um arquivo usando serialização JSON. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoArquivo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O caminho do arquivo para salvar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>DespesaException.GravarDespesasException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada em caso de erro ao gravar despesas.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="98" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="98" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_despesas_1ae693750764740a272d3e979bd085f075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Dados.Despesas.CarregarDespesas</definition>
+        <argsstring>(string caminhoArquivo)</argsstring>
+        <name>CarregarDespesas</name>
+        <qualifiedname>Dados.Despesas.CarregarDespesas</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>caminhoArquivo</declname>
+        </param>
+        <briefdescription>
+<para>Carrega a lista de despesas a partir de um arquivo usando desserialização JSON. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>caminhoArquivo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O caminho do arquivo para carregar.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>DespesaException.CarregarDespesasException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lançada em caso de erro ao carregar despesas.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="116" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="116" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Classe responsável por armazenar e gerenciar informações sobre despesas. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" line="23" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Dados/Despesas.cs" bodystart="24" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_dados_1_1_despesas_1a6bf5fbc12ca843426917ce1fbde6744b" prot="public" virt="non-virtual"><scope>Dados::Despesas</scope><name>AdicionarDespesa</name></member>
+      <member refid="class_dados_1_1_despesas_1ae693750764740a272d3e979bd085f075" prot="public" virt="non-virtual"><scope>Dados::Despesas</scope><name>CarregarDespesas</name></member>
+      <member refid="class_dados_1_1_despesas_1ab8bbca3b077605f5f6880aa3e627b3e6" prot="public" virt="non-virtual"><scope>Dados::Despesas</scope><name>Despesas</name></member>
+      <member refid="class_dados_1_1_despesas_1a99fd7d004782c5026a5cf3958d12dc28" prot="public" virt="non-virtual"><scope>Dados::Despesas</scope><name>GravarDespesas</name></member>
+      <member refid="class_dados_1_1_despesas_1a85f59d7acb73b11b0373344470cbd400" prot="private" virt="non-virtual"><scope>Dados::Despesas</scope><name>listaDespesas</name></member>
+      <member refid="class_dados_1_1_despesas_1a1b69235e0803053982cdb49a7652c7df" prot="public" virt="non-virtual"><scope>Dados::Despesas</scope><name>ObterDespesaPorTipoValorEData</name></member>
+      <member refid="class_dados_1_1_despesas_1a691e5b3767ae1d7ca518ae708ddfeb52" prot="public" virt="non-virtual"><scope>Dados::Despesas</scope><name>ObterDespesas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_despesa_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::DespesaException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_despesa_exception_1_1_carregar_despesas_exception" prot="public" virt="non-virtual">Excecoes.DespesaException.CarregarDespesasException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception" prot="public" virt="non-virtual">Excecoes.DespesaException.DataVencimentoDespesaPassadaException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception" prot="public" virt="non-virtual">Excecoes.DespesaException.DespesaDuplicadaException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception" prot="public" virt="non-virtual">Excecoes.DespesaException.GravarDespesasException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_despesa_exception_1_1_imovel_despesa_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.DespesaException.ImovelDespesaNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_despesa_exception_1_1_tipo_despesa_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.DespesaException.TipoDespesaNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception" prot="public" virt="non-virtual">Excecoes.DespesaException.ValorDespesaInvalidoException</derivedcompoundref>
+    <innerclass refid="class_excecoes_1_1_despesa_exception_1_1_carregar_despesas_exception" prot="public">Excecoes::DespesaException::CarregarDespesasException</innerclass>
+    <innerclass refid="class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception" prot="public">Excecoes::DespesaException::DataVencimentoDespesaPassadaException</innerclass>
+    <innerclass refid="class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception" prot="public">Excecoes::DespesaException::DespesaDuplicadaException</innerclass>
+    <innerclass refid="class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception" prot="public">Excecoes::DespesaException::GravarDespesasException</innerclass>
+    <innerclass refid="class_excecoes_1_1_despesa_exception_1_1_imovel_despesa_nulo_ou_vazio_exception" prot="public">Excecoes::DespesaException::ImovelDespesaNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_despesa_exception_1_1_tipo_despesa_nulo_ou_vazio_exception" prot="public">Excecoes::DespesaException::TipoDespesaNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception" prot="public">Excecoes::DespesaException::ValorDespesaInvalidoException</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_despesa_exception_1ad5b96f468440b4d35f3f06d94fe64082" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.DespesaException.DespesaException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>DespesaException</name>
+        <qualifiedname>Excecoes.DespesaException.DespesaException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="400" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="400" bodyend="403"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção base para o domínio de Despesa. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Excecoes.DespesaException.CarregarDespesasException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_carregar_despesas_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Excecoes.DespesaException.DataVencimentoDespesaPassadaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Excecoes.DespesaException.DespesaDuplicadaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_despesa_duplicada_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Excecoes.DespesaException.GravarDespesasException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_gravar_despesas_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Excecoes.DespesaException.ImovelDespesaNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_imovel_despesa_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Excecoes.DespesaException.TipoDespesaNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_tipo_despesa_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Excecoes.DespesaException.ValorDespesaInvalidoException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_valor_despesa_invalido_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="398" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="399" bodyend="481"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_despesa_exception_1ad5b96f468440b4d35f3f06d94fe64082" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException</scope><name>DespesaException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

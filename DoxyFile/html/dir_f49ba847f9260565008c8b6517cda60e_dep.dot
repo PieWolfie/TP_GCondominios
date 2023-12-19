@@ -1,0 +1,16 @@
+digraph "C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/obj"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=12,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=12,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_3ef8005d54edd470561c245eb7ec0d10 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Interfaces", fontname=Helvetica,fontsize=12 style="filled,dashed", URL="dir_3ef8005d54edd470561c245eb7ec0d10.html",tooltip=""]
+  subgraph clusterdir_f49ba847f9260565008c8b6517cda60e {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=12 style="filled,bold", URL="dir_f49ba847f9260565008c8b6517cda60e.html",tooltip=""]
+    dir_f49ba847f9260565008c8b6517cda60e [shape=plaintext, label="obj"];
+  dir_c3f8d196614098620aab1f9f671cfa60 [label="Debug", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_c3f8d196614098620aab1f9f671cfa60.html",tooltip=""];
+  }
+  }
+}

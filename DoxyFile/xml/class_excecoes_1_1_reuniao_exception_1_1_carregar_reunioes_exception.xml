@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_reuniao_exception_1_1_carregar_reunioes_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ReuniaoException::CarregarReunioesException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_reuniao_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_reuniao_exception_1_1_carregar_reunioes_exception_1a3b0a53627fb942e94e3c71cb9d6e53ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ReuniaoException.CarregarReunioesException.CarregarReunioesException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>CarregarReunioesException</name>
+        <qualifiedname>Excecoes.ReuniaoException.CarregarReunioesException.CarregarReunioesException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="300" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="300" bodyend="303"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada ao ocorrer um erro durante o carregamento de reuniões. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ReuniaoException.CarregarReunioesException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_carregar_reunioes_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ReuniaoException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ReuniaoException.CarregarReunioesException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_carregar_reunioes_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ReuniaoException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="298" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="299" bodyend="304"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_reuniao_exception_1_1_carregar_reunioes_exception_1a3b0a53627fb942e94e3c71cb9d6e53ba" prot="public" virt="non-virtual"><scope>Excecoes::ReuniaoException::CarregarReunioesException</scope><name>CarregarReunioesException</name></member>
+      <member refid="class_excecoes_1_1_reuniao_exception_1ad928e339cb58614d42d6f0ef97542b47" prot="public" virt="non-virtual"><scope>Excecoes::ReuniaoException::CarregarReunioesException</scope><name>ReuniaoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

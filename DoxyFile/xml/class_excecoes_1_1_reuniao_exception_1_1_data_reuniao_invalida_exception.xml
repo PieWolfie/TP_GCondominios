@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_reuniao_exception_1_1_data_reuniao_invalida_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ReuniaoException::DataReuniaoInvalidaException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_reuniao_exception" prot="public" virt="non-virtual">Excecoes.ReuniaoException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_reuniao_exception_1_1_data_reuniao_invalida_exception_1a6e5b697dfc1d0f7c07221d36dc6fb8cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ReuniaoException.DataReuniaoInvalidaException.DataReuniaoInvalidaException</definition>
+        <argsstring>()</argsstring>
+        <name>DataReuniaoInvalidaException</name>
+        <qualifiedname>Excecoes.ReuniaoException.DataReuniaoInvalidaException.DataReuniaoInvalidaException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="234" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="234" bodyend="237"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando a data da reunião está no passado. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ReuniaoException.DataReuniaoInvalidaException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_data_reuniao_invalida_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ReuniaoException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ReuniaoException.DataReuniaoInvalidaException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception_1_1_data_reuniao_invalida_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ReuniaoException</label>
+        <link refid="class_excecoes_1_1_reuniao_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="232" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="233" bodyend="238"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_reuniao_exception_1_1_data_reuniao_invalida_exception_1a6e5b697dfc1d0f7c07221d36dc6fb8cb" prot="public" virt="non-virtual"><scope>Excecoes::ReuniaoException::DataReuniaoInvalidaException</scope><name>DataReuniaoInvalidaException</name></member>
+      <member refid="class_excecoes_1_1_reuniao_exception_1ad928e339cb58614d42d6f0ef97542b47" prot="public" virt="non-virtual"><scope>Excecoes::ReuniaoException::DataReuniaoInvalidaException</scope><name>ReuniaoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

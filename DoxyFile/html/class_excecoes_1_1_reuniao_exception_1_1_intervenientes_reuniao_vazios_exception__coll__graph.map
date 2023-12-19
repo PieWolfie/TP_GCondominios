@@ -1,0 +1,7 @@
+<map id="Excecoes.ReuniaoException.IntervenientesReuniaoVaziosException" name="Excecoes.ReuniaoException.IntervenientesReuniaoVaziosException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando a lista de intervenientes na reunião está vazia." alt="" coords="5,159,297,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_reuniao_exception.html" title="Exceção base para o domínio de Reunião." alt="" coords="77,82,225,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,126,154,159,148,159,148,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="106,5,196,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="154,50,154,82,148,82,148,50"/>
+</map>

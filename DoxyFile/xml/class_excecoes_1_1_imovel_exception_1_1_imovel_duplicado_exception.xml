@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_imovel_exception_1_1_imovel_duplicado_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ImovelException::ImovelDuplicadoException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_imovel_exception" prot="public" virt="non-virtual">Excecoes.ImovelException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_imovel_exception_1_1_imovel_duplicado_exception_1aecc8abd41147f64276b6bf75efcc8caf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ImovelException.ImovelDuplicadoException.ImovelDuplicadoException</definition>
+        <argsstring>(int idImovel)</argsstring>
+        <name>ImovelDuplicadoException</name>
+        <qualifiedname>Excecoes.ImovelException.ImovelDuplicadoException.ImovelDuplicadoException</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idImovel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="542" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="542" bodyend="545"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando um imóvel duplicado é adicionado à lista. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ImovelException.ImovelDuplicadoException</label>
+        <link refid="class_excecoes_1_1_imovel_exception_1_1_imovel_duplicado_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ImovelException</label>
+        <link refid="class_excecoes_1_1_imovel_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ImovelException.ImovelDuplicadoException</label>
+        <link refid="class_excecoes_1_1_imovel_exception_1_1_imovel_duplicado_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ImovelException</label>
+        <link refid="class_excecoes_1_1_imovel_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="540" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="541" bodyend="546"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_imovel_exception_1_1_imovel_duplicado_exception_1aecc8abd41147f64276b6bf75efcc8caf" prot="public" virt="non-virtual"><scope>Excecoes::ImovelException::ImovelDuplicadoException</scope><name>ImovelDuplicadoException</name></member>
+      <member refid="class_excecoes_1_1_imovel_exception_1af3553d310f71fcd16dd4a8f303f17164" prot="public" virt="non-virtual"><scope>Excecoes::ImovelException::ImovelDuplicadoException</scope><name>ImovelException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

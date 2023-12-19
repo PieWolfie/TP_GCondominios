@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_imovel_exception_1_1_quotas_imovel_vazias_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ImovelException::QuotasImovelVaziasException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_imovel_exception" prot="public" virt="non-virtual">Excecoes.ImovelException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_imovel_exception_1_1_quotas_imovel_vazias_exception_1abff44ae79c269a0e2d52fb182d5795e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ImovelException.QuotasImovelVaziasException.QuotasImovelVaziasException</definition>
+        <argsstring>()</argsstring>
+        <name>QuotasImovelVaziasException</name>
+        <qualifiedname>Excecoes.ImovelException.QuotasImovelVaziasException.QuotasImovelVaziasException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="520" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="520" bodyend="523"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando a lista de quotas associadas ao imóvel está vazia. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ImovelException.QuotasImovelVaziasException</label>
+        <link refid="class_excecoes_1_1_imovel_exception_1_1_quotas_imovel_vazias_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ImovelException</label>
+        <link refid="class_excecoes_1_1_imovel_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ImovelException.QuotasImovelVaziasException</label>
+        <link refid="class_excecoes_1_1_imovel_exception_1_1_quotas_imovel_vazias_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+      <node id="2">
+        <label>ImovelException</label>
+        <link refid="class_excecoes_1_1_imovel_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="518" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="519" bodyend="524"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_imovel_exception_1af3553d310f71fcd16dd4a8f303f17164" prot="public" virt="non-virtual"><scope>Excecoes::ImovelException::QuotasImovelVaziasException</scope><name>ImovelException</name></member>
+      <member refid="class_excecoes_1_1_imovel_exception_1_1_quotas_imovel_vazias_exception_1abff44ae79c269a0e2d52fb182d5795e3" prot="public" virt="non-virtual"><scope>Excecoes::ImovelException::QuotasImovelVaziasException</scope><name>QuotasImovelVaziasException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

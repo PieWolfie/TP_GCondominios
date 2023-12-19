@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_objetos_negocio_1_1_despesa" kind="class" language="C#" prot="public">
+    <compoundname>ObjetosNegocio::Despesa</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_despesa_1a270486af8b8cab61c30f770b6c6374a9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Despesa.tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <qualifiedname>ObjetosNegocio.Despesa.tipo</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="24" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_despesa_1a98baa35c6f4845137aafc187b97b3304" prot="private" static="no" mutable="no">
+        <type>decimal</type>
+        <definition>decimal ObjetosNegocio.Despesa.valor</definition>
+        <argsstring></argsstring>
+        <name>valor</name>
+        <qualifiedname>ObjetosNegocio.Despesa.valor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="27" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_despesa_1acb47e7bc2beb73af775cab83e3274951" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Despesa.dataVencimento</definition>
+        <argsstring></argsstring>
+        <name>dataVencimento</name>
+        <qualifiedname>ObjetosNegocio.Despesa.dataVencimento</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="30" column="26" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_despesa_1a5b26d381b32531680ebb827b47de949b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ObjetosNegocio.Despesa.estadoPagamento</definition>
+        <argsstring></argsstring>
+        <name>estadoPagamento</name>
+        <qualifiedname>ObjetosNegocio.Despesa.estadoPagamento</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="33" column="22" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_objetos_negocio_1_1_despesa_1ad2b7b184b7b67862c5b2380955cf26e7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Despesa.imovel</definition>
+        <argsstring></argsstring>
+        <name>imovel</name>
+        <qualifiedname>ObjetosNegocio.Despesa.imovel</qualifiedname>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="36" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1a260708ff1fcd7c48ef576bc86caf1ab8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Despesa.Tipo</definition>
+        <argsstring></argsstring>
+        <name>Tipo</name>
+        <qualifiedname>ObjetosNegocio.Despesa.Tipo</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o tipo da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="68" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="69" bodyend="72"/>
+        <referencedby refid="class_dados_1_1_despesas_1a6bf5fbc12ca843426917ce1fbde6744b" compoundref="_despesas_8cs" startline="56" endline="70">Dados.Despesas.AdicionarDespesa</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" compoundref="_despesa_8cs" startline="52" endline="59">ObjetosNegocio.Despesa.Despesa</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal</type>
+        <definition>decimal ObjetosNegocio.Despesa.Valor</definition>
+        <argsstring></argsstring>
+        <name>Valor</name>
+        <qualifiedname>ObjetosNegocio.Despesa.Valor</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o valor da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="77" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="78" bodyend="81"/>
+        <referencedby refid="class_dados_1_1_despesas_1a6bf5fbc12ca843426917ce1fbde6744b" compoundref="_despesas_8cs" startline="56" endline="70">Dados.Despesas.AdicionarDespesa</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" compoundref="_despesa_8cs" startline="52" endline="59">ObjetosNegocio.Despesa.Despesa</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_despesa_1ae0fa7c2b50ad1ad40dcd7d949b337978" compoundref="_despesa_8cs" startline="130" endline="133">ObjetosNegocio.Despesa.ObterValorTotal</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1aeff055c9b37d0daaf4b43510cca9a86e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime ObjetosNegocio.Despesa.DataVencimento</definition>
+        <argsstring></argsstring>
+        <name>DataVencimento</name>
+        <qualifiedname>ObjetosNegocio.Despesa.DataVencimento</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define a data de vencimento da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="86" column="25" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="87" bodyend="90"/>
+        <referencedby refid="class_dados_1_1_despesas_1a6bf5fbc12ca843426917ce1fbde6744b" compoundref="_despesas_8cs" startline="56" endline="70">Dados.Despesas.AdicionarDespesa</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" compoundref="_despesa_8cs" startline="52" endline="59">ObjetosNegocio.Despesa.Despesa</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1a2c6fd456891cc822a497d30c00b7c5ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool ObjetosNegocio.Despesa.EstadoPagamento</definition>
+        <argsstring></argsstring>
+        <name>EstadoPagamento</name>
+        <qualifiedname>ObjetosNegocio.Despesa.EstadoPagamento</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o estado de pagamento da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="95" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="96" bodyend="99"/>
+        <referencedby refid="class_objetos_negocio_1_1_despesa_1a284f112b4658460fe9ba09ae41092d48" compoundref="_despesa_8cs" startline="121" endline="124">ObjetosNegocio.Despesa.AtualizarEstadoPagamento</referencedby>
+        <referencedby refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" compoundref="_despesa_8cs" startline="52" endline="59">ObjetosNegocio.Despesa.Despesa</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_objetos_negocio_1_1_despesa_1a385fe18c951dc51fbba7f264ff52e62f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string ObjetosNegocio.Despesa.Imovel</definition>
+        <argsstring></argsstring>
+        <name>Imovel</name>
+        <qualifiedname>ObjetosNegocio.Despesa.Imovel</qualifiedname>
+        <briefdescription>
+<para>Obtém ou define o imóvel associado à despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="104" column="23" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="105" bodyend="108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ObjetosNegocio.Despesa.Despesa</definition>
+        <argsstring>(string tipo, decimal valor, DateTime dataVencimento, bool estadoPagamento, string imovel)</argsstring>
+        <name>Despesa</name>
+        <qualifiedname>ObjetosNegocio.Despesa.Despesa</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tipo</declname>
+        </param>
+        <param>
+          <type>decimal</type>
+          <declname>valor</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dataVencimento</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>estadoPagamento</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>imovel</declname>
+        </param>
+        <briefdescription>
+<para>Inicializa uma nova instância da classe Despesa com os parâmetros especificados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tipo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O tipo da despesa.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>valor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O valor da despesa.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataVencimento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data de vencimento da despesa.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>estadoPagamento</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O estado de pagamento da despesa.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imovel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O imóvel associado à despesa.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="52" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="52" bodyend="59"/>
+        <references refid="class_objetos_negocio_1_1_despesa_1aeff055c9b37d0daaf4b43510cca9a86e" compoundref="_despesa_8cs" startline="87" endline="90">ObjetosNegocio.Despesa.DataVencimento</references>
+        <references refid="class_objetos_negocio_1_1_despesa_1a2c6fd456891cc822a497d30c00b7c5ac" compoundref="_despesa_8cs" startline="96" endline="99">ObjetosNegocio.Despesa.EstadoPagamento</references>
+        <references refid="class_objetos_negocio_1_1_despesa_1a260708ff1fcd7c48ef576bc86caf1ab8" compoundref="_despesa_8cs" startline="69" endline="72">ObjetosNegocio.Despesa.Tipo</references>
+        <references refid="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" compoundref="_despesa_8cs" startline="78" endline="81">ObjetosNegocio.Despesa.Valor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_despesa_1a284f112b4658460fe9ba09ae41092d48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjetosNegocio.Despesa.AtualizarEstadoPagamento</definition>
+        <argsstring>(bool novoEstado)</argsstring>
+        <name>AtualizarEstadoPagamento</name>
+        <qualifiedname>ObjetosNegocio.Despesa.AtualizarEstadoPagamento</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>novoEstado</declname>
+        </param>
+        <briefdescription>
+<para>Atualiza o estado de pagamento da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>novoEstado</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>O novo estado de pagamento.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="121" column="21" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="121" bodyend="124"/>
+        <references refid="class_objetos_negocio_1_1_despesa_1a2c6fd456891cc822a497d30c00b7c5ac" compoundref="_despesa_8cs" startline="96" endline="99">ObjetosNegocio.Despesa.EstadoPagamento</references>
+      </memberdef>
+      <memberdef kind="function" id="class_objetos_negocio_1_1_despesa_1ae0fa7c2b50ad1ad40dcd7d949b337978" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>decimal</type>
+        <definition>decimal ObjetosNegocio.Despesa.ObterValorTotal</definition>
+        <argsstring>()</argsstring>
+        <name>ObterValorTotal</name>
+        <qualifiedname>ObjetosNegocio.Despesa.ObterValorTotal</qualifiedname>
+        <briefdescription>
+<para>Obtém o valor total da despesa. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>O valor total da despesa.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="130" column="24" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="130" bodyend="133"/>
+        <references refid="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" compoundref="_despesa_8cs" startline="78" endline="81">ObjetosNegocio.Despesa.Valor</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Representa um despesa no contexto do sistema. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" line="19" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/ObjetosNegocio/Despesa.cs" bodystart="20" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_objetos_negocio_1_1_despesa_1a284f112b4658460fe9ba09ae41092d48" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>AtualizarEstadoPagamento</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1acb47e7bc2beb73af775cab83e3274951" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>dataVencimento</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1aeff055c9b37d0daaf4b43510cca9a86e" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>DataVencimento</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1a8f027b95db8890b7ab442bf1971abef7" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>Despesa</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1a5b26d381b32531680ebb827b47de949b" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>estadoPagamento</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1a2c6fd456891cc822a497d30c00b7c5ac" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>EstadoPagamento</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1ad2b7b184b7b67862c5b2380955cf26e7" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>imovel</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1a385fe18c951dc51fbba7f264ff52e62f" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>Imovel</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1ae0fa7c2b50ad1ad40dcd7d949b337978" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>ObterValorTotal</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1a270486af8b8cab61c30f770b6c6374a9" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>tipo</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1a260708ff1fcd7c48ef576bc86caf1ab8" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>Tipo</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1a98baa35c6f4845137aafc187b97b3304" prot="private" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>valor</name></member>
+      <member refid="class_objetos_negocio_1_1_despesa_1a1c4179af50f1cdee32019b07d0dcc7b0" prot="public" virt="non-virtual"><scope>ObjetosNegocio::Despesa</scope><name>Valor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

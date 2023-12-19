@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_proprietario_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::ProprietarioException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception" prot="public" virt="non-virtual">Excecoes.ProprietarioException.CarregarProprietariosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_proprietario_exception_1_1_contato_proprietario_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.ProprietarioException.ContatoProprietarioNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_proprietario_exception_1_1_gravar_proprietarios_exception" prot="public" virt="non-virtual">Excecoes.ProprietarioException.GravarProprietariosException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_proprietario_exception_1_1_imovel_proprietario_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.ProprietarioException.ImovelProprietarioNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_proprietario_exception_1_1_nif_proprietario_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.ProprietarioException.NifProprietarioNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_proprietario_exception_1_1_nome_proprietario_nulo_ou_vazio_exception" prot="public" virt="non-virtual">Excecoes.ProprietarioException.NomeProprietarioNuloOuVazioException</derivedcompoundref>
+    <derivedcompoundref refid="class_excecoes_1_1_proprietario_exception_1_1_proprietario_duplicado_exception" prot="public" virt="non-virtual">Excecoes.ProprietarioException.ProprietarioDuplicadoException</derivedcompoundref>
+    <innerclass refid="class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception" prot="public">Excecoes::ProprietarioException::CarregarProprietariosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_proprietario_exception_1_1_contato_proprietario_nulo_ou_vazio_exception" prot="public">Excecoes::ProprietarioException::ContatoProprietarioNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_proprietario_exception_1_1_gravar_proprietarios_exception" prot="public">Excecoes::ProprietarioException::GravarProprietariosException</innerclass>
+    <innerclass refid="class_excecoes_1_1_proprietario_exception_1_1_imovel_proprietario_nulo_ou_vazio_exception" prot="public">Excecoes::ProprietarioException::ImovelProprietarioNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_proprietario_exception_1_1_nif_proprietario_nulo_ou_vazio_exception" prot="public">Excecoes::ProprietarioException::NifProprietarioNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_proprietario_exception_1_1_nome_proprietario_nulo_ou_vazio_exception" prot="public">Excecoes::ProprietarioException::NomeProprietarioNuloOuVazioException</innerclass>
+    <innerclass refid="class_excecoes_1_1_proprietario_exception_1_1_proprietario_duplicado_exception" prot="public">Excecoes::ProprietarioException::ProprietarioDuplicadoException</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_proprietario_exception_1a0d8cdb7d5f0dd971daa29203b79f753e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.ProprietarioException.ProprietarioException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>ProprietarioException</name>
+        <qualifiedname>Excecoes.ProprietarioException.ProprietarioException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="312" column="16" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="312" bodyend="315"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção base para o domínio de Proprietário. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Excecoes.ProprietarioException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Excecoes.ProprietarioException.CarregarProprietariosException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_carregar_proprietarios_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Excecoes.ProprietarioException.ContatoProprietarioNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_contato_proprietario_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Excecoes.ProprietarioException.GravarProprietariosException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_gravar_proprietarios_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Excecoes.ProprietarioException.ImovelProprietarioNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_imovel_proprietario_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Excecoes.ProprietarioException.NifProprietarioNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_nif_proprietario_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Excecoes.ProprietarioException.NomeProprietarioNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_nome_proprietario_nulo_ou_vazio_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Excecoes.ProprietarioException.ProprietarioDuplicadoException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception_1_1_proprietario_duplicado_exception"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Excecoes.ProprietarioException</label>
+        <link refid="class_excecoes_1_1_proprietario_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="310" column="11" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="311" bodyend="393"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_proprietario_exception_1a0d8cdb7d5f0dd971daa29203b79f753e" prot="public" virt="non-virtual"><scope>Excecoes::ProprietarioException</scope><name>ProprietarioException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

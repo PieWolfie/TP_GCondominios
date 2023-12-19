@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="md__c_1_2_users_2plmrj_2_desktop_2_p_o_o___t1___c_x_c3_x_b3digo_2_t_p___g_condominios_2_r_e_a_d_m_e" kind="page">
+    <compoundname>md__c_1_2_users_2plmrj_2_desktop_2_p_o_o___t1___c_xC3_xB3digo_2_t_p___g_condominios_2_r_e_a_d_m_e</compoundname>
+    <title>Sistema de Gestão de Condomínios em C# (POO)</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md__c_1_2_users_2plmrj_2_desktop_2_p_o_o___t1___c_x_c3_x_b3digo_2_t_p___g_condominios_2_r_e_a_d_m_e_1autotoc_md0"/> Bem-vindo ao repositório do projeto de Programação Orientada a Objetos (POO), sendo este um sistema de Gestão de Condomínios.</para>
+<sect1 id="md__c_1_2_users_2plmrj_2_desktop_2_p_o_o___t1___c_x_c3_x_b3digo_2_t_p___g_condominios_2_r_e_a_d_m_e_1autotoc_md1">
+<title>Descrição do Projeto</title>
+<para>O objetivo deste projeto é criar um sistema de gestão de condomínios usando os princípios da Programação Orientada a Objetos em Csharp e a plataforma .NET. A aplicação permite aos utilizadores realizar várias operações relacionadas à administração de condomínios, incluindo proprietários, despesas, reuniões, entre outros.</para>
+</sect1>
+<sect1 id="md__c_1_2_users_2plmrj_2_desktop_2_p_o_o___t1___c_x_c3_x_b3digo_2_t_p___g_condominios_2_r_e_a_d_m_e_1autotoc_md2">
+<title>Membros do Grupo</title>
+<para><itemizedlist>
+<listitem><para><bold>Fábio Fernandes (a22996)</bold></para>
+</listitem><listitem><para><bold>Pedro Rocha (a23009)</bold></para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+<sect1 id="md__c_1_2_users_2plmrj_2_desktop_2_p_o_o___t1___c_x_c3_x_b3digo_2_t_p___g_condominios_2_r_e_a_d_m_e_1autotoc_md3">
+<title>Professor Orientador</title>
+<para><itemizedlist>
+<listitem><para><bold>Luís Fernandes</bold> </para>
+</listitem></itemizedlist>
+</para>
+</sect1>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/README.md"/>
+  </compounddef>
+</doxygen>

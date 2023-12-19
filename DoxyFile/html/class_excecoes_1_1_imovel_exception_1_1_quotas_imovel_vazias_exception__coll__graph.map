@@ -1,0 +1,7 @@
+<map id="Excecoes.ImovelException.QuotasImovelVaziasException" name="Excecoes.ImovelException.QuotasImovelVaziasException">
+<area shape="rect" id="Node000001" title="Exceção lançada quando a lista de quotas associadas ao imóvel está vazia." alt="" coords="5,159,238,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_imovel_exception.html" title="Exceção base para o domínio de Imóvel." alt="" coords="54,82,189,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,126,124,159,119,159,119,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="76,5,167,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="124,50,124,82,119,82,119,50"/>
+</map>

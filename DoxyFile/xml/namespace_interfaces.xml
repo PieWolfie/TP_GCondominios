@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_interfaces" kind="namespace" language="C#">
+    <compoundname>Interfaces</compoundname>
+    <innerclass refid="interface_interfaces_1_1_i_condominio" prot="public">Interfaces::ICondominio</innerclass>
+    <innerclass refid="interface_interfaces_1_1_i_despesa" prot="public">Interfaces::IDespesa</innerclass>
+    <innerclass refid="interface_interfaces_1_1_i_documento" prot="public">Interfaces::IDocumento</innerclass>
+    <innerclass refid="interface_interfaces_1_1_i_imovel" prot="public">Interfaces::IImovel</innerclass>
+    <innerclass refid="interface_interfaces_1_1_i_proprietario" prot="public">Interfaces::IProprietario</innerclass>
+    <innerclass refid="interface_interfaces_1_1_i_reuniao" prot="public">Interfaces::IReuniao</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Interfaces/Interfaces.cs" line="16" column="1"/>
+  </compounddef>
+</doxygen>

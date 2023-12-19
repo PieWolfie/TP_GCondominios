@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::DespesaException::DataVencimentoDespesaPassadaException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_despesa_exception" prot="public" virt="non-virtual">Excecoes.DespesaException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception_1a466982da3550d6708d935eff33edfb60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.DespesaException.DataVencimentoDespesaPassadaException.DataVencimentoDespesaPassadaException</definition>
+        <argsstring>()</argsstring>
+        <name>DataVencimentoDespesaPassadaException</name>
+        <qualifiedname>Excecoes.DespesaException.DataVencimentoDespesaPassadaException.DataVencimentoDespesaPassadaException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="443" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="443" bodyend="446"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando a data de vencimento da despesa é no passado. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DespesaException.DataVencimentoDespesaPassadaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DespesaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DespesaException.DataVencimentoDespesaPassadaException</label>
+        <link refid="class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="441" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="442" bodyend="447"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_despesa_exception_1_1_data_vencimento_despesa_passada_exception_1a466982da3550d6708d935eff33edfb60" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException::DataVencimentoDespesaPassadaException</scope><name>DataVencimentoDespesaPassadaException</name></member>
+      <member refid="class_excecoes_1_1_despesa_exception_1ad5b96f468440b4d35f3f06d94fe64082" prot="public" virt="non-virtual"><scope>Excecoes::DespesaException::DataVencimentoDespesaPassadaException</scope><name>DespesaException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

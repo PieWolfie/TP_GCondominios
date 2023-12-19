@@ -1,0 +1,7 @@
+<map id="Excecoes.DocumentoException.GravarDocumentosException" name="Excecoes.DocumentoException.GravarDocumentosException">
+<area shape="rect" id="Node000001" title="Exceção lançada ao ocorrer um erro durante a gravação de documentos." alt="" coords="5,159,253,205"/>
+<area shape="rect" id="Node000002" href="$class_excecoes_1_1_documento_exception.html" title="Exceção base para o domínio de Documento." alt="" coords="44,82,214,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,126,132,159,126,159,126,126"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="84,5,174,34"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,50,132,82,126,82,126,50"/>
+</map>

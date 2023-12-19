@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_excecoes_1_1_documento_exception_1_1_conteudo_documento_nulo_ou_vazio_exception" kind="class" language="C#" prot="public">
+    <compoundname>Excecoes::DocumentoException::ConteudoDocumentoNuloOuVazioException</compoundname>
+    <basecompoundref refid="class_excecoes_1_1_documento_exception" prot="public" virt="non-virtual">Excecoes.DocumentoException</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_excecoes_1_1_documento_exception_1_1_conteudo_documento_nulo_ou_vazio_exception_1a01964578ac709b004e95a757f04719a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Excecoes.DocumentoException.ConteudoDocumentoNuloOuVazioException.ConteudoDocumentoNuloOuVazioException</definition>
+        <argsstring>()</argsstring>
+        <name>ConteudoDocumentoNuloOuVazioException</name>
+        <qualifiedname>Excecoes.DocumentoException.ConteudoDocumentoNuloOuVazioException.ConteudoDocumentoNuloOuVazioException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="178" column="20" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="178" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Exceção lançada quando o conteúdo do documento é nulo ou vazio. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DocumentoException</label>
+        <link refid="class_excecoes_1_1_documento_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DocumentoException.ConteudoDocumentoNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_documento_exception_1_1_conteudo_documento_nulo_ou_vazio_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DocumentoException</label>
+        <link refid="class_excecoes_1_1_documento_exception"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Excecoes.DocumentoException.ConteudoDocumentoNuloOuVazioException</label>
+        <link refid="class_excecoes_1_1_documento_exception_1_1_conteudo_documento_nulo_ou_vazio_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" line="176" column="15" bodyfile="C:/Users/plmrj/Desktop/POO_T1_Código/TP_GCondominios/Excecoes/Excecoes.cs" bodystart="177" bodyend="182"/>
+    <listofallmembers>
+      <member refid="class_excecoes_1_1_documento_exception_1_1_conteudo_documento_nulo_ou_vazio_exception_1a01964578ac709b004e95a757f04719a5" prot="public" virt="non-virtual"><scope>Excecoes::DocumentoException::ConteudoDocumentoNuloOuVazioException</scope><name>ConteudoDocumentoNuloOuVazioException</name></member>
+      <member refid="class_excecoes_1_1_documento_exception_1a6d51d6105c1fc36d9b3a80afac522908" prot="public" virt="non-virtual"><scope>Excecoes::DocumentoException::ConteudoDocumentoNuloOuVazioException</scope><name>DocumentoException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
