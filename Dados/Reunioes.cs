@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using ObjetosNegocio;
 using Excecoes;
 using RegrasNegocio;
+using System.IO;
+using System.Text.Json;
 
 namespace Dados
 {
@@ -22,6 +24,7 @@ namespace Dados
     {
         #region Atributos
 
+        // Lista de reuniões
         private List<Reuniao> listaReunioes;
 
         #endregion
@@ -31,7 +34,7 @@ namespace Dados
         #region Construtores
 
         /// <summary>
-        /// Inicializa uma nova instância da classe Reunioes.
+        /// Inicializa uma nova instância da classe Reuniões.
         /// </summary>
         public Reunioes()
         {
@@ -49,10 +52,22 @@ namespace Dados
         /// Adiciona uma nova reunião à lista.
         /// </summary>
         /// <param name="reuniao">A reunião a ser adicionada.</param>
-        public void AdicionarReuniao(Reuniao reuniao)
+        /// <param name="lancaExcecao">Indica se deve lançar uma exceção em caso de reunião duplicada.</param>
+        /// <exception cref="ReuniaoException.ReuniaoDuplicadaException">Lançada em caso de reunião duplicada.</exception>
+        public void AdicionarReuniao(Reuniao reuniao, bool lancaExcecao = false)
         {
-            ReuniaoRegras.ValidarReuniao(reuniao);
-            listaReunioes.Add(reuniao);
+            if (!listaReunioes.Contains(reuniao))
+            {
+                if (lancaExcecao)
+                {
+                    throw new ReuniaoException.ReuniaoDuplicadaException(reuniao.Data, reuniao.Hora);
+                }
+            }
+            else
+            {
+                ReuniaoRegras.ValidarReuniao(reuniao);
+                listaReunioes.Add(reuniao);
+            }
         }
 
         /// <summary>
@@ -73,6 +88,42 @@ namespace Dados
         public Reuniao? ObterReuniao(DateTime data, TimeSpan hora)
         {
             return listaReunioes.Find(r => r.Data == data && r.Hora == hora);
+        }
+
+        /// <summary>
+        /// Grava a lista de reuniões em um arquivo usando serialização JSON.
+        /// </summary>
+        /// <param name="caminhoArquivo">O caminho do arquivo para salvar.</param>
+        /// <exception cref="ReuniaoException.GravarReunioesException">Lançada em caso de erro ao gravar reuniões.</exception>
+        public void GravarReunioes(string caminhoArquivo)
+        {
+            try
+            {
+                string jsonString = JsonSerializer.Serialize(listaReunioes);
+                File.WriteAllText(caminhoArquivo, jsonString);
+            }
+            catch (Exception ex)
+            {
+                throw new ReuniaoException.GravarReunioesException(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Carrega a lista de reuniões a partir de um arquivo usando desserialização JSON.
+        /// </summary>
+        /// <param name="caminhoArquivo">O caminho do arquivo para carregar.</param>
+        /// <exception cref="ReuniaoException.CarregarReunioesException">Lançada em caso de erro ao carregar reuniões.</exception>
+        public void CarregarReunioes(string caminhoArquivo)
+        {
+            try
+            {
+                string jsonString = File.ReadAllText(caminhoArquivo);
+                listaReunioes = JsonSerializer.Deserialize<List<Reuniao>>(jsonString)!;
+            }
+            catch (Exception ex)
+            {
+                throw new ReuniaoException.CarregarReunioesException(ex.Message);
+            }
         }
 
         #endregion

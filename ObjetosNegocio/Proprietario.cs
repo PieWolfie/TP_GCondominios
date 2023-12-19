@@ -10,35 +10,38 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
-using Excecoes;
 
 namespace ObjetosNegocio
 {
-    [Serializable()]
-    public class Proprietario : ISerializable
+    /// <summary>
+    /// Representa um proprietário no contexto do sistema.
+    /// </summary>
+    [Serializable]
+    public class Proprietario
     {
         #region Atributos
 
         // Nome do proprietário
-        private string nome;
+        private string nome = null!;
 
         // Contato do proprietário
-        private string contato;
+        private string contato = null!;
 
         // Imóvel associado ao proprietário
-        private string imovel;
+        private string imovel = null!;
 
         // NIF (Número de Identificação Fiscal) do proprietário
-        private string nif;
+        private string nif = null!;
 
         // Lista de histórico de pagamentos do proprietário
-        private List<string> historicoPagamentos;
+        private List<string> historicoPagamentos = null!;
 
         // Lista de presenças em reuniões do proprietário
-        private List<string> presencasReunioes;
+        private List<string> presencasReunioes = null!;
 
         #endregion
+
+        #region Métodos
 
         #region Construtores
 
@@ -119,7 +122,10 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Métodos
+        #region Overrides
+        #endregion
+
+        #region Outros Métodos
 
         /// <summary>
         /// Realiza o pagamento do proprietário com o valor especificado.
@@ -150,29 +156,8 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region ISerializable
-
-        // Adicione este método para suportar serialização
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("Nome", Nome);
-            info.AddValue("Contato", Contato);
-            info.AddValue("Imovel", Imovel);
-            info.AddValue("Nif", Nif);
-            info.AddValue("HistoricoPagamentos", HistoricoPagamentos);
-            info.AddValue("PresencasReunioes", PresencasReunioes);
-        }
-
-        // Adicione este construtor para suportar desserialização
-        public Proprietario(SerializationInfo info, StreamingContext context)
-        {
-            Nome = (string)info.GetValue("Nome", typeof(string));
-            Contato = (string)info.GetValue("Contato", typeof(string));
-            Imovel = (string)info.GetValue("Imovel", typeof(string));
-            Nif = (string)info.GetValue("Nif", typeof(string));
-            HistoricoPagamentos = (List<string>)info.GetValue("HistoricoPagamentos", typeof(List<string>));
-            PresencasReunioes = (List<string>)info.GetValue("PresencasReunioes", typeof(List<string>));
-        }
+        #region Destrutor
+        #endregion
 
         #endregion
     }

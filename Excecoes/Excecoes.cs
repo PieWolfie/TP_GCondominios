@@ -103,6 +103,39 @@ namespace Excecoes
 
             }
         }
+
+        /// <summary>
+        /// Exceção lançada quando um condomínio duplicado é adicionado à lista.
+        /// </summary>
+        public class CondominioDuplicadoException : CondominioException
+        {
+            public CondominioDuplicadoException(string nome, string endereco) : base($"Condomínio com nome {nome} e endereço {endereco} já existe na lista.")
+            {
+            
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante a gravação de condomínios.
+        /// </summary>
+        public class GravarCondominiosException : CondominioException
+        {
+            public GravarCondominiosException(string message) : base($"Erro ao gravar condomínios: {message}")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante o carregamento de condomínios.
+        /// </summary>
+        public class CarregarCondominiosException : CondominioException
+        {
+            public CarregarCondominiosException(string message) : base($"Erro ao carregar condomínios: {message}")
+            {
+
+            }
+        }
     }
 
     /// <summary>
@@ -143,6 +176,40 @@ namespace Excecoes
         public class ConteudoDocumentoNuloOuVazioException : DocumentoException
         {
             public ConteudoDocumentoNuloOuVazioException() : base("O conteúdo do documento não pode ser nulo ou vazio.")
+            {
+
+            }
+        }
+
+
+        /// <summary>
+        /// Exceção lançada quando um documento duplicado é adicionado à lista.
+        /// </summary>
+        public class DocumentoDuplicadoException : DocumentoException
+        {
+            public DocumentoDuplicadoException(string nome) : base($"Documento com nome '{nome}' já existe na lista.")
+            {
+            
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante a gravação de documentos.
+        /// </summary>
+        public class GravarDocumentosException : DocumentoException
+        {
+            public GravarDocumentosException(string message) : base($"Erro ao gravar documentos: {message}")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante o carregamento de documentos.
+        /// </summary>
+        public class CarregarDocumentosException : DocumentoException
+        {
+            public CarregarDocumentosException(string message) : base($"Erro ao carregar documentos: {message}")
             {
 
             }
@@ -202,6 +269,39 @@ namespace Excecoes
 
             }
         }
+
+        /// <summary>
+        /// Exceção lançada quando uma reunião duplicada é adicionada à lista.
+        /// </summary>
+        public class ReuniaoDuplicadaException : ReuniaoException
+        {
+            public ReuniaoDuplicadaException(DateTime data, TimeSpan hora) : base($"Já existe uma reunião agendada para a data {data} e hora {hora}.")
+            {
+            
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante a gravação de reuniões.
+        /// </summary>
+        public class GravarReunioesException : ReuniaoException
+        {
+            public GravarReunioesException(string message) : base($"Erro ao gravar reuniões: {message}")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante o carregamento de reuniões.
+        /// </summary>
+        public class CarregarReunioesException : ReuniaoException
+        {
+            public CarregarReunioesException(string message) : base($"Erro ao carregar reuniões: {message}")
+            {
+
+            }
+        }
     }
 
     /// <summary>
@@ -253,6 +353,39 @@ namespace Excecoes
         public class NifProprietarioNuloOuVazioException : ProprietarioException
         {
             public NifProprietarioNuloOuVazioException() : base("O NIF do proprietário não pode ser nulo ou vazio.")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada quando um proprietário duplicado é adicionado à lista.
+        /// </summary>
+        public class ProprietarioDuplicadoException : ProprietarioException
+        {
+            public ProprietarioDuplicadoException(string nif) : base($"Proprietário com NIF {nif} já existe na lista.")
+            {
+            
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante a gravação de proprietários.
+        /// </summary>
+        public class GravarProprietariosException : ProprietarioException
+        {
+            public GravarProprietariosException(string message) : base($"Erro ao gravar proprietários: {message}")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante o carregamento de proprietários.
+        /// </summary>
+        public class CarregarProprietariosException : ProprietarioException
+        {
+            public CarregarProprietariosException(string message) : base($"Erro ao carregar proprietários: {message}")
             {
 
             }
@@ -312,6 +445,39 @@ namespace Excecoes
 
             }
         }
+
+        /// <summary>
+        /// Exceção lançada quando uma despesa duplicada é adicionada à lista.
+        /// </summary>
+        public class DespesaDuplicadaException : DespesaException
+        {
+            public DespesaDuplicadaException(string tipo, decimal valor, DateTime dataVencimento) : base($"Despesa do tipo {tipo} com valor {valor} e data de vencimento {dataVencimento.ToShortDateString()} já existe na lista.")
+            {
+            
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante a gravação de despesas.
+        /// </summary>
+        public class GravarDespesasException : DespesaException
+        {
+            public GravarDespesasException(string message) : base($"Erro ao gravar despesas: {message}")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante o carregamento de despesas.
+        /// </summary>
+        public class CarregarDespesasException : DespesaException
+        {
+            public CarregarDespesasException(string message) : base($"Erro ao carregar despesas: {message}")
+            {
+
+            }
+        }
     }
 
     /// <summary>
@@ -363,6 +529,39 @@ namespace Excecoes
         public class EnderecoImovelNuloOuVazioException : ImovelException
         {
             public EnderecoImovelNuloOuVazioException() : base("O endereço do imóvel não pode ser nulo ou vazio.")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada quando um imóvel duplicado é adicionado à lista.
+        /// </summary>
+        public class ImovelDuplicadoException : ImovelException
+        {
+            public ImovelDuplicadoException(int idImovel) : base($"Imóvel com ID {idImovel} já existe na lista.")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante a gravação de imóveis.
+        /// </summary>
+        public class GravarImoveisException : ImovelException
+        {
+            public GravarImoveisException(string message) : base($"Erro ao gravar imóveis: {message}")
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Exceção lançada ao ocorrer um erro durante o carregamento de imóveis.
+        /// </summary>
+        public class CarregarImoveisException : ImovelException
+        {
+            public CarregarImoveisException(string message) : base($"Erro ao carregar imóveis: {message}")
             {
 
             }

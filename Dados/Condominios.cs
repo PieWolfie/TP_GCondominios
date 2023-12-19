@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using ObjetosNegocio;
 using Excecoes;
 using RegrasNegocio;
+using System.IO;
+using System.Text.Json;
 
 namespace Dados
 {
@@ -22,6 +24,7 @@ namespace Dados
     {
         #region Atributos
 
+        // Lista privada que armazena os condomínios
         private List<Condominio> listaCondominios;
 
         #endregion
@@ -43,13 +46,8 @@ namespace Dados
         #region Propriedades
         #endregion
 
-
         #region Overrides
         #endregion
-
-        #region Overrides
-        #endregion
-
 
         #region Outros Métodos
 
@@ -57,10 +55,22 @@ namespace Dados
         /// Adiciona um novo condomínio à lista.
         /// </summary>
         /// <param name="condominio">O condomínio a ser adicionado.</param>
-        public void AdicionarCondominio(Condominio condominio)
+        /// <param name="lancaExcecao">Indica se uma exceção deve ser lançada em caso de duplicata.</param>
+        /// <exception cref="CondominioException.CondominioDuplicadoException">Lançada se um condomínio duplicado for detectado.</exception>
+        public void AdicionarCondominio(Condominio condominio, bool lancaExcecao = false)
         {
-            CondominioRegras.ValidarCondominio(condominio);
-            listaCondominios.Add(condominio);
+            if (!listaCondominios.Contains(condominio))
+            {
+                if (lancaExcecao)
+                {
+                    throw new CondominioException.CondominioDuplicadoException(condominio.Nome, condominio.Endereco);
+                }
+            }
+            else
+            {
+                CondominioRegras.ValidarCondominio(condominio);
+                listaCondominios.Add(condominio);
+            }
         }
 
         /// <summary>
@@ -80,6 +90,42 @@ namespace Dados
         public Condominio? ObterCondominioPorNome(string nome)
         {
             return listaCondominios.Find(condominio => condominio.Nome == nome);
+        }
+
+        /// <summary>
+        /// Grava a lista de condomínios em um arquivo usando serialização JSON.
+        /// </summary>
+        /// <param name="caminhoArquivo">O caminho do arquivo para salvar.</param>
+        /// <exception cref="CondominioException.GravarCondominiosException">Lançada em caso de erro ao gravar condomínios.</exception>
+        public void GravarCondominios(string caminhoArquivo)
+        {
+            try
+            {
+                string jsonString = JsonSerializer.Serialize(listaCondominios);
+                File.WriteAllText(caminhoArquivo, jsonString);
+            }
+            catch (Exception ex)
+            {
+                throw new CondominioException.GravarCondominiosException(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Carrega a lista de condomínios a partir de um arquivo usando desserialização JSON.
+        /// </summary>
+        /// <param name="caminhoArquivo">O caminho do arquivo para carregar.</param>
+        /// <exception cref="CondominioException.CarregarCondominiosException">Lançada em caso de erro ao carregar condomínios.</exception>
+        public void CarregarCondominios(string caminhoArquivo)
+        {
+            try
+            {
+                string jsonString = File.ReadAllText(caminhoArquivo);
+                listaCondominios = JsonSerializer.Deserialize<List<Condominio>>(jsonString)!;
+            }
+            catch (Exception ex)
+            {
+                throw new CondominioException.CarregarCondominiosException(ex.Message);
+            }
         }
 
         #endregion

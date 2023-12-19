@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['nif_0',['nif',['../interface_interfaces_1_1_i_proprietario.html#af49cf7ec066bf378cfb4ab9f316e7642',1,'Interfaces.IProprietario.Nif'],['../class_objetos_negocio_1_1_proprietario.html#ae1aa93291307993d89679afc0c7904d9',1,'ObjetosNegocio.Proprietario.Nif']]],
+  ['nome_1',['nome',['../interface_interfaces_1_1_i_proprietario.html#ad592a73de78a38b09d0f529677aa921e',1,'Interfaces.IProprietario.Nome'],['../interface_interfaces_1_1_i_condominio.html#a46b819493378eb6ab160840d7c487edf',1,'Interfaces.ICondominio.Nome'],['../interface_interfaces_1_1_i_documento.html#aae8a1ca1295d8e69abab8df77e217676',1,'Interfaces.IDocumento.Nome'],['../class_objetos_negocio_1_1_condominio.html#a4f7c04331cbb42fa4bb17f4f5c8c1ace',1,'ObjetosNegocio.Condominio.Nome'],['../class_objetos_negocio_1_1_documento.html#a94439ef5016e2ef2f1a888277133bd92',1,'ObjetosNegocio.Documento.Nome'],['../class_objetos_negocio_1_1_proprietario.html#a9cdd60cad5f7c6ad5713848d9e3de33c',1,'ObjetosNegocio.Proprietario.Nome']]]
+];

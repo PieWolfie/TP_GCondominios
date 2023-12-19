@@ -1,22 +1,21 @@
 ﻿/*
- * 
  * Classe "Imovel" - Objeto de Negócio
  * Fábio Fernandes - a22996@alunos.ipca.pt
  * Pedro Rocha - a23009@alunos.ipca.pt
  * LESI - POO
- * 
  */
 
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
-using Excecoes;
 
 namespace ObjetosNegocio
 {
-    [Serializable()]
-    public class Imovel : ISerializable
+    /// <summary>
+    /// Representa um imóvel no contexto do sistema.
+    /// </summary>
+    [Serializable]
+    public class Imovel
     {
         #region Atributos
 
@@ -24,16 +23,16 @@ namespace ObjetosNegocio
         private int idImovel;
 
         // Lista de proprietários do imóvel
-        private List<Proprietario> proprietarios;
+        private List<Proprietario> proprietarios = null!;
 
         // Lista de despesas associadas ao imóvel
-        private List<Despesa> despesas;
+        private List<Despesa> despesas = null!;
 
         // Lista de quotas associadas ao imóvel
-        private List<decimal> quotas;
+        private List<decimal> quotas = null!;
 
         // Endereço do imóvel
-        private string endereco;
+        private string endereco = null!;
 
         #endregion
 
@@ -159,30 +158,6 @@ namespace ObjetosNegocio
             }
 
             return saldoQuotas - saldoDespesas;
-        }
-
-        #endregion
-
-        #region ISerializable
-
-        // Adicione este método para suportar serialização
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("IdImovel", IdImovel);
-            info.AddValue("Proprietarios", Proprietarios);
-            info.AddValue("Despesas", Despesas);
-            info.AddValue("Quotas", Quotas);
-            info.AddValue("Endereco", Endereco);
-        }
-
-        // Adicione este construtor para suportar desserialização
-        public Imovel (SerializationInfo info, StreamingContext context)
-        {
-            IdImovel = (int)info.GetValue("IdImovel", typeof(int));
-            Proprietarios = (List<Proprietario>)info.GetValue("Proprietarios", typeof(List<Proprietario>));
-            Despesas = (List<Despesa>)info.GetValue("Despesas", typeof(List<Despesa>));
-            Quotas = (List<decimal>)info.GetValue("Quotas", typeof(List<decimal>));
-            Endereco = (string)info.GetValue("Endereco", typeof(string));
         }
 
         #endregion

@@ -10,34 +10,55 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
-
 
 namespace ObjetosNegocio
-{
-    [Serializable()]
-    public class Reuniao : ISerializable
+{   
+    /// <summary>
+    /// Representa uma reunião no contexto do sistema.
+    /// </summary>
+    [Serializable]
+    public class Reuniao
     {
         #region Atributos
 
-        // Data da reunião
+        /// <summary>
+        /// Representa a data da reunião.
+        /// </summary>
         private DateTime data;
 
-        // Hora da reunião
+        /// <summary>
+        /// Representa a hora da reunião.
+        /// </summary>
         private TimeSpan hora;
 
-        // Local da reunião
-        private string local;
+        /// <summary>
+        /// Representa o local da reunião.
+        /// </summary>
+        private string local = string.Empty;
 
-        // Lista de intervenientes na reunião
-        private List<string> intervenientes;
+        /// <summary>
+        /// Representa a lista de intervenientes na reunião.
+        /// </summary>
+        private List<string> intervenientes = new List<string>();
 
-        // Ata da reunião
-        private string ata;
+        /// <summary>
+        /// Representa a ata da reunião.
+        /// </summary>
+        private string ata = string.Empty;
 
         #endregion
 
+        #region Métodos
+
         #region Construtores
+
+        /// <summary>
+        /// Construtor padrão da classe Reuniao.
+        /// </summary>
+        public Reuniao()
+        {
+            intervenientes = new List<string>();
+        }
 
         /// <summary>
         /// Inicializa uma nova instância da classe Reuniao com os parâmetros especificados.
@@ -45,13 +66,11 @@ namespace ObjetosNegocio
         /// <param name="data">A data da reunião.</param>
         /// <param name="hora">A hora da reunião.</param>
         /// <param name="local">O local da reunião.</param>
-        public Reuniao(DateTime data, TimeSpan hora, string local)
+        public Reuniao(DateTime data, TimeSpan hora, string local) : this()
         {
             Data = data;
             Hora = hora;
             Local = local;
-            Intervenientes = new List<string>();
-            Ata = string.Empty;
         }
 
         #endregion
@@ -105,7 +124,10 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region Métodos
+        #region Overrides
+        #endregion
+
+        #region Outros Métodos
 
         /// <summary>
         /// Agenda a reunião com a data, hora e local especificados.
@@ -140,27 +162,8 @@ namespace ObjetosNegocio
 
         #endregion
 
-        #region ISerializable
-
-        // Adicione este método para suportar serialização
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("Data", Data);
-            info.AddValue("Hora", Hora);
-            info.AddValue("Local", Local);
-            info.AddValue("Intervenientes", Intervenientes);
-            info.AddValue("Ata", Ata);
-        }
-
-        // Adicione este construtor para suportar desserialização
-        public Reuniao(SerializationInfo info, StreamingContext context)
-        {
-            Data = (DateTime)info.GetValue("Data", typeof(DateTime));
-            Hora = (TimeSpan)info.GetValue("Hora", typeof(TimeSpan));
-            Local = (string)info.GetValue("Local", typeof(string));
-            Intervenientes = (List<string>)info.GetValue("Intervenientes", typeof(List<string>));
-            Ata = (string)info.GetValue("Ata", typeof(string));
-        }
+        #region Destrutor
+        #endregion
 
         #endregion
     }

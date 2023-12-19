@@ -10,39 +10,37 @@
 using System;
 using System.Collections.Generic;
 using System. Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
 
 namespace ObjetosNegocio
 {
-
-    [Serializable()]
     /// <summary>
     /// Representa um condomínio no contexto do sistema.
     /// </summary>
-    public class Condominio : ISerializable
+    [Serializable] 
+    public class Condominio
     {
         #region Atributos
 
         // Nome do condomínio
-        private string nome;
+        private string nome = null!;
 
         // Endereço do condomínio
-        private string endereco;
+        private string endereco = null!;
 
         // Lista de despesas associadas ao condomínio
-        private List<string> despesas;
+        private List<string> despesas = null!;
 
         // Lista de imóveis associados ao condomínio
-        private List<string> imoveis;
+        private List<string> imoveis = null!;
 
         // Lista de proprietários associados ao condomínio
-        private List<string> proprietarios;
+        private List<string> proprietarios = null!;
 
         // Lista de reuniões agendadas no condomínio
-        private List<string> reunioes;
+        private List<string> reunioes = null!;
 
         // Lista de documentos associados ao condomínio
-        private List<string> documentos;
+        private List<string> documentos = null!;
 
         #endregion
 
@@ -188,28 +186,6 @@ namespace ObjetosNegocio
         public void AdicionarDocumento(string documento)
         {
             Documentos.Add(documento);
-        }
-
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("Nome", Nome);
-            info.AddValue("Endereco", Endereco);
-            info.AddValue("Despesas", Despesas);
-            info.AddValue("Imoveis", Imoveis);
-            info.AddValue("Proprietarios", Proprietarios);
-            info.AddValue("Reunioes", Reunioes);
-            info.AddValue("Documentos", Documentos);
-        }
-
-        public Condominio(SerializationInfo info, StreamingContext context)
-        {
-            Nome = (string)info.GetValue("Nome", typeof(string));
-            Endereco = (string)info.GetValue("Endereco", typeof(string));
-            Despesas = (List<string>)info.GetValue("Despesas", typeof(List<string>));
-            Imoveis = (List<string>)info.GetValue("Imoveis", typeof(List<string>));
-            Proprietarios = (List<string>)info.GetValue("Proprietarios", typeof(List<string>));
-            Reunioes = (List<string>)info.GetValue("Reunioes", typeof(List<string>));
-            Documentos = (List<string>)info.GetValue("Documentos", typeof(List<string>));
         }
 
         #endregion

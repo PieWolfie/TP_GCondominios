@@ -9,18 +9,19 @@
 
 using System;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
-using Excecoes;
 
 namespace ObjetosNegocio
 {
-    [Serializable()]
-    public class Despesa : ISerializable
+    /// <summary>
+    /// Representa um despesa no contexto do sistema.
+    /// </summary>
+    [Serializable]
+    public class Despesa
     {
         #region Atributos
 
         // Tipo da despesa
-        private string tipo;
+        private string tipo = null!;
 
         // Valor da despesa
         private decimal valor;
@@ -32,7 +33,7 @@ namespace ObjetosNegocio
         private bool estadoPagamento;
 
         // Imóvel associado à despesa
-        private string imovel;
+        private string imovel = null!;
 
         #endregion
 
@@ -134,30 +135,6 @@ namespace ObjetosNegocio
         #endregion
 
         #region Destrutor
-        #endregion
-
-        #region ISerializable
-
-        // Adicione este método para suportar serialização
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("Tipo", Tipo);
-            info.AddValue("Valor", Valor);
-            info.AddValue("DataVencimento", DataVencimento);
-            info.AddValue("EstadoPagamento", EstadoPagamento);
-            info.AddValue("Imovel", Imovel);
-        }
-
-        // Adicione este construtor para suportar desserialização
-        public Despesa(SerializationInfo info, StreamingContext context)
-        {
-            Tipo = (string)info.GetValue("Tipo", typeof(string));
-            Valor = (decimal)info.GetValue("Valor", typeof(decimal));
-            DataVencimento = (DateTime)info.GetValue("DataVencimento", typeof(DateTime));
-            EstadoPagamento = (bool)info.GetValue("EstadoPagamento", typeof(bool));
-            Imovel = (string)info.GetValue("Imovel", typeof(string));
-        }
-
         #endregion
 
         #endregion

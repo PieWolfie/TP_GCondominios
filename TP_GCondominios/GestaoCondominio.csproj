@@ -33,6 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dados">
+      <HintPath>..\Dados\bin\Debug\net8.0\Dados.dll</HintPath>
+    </Reference>
+    <Reference Include="Excecoes">
+      <HintPath>..\Excecoes\bin\Debug\Excecoes.dll</HintPath>
+    </Reference>
+    <Reference Include="Interfaces">
+      <HintPath>..\Interfaces\bin\Debug\net8.0\Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjetosNegocio">
+      <HintPath>..\Dados\bin\Debug\net8.0\ObjetosNegocio.dll</HintPath>
+    </Reference>
+    <Reference Include="RegrasNegocio">
+      <HintPath>..\RegrasNegocio\bin\Debug\net8.0\RegrasNegocio.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

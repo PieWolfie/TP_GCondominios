@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using ObjetosNegocio;
 using Excecoes;
 using RegrasNegocio;
+using System.IO;
+using System.Text.Json;
 
 namespace Dados
 {
@@ -49,10 +51,23 @@ namespace Dados
         /// Adiciona um novo imóvel à lista.
         /// </summary>
         /// <param name="imovel">O imóvel a ser adicionado.</param>
-        public void AdicionarImovel(Imovel imovel)
+        /// <param name="lancaExcecao">Indica se uma exceção deve ser lançada em caso de duplicata.</param>
+        /// <exception cref="ImovelException.ImovelDuplicadoException">Lançada se um imóvel duplicado for detectado.</exception>
+        public void AdicionarImovel(Imovel imovel, bool lancaExcecao = false)
         {
-            ImovelRegras.ValidarImovel(imovel);
-            listaImoveis.Add(imovel);
+            if (!listaImoveis.Contains(imovel))
+            {
+                if (lancaExcecao)
+                {
+                    throw new ImovelException.ImovelDuplicadoException(imovel.IdImovel);
+                }
+
+            }
+            else
+            {
+                ImovelRegras.ValidarImovel(imovel);
+                listaImoveis.Add(imovel);
+            }
         }
 
         /// <summary>
@@ -74,6 +89,41 @@ namespace Dados
             return listaImoveis.Find(imovel => imovel.IdImovel == idImovel);
         }
 
+        /// <summary>
+        /// Grava a lista de imóveis em um arquivo usando serialização JSON.
+        /// </summary>
+        /// <param name="caminhoArquivo">O caminho do arquivo para salvar.</param>
+        /// <exception cref="ImovelException.GravarImoveisException">Lançada em caso de erro ao gravar imóveis.</exception>
+        public void GravarImoveis(string caminhoArquivo)
+        {
+            try
+            {
+                string jsonString = JsonSerializer.Serialize(listaImoveis);
+                File.WriteAllText(caminhoArquivo, jsonString);
+            }
+            catch (Exception ex)
+            {
+                throw new ImovelException.GravarImoveisException(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Carrega a lista de imóveis a partir de um arquivo usando desserialização JSON.
+        /// </summary>
+        /// <param name="caminhoArquivo">O caminho do arquivo para carregar.</param>
+        /// <exception cref="ImovelException.CarregarImoveisException">Lançada em caso de erro ao carregar imóveis.</exception>
+        public void CarregarImoveis(string caminhoArquivo)
+        {
+            try
+            {
+                string jsonString = File.ReadAllText(caminhoArquivo);
+                listaImoveis = JsonSerializer.Deserialize<List<Imovel>>(jsonString)!;
+            }
+            catch (Exception ex)
+            {
+                throw new ImovelException.CarregarImoveisException(ex.Message);
+            }
+        }
         #endregion
 
         #endregion

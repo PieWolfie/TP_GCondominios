@@ -9,27 +9,28 @@
 
 using System;
 using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
-using Excecoes;
 
 namespace ObjetosNegocio
 {
-    [Serializable()]
-    public class Documento : ISerializable
+    /// <summary>
+    /// Representa um documento no contexto do sistema.
+    /// </summary>
+    [Serializable]
+    public class Documento
     {
         #region Atributos
 
         // Tipo do documento
-        private string tipo;
+        private string tipo = string.Empty;
 
         // Data de criação do documento
         private DateTime dataCriacao;
 
         // Conteúdo do documento
-        private string conteudo;
+        private string conteudo = string.Empty;
 
         // Nome do documento
-        private string nome;
+        private string nome = string.Empty;
 
         #endregion
 
@@ -100,15 +101,6 @@ namespace ObjetosNegocio
         #region Outros Métodos
 
         /// <summary>
-        /// Adiciona ou atualiza o documento com o conteúdo fornecido.
-        /// </summary>
-        /// <param name="conteudo">O novo conteúdo do documento.</param>
-        public void AtualizarConteudo(string conteudo)
-        {
-            Conteudo = conteudo;
-        }
-
-        /// <summary>
         /// Adiciona um novo documento com o tipo, data de criação, conteúdo e nome fornecidos.
         /// </summary>
         /// <param name="tipo">O tipo do documento.</param>
@@ -133,35 +125,19 @@ namespace ObjetosNegocio
             Conteudo = string.Empty;
             Nome = string.Empty;
         }
-
+        /// <summary>
+        /// Adiciona ou atualiza o documento com o conteúdo fornecido.
+        /// </summary>
+        /// <param name="conteudo">O novo conteúdo do documento.</param>
+        public void AtualizarConteudo(string conteudo)
+        {
+            Conteudo = conteudo;
+        }
         #endregion
 
         #region Destrutor
         #endregion
 
-        #region ISerializable
-
-        // Adicione este método para suportar serialização
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            info.AddValue("Tipo", Tipo);
-            info.AddValue("DataCriacao", DataCriacao);
-            info.AddValue("Conteudo", Conteudo);
-            info.AddValue("Nome", Nome);
-        }
-
-        // Adicione este construtor para suportar desserialização
-        public Documento(SerializationInfo info, StreamingContext context)
-        {
-            Tipo = (string)info.GetValue("Tipo", typeof(string));
-            DataCriacao = (DateTime)info.GetValue("DataCriacao", typeof(DateTime));
-            Conteudo = (string)info.GetValue("Conteudo", typeof(string));
-            Nome = (string)info.GetValue("Nome", typeof(string));
-        }
-
-        #endregion
-
         #endregion
     }
 }
-

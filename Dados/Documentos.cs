@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using ObjetosNegocio;
 using Excecoes;
 using RegrasNegocio;
+using System.Text.Json;
 
 namespace Dados
 {
@@ -22,6 +23,7 @@ namespace Dados
     {
         #region Atributos
 
+        // Lista de documentos
         private List<Documento> listaDocumentos;
 
         #endregion
@@ -31,7 +33,7 @@ namespace Dados
         #region Construtores
 
         /// <summary>
-        /// Inicializa uma nova instância da classe Documentos.
+        /// Inicializa uma nova instância da classe <see cref="Documentos"/>.
         /// </summary>
         public Documentos()
         {
@@ -49,10 +51,22 @@ namespace Dados
         /// Adiciona um novo documento à lista.
         /// </summary>
         /// <param name="documento">O documento a ser adicionado.</param>
-        public void AdicionarDocumento(Documento documento)
+        /// <param name="lancaExcecao">Indica se deve lançar uma exceção em caso de documento duplicado.</param>
+        /// <exception cref="DocumentoException.DocumentoDuplicadoException">Lançada em caso de documento duplicado.</exception>
+        public void AdicionarDocumento(Documento documento, bool lancaExcecao = false)
         {
-            DocumentoRegras.ValidarDocumento(documento);
-            listaDocumentos.Add(documento);
+            if (!listaDocumentos.Contains(documento))
+            {
+                if (lancaExcecao)
+                {
+                    throw new DocumentoException.DocumentoDuplicadoException(documento.Nome);
+                }
+            }
+            else
+            {
+                DocumentoRegras.ValidarDocumento(documento);
+                listaDocumentos.Add(documento);
+            }
         }
 
         /// <summary>
@@ -73,6 +87,42 @@ namespace Dados
         public Documento? ObterDocumentoPorTipoENome(string tipo, string nome)
         {
             return listaDocumentos.Find(documento => documento.Tipo == tipo && documento.Nome == nome);
+        }
+
+        /// <summary>
+        /// Grava a lista de documentos em um arquivo usando serialização JSON.
+        /// </summary>
+        /// <param name="caminhoArquivo">O caminho do arquivo para gravar.</param>
+        /// <exception cref="DocumentoException.GravarDocumentosException">Lançada em caso de erro ao gravar os documentos.</exception>
+        public void GravarDocumentos(string caminhoArquivo)
+        {
+            try
+            {
+                string jsonString = JsonSerializer.Serialize(listaDocumentos);
+                File.WriteAllText(caminhoArquivo, jsonString);
+            }
+            catch (Exception ex)
+            {
+                throw new DocumentoException.GravarDocumentosException(ex.Message);
+            }
+        }
+
+        /// <summary>
+        /// Carrega a lista de documentos a partir de um arquivo usando desserialização JSON.
+        /// </summary>
+        /// <param name="caminhoArquivo">O caminho do arquivo para carregar.</param>
+        /// <exception cref="DocumentoException.CarregarDocumentosException">Lançada em caso de erro ao carregar os documentos.</exception>
+        public void CarregarDocumentos(string caminhoArquivo)
+        {
+            try
+            {
+                string jsonString = File.ReadAllText(caminhoArquivo);
+                listaDocumentos = JsonSerializer.Deserialize<List<Documento>>(jsonString)!;
+            }
+            catch (Exception ex)
+            {
+                throw new DocumentoException.CarregarDocumentosException(ex.Message);
+            }
         }
 
         #endregion
