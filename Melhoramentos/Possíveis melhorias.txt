@@ -1,0 +1,20 @@
+AS MELHORIAS QUE TEMOS A FAZER SÃO AS SEGUINTES:
+
+Erro	CS7036	Não há nenhum argumento fornecido que corresponda ao parâmetro necessário 'nome' de 'Condominio.Condominio(string, string, List<string>, List<string>, List<string>, List<string>, List<string>)'
+
+Erro	CS7036	Não há nenhum argumento fornecido que corresponda ao parâmetro necessário 'nome' de 'Proprietario.Proprietario(string, string, string, string)'
+
+Erro	CS7036	Não há nenhum argumento fornecido que corresponda ao parâmetro necessário 'idImovel' de 'Imovel.Imovel(int, List<Proprietario>, string)'
+
+Erro	CS7036	Não há nenhum argumento fornecido que corresponda ao parâmetro necessário 'tipo' de 'Despesa.Despesa(string, decimal, DateTime, bool, string)'
+
+Erro	CS7036	Não há nenhum argumento fornecido que corresponda ao parâmetro necessário 'tipo' de 'Documento.Documento(string, DateTime, string, string)'
+
+Adicionamos 'null!' em alguns atríbutos devido a erros que eram dados, o erro era 'CS8618'.
+
+
+Trabalho feito por:
+Fábio Fernandes (a22996)
+Pedro Rocha (a23009)
+
+Licenciatura em Engenharia de Sistemas Informáticos
